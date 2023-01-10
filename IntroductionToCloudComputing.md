@@ -337,9 +337,154 @@
 - Application access relies on a good internet connection. If you’re not connected, you cannot access the apps.
 
 # **Deployment models**
+- Deployment models indicate where the infrastructure resides, who owns and manages it, and how cloud resources and services are made available to users. The three cloud deployment models include—Public Cloud, Private Cloud, and Hybrid Cloud.
 
 ## **Public Cloud**
+- In a public cloud model, users get access to servers, storage, network, security, and applications as services delivered by cloud service providers over the internet.
+
+- Using web consoles and APIs, users can provision the resources and services they need.
+
+- The cloud provider owns, manages, provisions, and maintains the infrastructure, renting it out to customers either for a subscription charge or usage-based fee. Users don’t own the servers their applications run on or storage their data consumes, or manage the operations of the servers, or even determine how the platforms are maintained.
+
+- In very much the same way that we consume and pay for utilities such as water, electricity, or gas in our everyday lives, we don’t own any of these cloud resources—we make an agreement with the service provider, use the resources, and pay for what we use within a certain period.
+
+- Public clouds offer significant cost savings as the provider bears all the capital, operational, and maintenance expenses for the infrastructure and the facilities they are hosted in. It makes scalability as easy as requesting more capacity. However, with a public cloud, the user does not have any control over the computing environment and is subject to the performance and security of the cloud provider’s infrastructure.
+
+- There are several public cloud providers in the market today, such as Amazon Web Services, Microsoft Azure, IBM Cloud, Google Cloud Platform, and Alibaba Cloud.
+
+- While all providers include a common set of core services, such as servers, storage, network, security, and databases, they also offer a wide spectrum of niche services with varied payment options.
+![Public cloud providers in the market today](Assets/Public%20cloud%20providers%20in%20the%20market%20today.png)
+
+### <ins>Public cloud characteristics</ins>
+- A public cloud is a virtualized multi-tenant architecture enabling tenants or users to share computing resources, residing outside their firewalls.
+
+- The cloud providers pool of resources, including infrastructure, platforms, and software, are not dedicated for use by a single tenant or organization.
+
+- Resources are distributed on an as-needed basis offered through a variety of subscription and pay-as-you-go models.
+
+### <ins>Public cloud benefits</ins>
+- Vast on-demand resources are available, allowing applications to respond seamlessly to fluctuations in demand.
+
+- Considering the large number of users that share the centralized cloud resources on-demand, the public cloud offers the most significant economies of scale.
+
+- The sheer number of server and network resources available on the public cloud means that a public cloud is highly reliable. If one physical component fails, the service still runs unaffected on the remaining available components.
+
+### <ins>Public cloud concerns</ins>
+- Security and data sovereignty compliance.
+
+- Security issues such as data breaches, data loss, account hijacking, insufficient due diligence, and system and application vulnerability seem to be some of the fears users continue to have concerning security in the public cloud.
+
+- With data being stored in different locations and accessed across national borders, it has also become increasingly critical for companies to be compliant with data sovereignty regulations governing the storage, transfer, and security of data.
+
+### <ins>Public cloud use cases</ins>
+- Organizations are increasingly opting to access cloud-based applications and platforms so their teams can focus on building and testing applications, and reducing time-to-market for their products and services.
+
+- Businesses with fluctuating capacity and resourcing needs are opting for the public cloud.
+
+- Organizations are using public cloud computing resources to build secondary infrastructures for disaster recovery, data protection, and business continuity.
+
+- More and more organizations are using cloud storage and data management services for greater accessibility, easy distribution, and backing up their data.
+
+- IT departments are outsourcing the management of less critical and standardized business platforms and applications to pubic cloud providers.
 
 ## **Private Cloud**
+- The National Institute of Standards and Technology defines Private Cloud as cloud infrastructure provisioned for exclusive use by a single organization comprising multiple consumers, such as the business units within the organization. It may be owned, managed, and operated by the organization, a third party, or some combination of them, and it may exist on or off premises.
+
+### <ins>Internal or external</ins>
+- Internal infrastructure: when the platform is provisioned over an organization’s internal infrastructure, it runs on-premises and is owned, managed, and operated by the organization.
+
+- External infrastructure: When it is provisioned over a cloud provider’s infrastructure, it is owned, managed, and operated by the service provider.
+
+### <ins>Virtual Private Cloud (VPC)</ins>
+- This external private cloud offering that resides on a cloud service provider’s infrastructure is called a Virtual Private Cloud, or VPC.
+
+- A VPC is a public cloud offering that lets an organization establish its own private and secure cloud-like computing environment in a logically isolated part of a shared public cloud.
+
+- Using a VPC, organizations can leverage the dynamic scalability, high availability, and lower cost of ownership of a public cloud, while having the infrastructure and security tailored to the organization’s unique needs.
+
+- Virtual Private Clouds are offered by most Public Cloud providers such as IBM and Amazon.
+
+### <ins>Best of both worlds</ins> 
+- A private cloud is a virtualized environment modeled to bring in the benefits of a public cloud platform without the perceived disadvantages of an open and shared public platform.
+
+- Users of a private cloud, such as Developers and Business Units in an organization, still get to leverage benefits such as economies of scale, granular scale, operational efficiencies, and user self-service, while exercising full control over access, security, and compliances specific to their organization and business.
+
+### <ins>Benefits of private clouds</ins> 
+1. The ability to leverage the value of cloud computing using systems that are directly managed or under perceived control of the organization’s internal IT.
+
+1. The ability to better utilize internal computing resources, such as the organization’s existing investments in hardware and software, thereby reducing costs.
+
+1. Better scalability through virtualization and “cloud bursting,” i.e., leveraging public cloud instances for a period of time but returning to the private cloud when the surge is met.
+
+1. Controlled access and greater security measures customized to specific organizational needs.
+
+1. The ability to expand and provision things in a relatively short amount of time, providing greater agility.
+
+> Organizations may choose to opt for private cloud because of various reasons—because their applications provide a unique competitive advantage, there are security and regulatory concerns, or because the data is highly sensitive and subject to strict industry or governmental regulations.
+
+### <ins>Common use cases</ins>
+1. Is an opportunity for organizations to modernize and unify their in-house and legacy applications. Moving these applications from their dedicated hardware to the cloud also allows them to leverage the power of the compute resources and multiple services available on the cloud.
+
+1. Using the private cloud, organizations are integrating data and application services from their existing applications with public cloud services. This allows them to leverage their private cloud’s compute capability for the larger jobs while pulling data into an application on a private cloud to leverage public cloud services — essentially opening their data centers to work with cloud services.
+
+1. Application portability is a key feature of cloud platforms. Using the private cloud gives organizations the ability to build applications anywhere, and move them anywhere, without having to compromise security and compliance in the process.
+
+1. Some of the key reasons that may prevent an organization from moving to a public cloud include security and regulatory concerns, and data sensitivity. A private cloud offers these organizations the benefits of on-demand enterprise resources while exercising full control over critical security and compliance issues from within the environment of their dedicated cloud.
 
 ## **Hybrid Cloud**
+- Hybrid Cloud is a computing environment that connects an organization's on-premise private cloud and third-party public cloud into a single flexible infrastructure for running the organization's applications and workloads.
+
+- The mix of public and private cloud resources gives organizations the flexibility to choose the optimal cloud for each application or workload, workloads move freely between the two clouds as needs change.
+
+- Organizations can choose to run the sensitive highly regulated and mission-critical applications or workloads with reasonably constant performance and capacity requirements on private Cloud infrastructure. While deploying the less sensitive and more dynamic workloads on the public cloud.
+
+- With proper integration and orchestration between the public and private clouds, you can leverage both clouds for the same workload. For example, you can leverage additional public cloud capacity to accommodate a spike in demand for a private cloud application also known as cloud bursting.
+
+### <ins>The Three Tenets</ins>
+- The key tenants of a hybrid cloud are interoperability, scalability and portability.
+
+- Interoperability: The public and private cloud services can understand each other's APIs, configuration, data formats, and forms of authentication and authorization.
+
+- Scalability: When there is a spike in demand a workload running on the private cloud can leverage the additional public cloud capacity making it scalable.
+
+- Portability: A hybrid cloud is also portable, since you're no longer locked in with a specific vendor, you can move applications and data not just between on-premise and cloud systems, but also between cloud service providers.
+
+### <ins>Types of Hybrid Clouds</ins>
+- There are two common types of hybrid clouds, hybrid monocloud and hybrid multi-cloud.
+
+  - Hybrid clouds: is a hybrid cloud with one cloud provider
+
+  - Hybrid multi-cloud: is an open standards-based stack that can be deployed on any public cloud infrastructure.
+
+> The difference lies in the flexibility that the hybrid multicloud offers organizations to move workloads and environments from one vendor to another. There is also a and of hybrid multicloud called the, Composite Multicloud, which makes this flexibility even more granular as it distributes single applications across multiple providers, allowing you to move application components across cloud services and vendors as needed.
+
+### <ins>Benefits</ins>
+1. Security and compliance
+
+1. Scalability and resilience
+
+1. Resource optimization
+
+1. Cost-saving
+
+- A hybrid cloud lets organizations deploy highly regulated or sensitive workloads in a private cloud while running the less-sensitive workloads on a public cloud.
+
+- Using a hybrid cloud you can scale up quickly, inexpensively, and even automatically using the public cloud infrastructure, all without impacting the other workloads running on your private cloud.
+
+- Because you're not locked-in with a specific vendor and also don't have to make either-or decisions between the different cloud models, you can make the most cost-efficient use of your infrastructure budget. You can maintain workloads where they are most efficient, spin-up environments using pay-as-you-go in public cloud, and rapidly adopt new tools as you need them.
+
+### <ins>Use cases</ins>
+
+- A typical organization will have a range of applications and workloads spread across private public and traditional IT environments. This represents a range of opportunities for optimization via a hybrid cloud approach.
+
+- Some increasingly common hybrid cloud use cases:
+
+  - Software-as-a-Service integration, through hybrid integration organizations are connecting software-as-a-service applications available in the public cloud to their existing public cloud, private cloud, and traditional IT applications to deliver new solutions.
+
+  - Data and AI integration, organizations today are creating richer and more personal experiences by combining new data sources on the public cloud. Such as weather, social, the Internet of things, CRM, and ERP, with existing data in analytics, machine learning, and AI capabilities.
+
+  - Enhancing legacy apps, an increasing number of organizations are using public cloud services to upgrade their user experience of their on-premises applications and deploy them globally to new devices, while incrementally modernizing their Core Business Systems.
+
+  - VM ware migration, more and more organizations are lifting and shifting their on-premises virtualized workloads to a public cloud without conversion or modification to reduce their on-premises data center footprint and position themselves to scale without added capital expense.
+
+> Hybrid cloud is a concept that's been around for quite some time, but we're finding that it's becoming increasingly used to architect and modernize existing or legacy applications. According to research we found that 75% of non-cloud applications will be moving to the cloud in the next three years. This goes to say that if you're not already thinking about your hybrid cloud strategy, you may be falling behind.
