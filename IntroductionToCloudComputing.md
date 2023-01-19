@@ -488,3 +488,76 @@
   - VM ware migration, more and more organizations are lifting and shifting their on-premises virtualized workloads to a public cloud without conversion or modification to reduce their on-premises data center footprint and position themselves to scale without added capital expense.
 
 > Hybrid cloud is a concept that's been around for quite some time, but we're finding that it's becoming increasingly used to architect and modernize existing or legacy applications. According to research we found that 75% of non-cloud applications will be moving to the cloud in the next three years. This goes to say that if you're not already thinking about your hybrid cloud strategy, you may be falling behind.
+
+# **Cloud infrastructure**
+
+## **Overview of cloud infrastructure**
+- The infrastructure layer is the foundation of the cloud. This layer consists of physical resources that are housed in Regions, Zones and Data Centers.
+
+- A Cloud provider’s IT environment is typically distributed across many regions around the world. A cloud region, is a geographic area or location where a cloud provider’s infrastructure is clustered, and may have names like NA South or US East. The cloud regions are isolated from each other so that if one region was impacted by a natural disaster like an earthquake, the cloud operations in other regions would keep running.
+
+- Each Cloud Region can have multiple Zones (or Availability Zones or AZ for short), which are typically distinct Data Centers with their own power, cooling and networking resources. These Zones can have names like DAL-09 or us-east-1. The isolation of zones improves the cloud’s overall fault tolerance, decreases latency, and avoids creating a single shared point of failure. 
+
+- The Availability Zones (and DataCenters within them) are connected to other AZs and regions, private datacenters and the Internet using very high bandwidth network connectivity.
+
+- A cloud data center is a huge room or a warehouse containing cloud infrastructure. These data centers contain pods and racks or standardized containers of computing resources such as servers, as well as storage, and networking equipment - virtually everything that a physical IT environment has.
+
+### <ins>Computing resources</ins>
+- Cloud providers offer several compute options – Virtual Servers, Bare Metal Servers, and “Serverless” computing resources.
+
+- Most of the servers in a cloud datacenter run hypervisors to create virtual servers or virtual machines (also called VMs for short), that are software-based computers, based on virtualization technologies.
+
+- Other servers in the racks are bare metal servers that are physical servers that aren’t virtualized. Customers can provision VMs and Bare Metals servers as and when they need them and run their workloads on them.
+
+- loud users can also run their workloads on serverless computing resources, which are an abstraction layer on top of virtual machines.
+
+### <ins>Storage</ins>
+- Information and data can consist of files, code, documents, images, videos, backups, snapshots, and databases and can be stored in many different types of storage options on the Cloud.
+
+- Bare Metal Servers and Virtual Servers are provisioned with default storage in local drives. Since these cloud servers can be provisioned and decommissioned by customers on demand and freed up for use by other users, any information stored in a local drive can be lost when you delete or decommission a cloud server. However there are other storage options available on the cloud to persist data that you can choose depending on factors like how important your data is, how quickly you want to be able to access it, how often you access it, and how secure you need it to be. These additional storage options include Block storage, File storage, and Object storage.
+
+- Block and file storage modes are commonly used in traditional data centers, but often struggle with scale, performance and distributed characteristics of cloud.
+
+- Object storage is the most common mode of storage in the cloud as it’s both highly distributed and resilient.
+
+### <ins>Networking</ins>
+- Networking infrastructure in a cloud data center includes traditional networking hardware like routers and switches, but more importantly for users of the Cloud, the Cloud providers have Software Defined Networking (or SDN) options where certain networking resources are virtualized or made available programmatically, through APIs. This allows for easier network provisioning, configuration, and management in the cloud.
+
+- When servers in the cloud are provisioned, you need to setup their public and private network interfaces.
+
+- The public network interfaces, as the name suggests, connect the servers to the public internet, whereas the private ones provide connectivity to your other cloud resources and help keep them secure. As in the physical IT world, network interfaces in the cloud need to have IP addresses and subnets either assigned automatically or configured. In a cloud environment it is even more important to configure which network traffic and users can access your resources, which can be done by setting up Security Groups and Access Control Lists (or ACLs). For further security and isolation of your resources in the cloud, most Cloud providers provide Virtual Local Area Networks (VLANs), Virtual Private Clouds (VPCs), and Virtual Private Networks (VPNs). Some of the traditional hardware appliances such as firewalls, load balancers, gateways and traffic analyzers can also be virtualized and made available as services in the cloud.
+
+- Another networking capability provided by the Cloud Providers is Content Delivery Networks or CDNs, that distribute content to multiple points throughout the world so users accessing the content can access it more quickly by getting it from a point nearest to them. We will learn more about some of these cloud networking options and terminology in subsequent videos.
+
+> Cloud infrastructure is constantly advancing and improving.
+
+## **Virtualization and virtual machines explained**
+- Virtualization is a fairly old technology, but it's still super relevant to building our cloud computing strategy today.
+
+- Virtualization is the process of creating a software based, or virtual, version of something, whether that be compute, storage, networking, servers, or applications and what makes virtualization feasible, is something called the hypervisor.
+
+- Hypervisor it's simply a piece of software that runs above the physical server, or host. What they do is essentially pull the resources from the physical server and allocate them to your virtual environments. 
+
+- There are two main types of hypervisors: Type 1 and Type 2.
+
+  -  A Type 1 hypervisor is a hypervisor that is installed directly on top of the physical server. They're also called bare-metal hypervisors and are the most frequently typed of use hypervisors since they are the most secure, has lower latency, and these are the ones that you'll see in the market the most. Some examples would be VMware, ESXi, or Microsoft Hyper-v, or even open-source KVM.
+
+  - A Type 2 hypervisor, also called Hosted, are differs from a Type 1 hypervisor for having a layer of host OS that sits between the physical server and the hypervisor. These are a lot less frequent and are mostly used for end-user virtualization. Some examples in the market are Oracle VirtualBox or VMWare workstation. They have high latency than a Type 1 hypervisor so, once you have a hypervisor installed, you can build virtual environments, or virtual machines, or simple put, VMs,
+
+- What makes a VM? A VM is simply a software based computer. They run like a physical computer, have an operating system and applications and are completely independent of one another, but you can run multiple of them on a hypervisor and the hypervisor manages the resources that are allocated to these virtual environments from the physical server.
+
+- Because they are independent, they can run different opperating systems on different virtual machines. For example, Windows, Linux or Unix.
+
+- Because they're independent they're also extremely portable. You can move a virtual machine from one hypervisor to another hypervisor on a completely different machine almost instantaneously, which gives you a lot of flexibility and a lot of portability within your environment.
+
+### <ins>Benefits</ins>
+
+1. Cost savings. When you think about this and the fact that you can run multiple virtual environments from one piece of infrastructure, means that you can drastically reduce your physical infrastructure footprint. This is consolidation at its core. And the fact that you don't have to maintain nearly as many servers, run as much electricity, save on maintenance costs, means that you save on your bottom line at the end of the day.
+
+1. Agility and speed. Spinning up a virtual machine is relatively easy and quick - a lot more simple than provisioning an entire new environment for your developers if they say they want to spin up a new environment so that they can run a test scenario. Whatever it might be, virtualization makes that process a lot simpler and quicker.
+
+1. Lowers your downtime. So, let's say that this host goes out unexpectedly. The fact that you can move virtual machines from one hypervisor to another, on a different physical server, means that you have a great backup plan in place right? So, if this host goes down you can simply move your VMs very quickly to another hypervisor on a machine that is working. Virtualization and VMs are at the center of cloud computing and provide many benefits.
+
+## **Types of virtual machines**
+
+## **Bare metal server**
