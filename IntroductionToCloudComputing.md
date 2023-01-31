@@ -588,3 +588,23 @@
 - These servers also excel in big data analytics applications and GPU-intensive solutions. Some workload examples that bare metal servers satisfy are ERP, CRM, AI, Deep Learning, and virtualization. If you use any applications that require high degrees of security control or apps that you’ve typically run in an on-premises environment, then a bare metal server is a good alternative in the cloud.
 
 - When comparing bare metal servers to virtual servers, some of the most important considerations are found in customer need. Bare metal servers work best for: CPU and I/O intensive workloads, excel with highest performance and security, satisfy strict compliance requirements, and offer complete flexibility, control and transparency but come with added management and operational overhead. Whereas, virtual servers are rapidly provisioned, provide an elastic and scalable environment, and are low cost to use, however since they share underlying hardware with other virtual servers, they can be limited in throughput and performance.
+
+## **Secure networking in cloud**
+- As cloud environments gain greater adoption, and digital data invites rapidly increasing cybersecurity threats. Building secure networks on the cloud is crucial.
+
+### <ins>Build a secure cloud networking presence:</ins>
+- The notion of building a cloud network is not much different from deploying a network in an on-premises data center. The main difference stems from the fact, that in the cloud, we use logical instances of networking elements as opposed to physical devices. For example, Network Interface Controllers (NICs) would be represented by vNICs in cloud environments.
+
+- In the cloud, networking functions are delivered as a service rather than in the form of rack-mounted devices. To create a network in the cloud, one starts by defining the size of the network, or the IP address range that establishes the boundaries or the cloud network. Cloud networks are deployed in networking spaces that are logically separated segments of the networks using options, including Virtual private Cloud (VPC) that in turn can be divided into smaller segments called subnets.
+
+- Logically segmented cloud networks are private carveout of the cloud that offer customers the security of private clouds and the scalability of public clouds. Cloud resources, such as VMs or Virtual Server Instances (VSIs), storage, network connectivity and load balancers are deployed into subnets. Using subnets allows users to deploy enterprise applications using the same multi-tier concepts used in on-premises environments.
+
+- Subnets are also the main area where security is implemented in the cloud. Every subnet is protected by Access Control Lists (ACLS) that serve as a subnet-level fire wall. Within the subnet, one could create Security Groups that provide security at the instance level such as VSIs. Once you build a subnet, then it is time to add some VSIs and storage to it so that you could run your applications. 
+
+- Example: Let’s say you have a 3-tier application that requires web access VSIs, applications tier VSIs and backend database VSIs. In this case, we would place the web facing VSIs into one Security Group, the Application VSIs in a second Security Group, while the database VSIs in a third Security Group. It goes without saying that the web-facing VISs need Internet access.
+
+- A public Gateway instance is added to the network to enable users’ access to the application in the internet tier. While public gateways are great for Internet access to the cloud, enterprises are interested in extending their on-premises resources to the cloud by securely connecting them using Virtual Private Networks, or VPNs.
+
+- When building many subnets and deploying several workloads, it becomes necessary to ensure that applications continue to be responsive. That is achieved with Load Balancers that ensure availability of bandwidth for the different applications. Enterprises with hybrid cloud environment find using dedicated high-speed connections between clouds and on-premises resources is a more secured and more efficient way than public connectivity solutions. 
+
+- Some cloud service providers offer such connectivity, such as IBM Cloud and its Direct Link solution that enables extending on-premises resources to the cloud as needed. Building a cloud network entails creating a set of logical constructs that deliver networking functionality that is akin to the data center networks that all IT professionals have come to rely on for securing their environments and ensuring high performing business applications.
