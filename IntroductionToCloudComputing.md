@@ -690,6 +690,27 @@
 - Understanding IOPS is important because if the IOPS value is too low for your application, the storage can become a bottleneck and cause your application to run slowly. Alternatively, if the IOPS is too high, you will probably be paying more that you need to for your storage. For example, a file share may be mounted on 30 different compute nodes and an application writes and requests data to and from that share 60 times per minute. You can average that out to 1 operation per second. With this simple example, you can see that each application has different IOPS requirements.
 
 ## **Block Storage**
+- Block storage breaks files into chunks (or blocks) of data and Stores each block separately under a unique address. Like direct attached storage and file storage, block storage also must be attached to a compute node before it can be utilized for your workloads.
+
+- Block storage, like file storage, can be mounted from remote storage appliances, making it extremely resilient to failure, and keeping data far more secure in them, on account of encryption in transit, and encryption at rest services, available on these appliances. 
+
+- Block storage is mounted as a volume to compute nodes using a dedicated network of fibres, through which signals move at the speed of light. These fibre optic networks are more expensive to build than the ethernet ones which deliver File Storage, which is one reason why Block Storage tends to have a higher price-point. However, since the traffic is moving faster and with speed consistency, they are perfect for workloads that need low-latency storage to work effectively. In terms of workloads, it is important to note that unlike File Storage, which can be mounted onto 80 computer nodes or more, Block storage is normally mounted onto only one compute node at a time.
+
+- Since these disks run at a consistent high speed, they are perfect for workloads that need consistently fast storage, such as databases and mail servers.
+
+- Block storage is not suitable for workloads where there needs to be some level of disk sharing between compute nodes. 
+
+- For block storage, as it is for file storage, you need to take the IOPS capacity of the storage into account. Most cloud providers will allow you to specify IOPS characteristics when you provision storage and, in some cases, adjust the IOPS of your storage as you need, so if the requirements or usage behaviour of an application changes, you can adjust accordingly.
+
+- So, to summarise the commonalities and differences between these two storage types:
+
+|                                                                  **File Storage**                                                                 	|                                               **Block Storage**                                              	|
+|:-------------------------------------------------------------------------------------------------------------------------------------------------:	|:------------------------------------------------------------------------------------------------------------:	|
+| Is taken from appliances which are maintained by the service provider                                                                             	| Is taken from appliances which are maintained by the service provider                                        	|
+| Highly available and resilient and will often include data encryption at rest and in transit                                                      	| Highly available and resilient and will often include data encryption at rest and in transit                 	|
+| Is very reliable, but the speed of the connecting network can vary, based on load                                                                 	| Is attached via a high-speed fibre network, which is very reliable and consistent                            	|
+| Can be attached to multiple compute nodes at once                                                                                                 	| Can only be attached to one node at a time                                                                   	|
+| Is a good choice where file shares are required, where workloads do not require lightning fast connectivity to storage, or where cost is a factor 	| Is a good choice when supporting an application that needs consistent fast access to disk, such as databases 	|
 
 ## **Object Storage Overview**
 
