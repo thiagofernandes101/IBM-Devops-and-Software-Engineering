@@ -755,6 +755,14 @@
 
 - Object Storage is more efficient than tape backup solutions, which require tapes that need to be physically loaded into, and removed from, tape drives and moved off-site for geographical redundancy.
 
-> So, to summarize, object storage has different tiers with different charges for each. Some are based on the frequency at which the objects inside are accessed. Object Storage is priced per gigabyte of storage used per month plus some charges for data retrieval. Object Storage is much cheaper than file or block storage. Object Storage is very slow in comparison with file and block storage. You can often create rules which allow the automatic archiving of objects to cheaper tiers when they are in frequently accessed. Object Storage is accessed using an API. Many Object Storage providers have an S3 compatible API which means developers can create code that will work against multiple vendor Object Storage solutions. Object Storage in the Cloud offers an effective Backup and Disaster Recovery Solution.
+> So, to summarize, object storage has different tiers with different charges for each. Some are based on the frequency at which the objects inside are accessed. 
+>
+> Object Storage is priced per gigabyte of storage used per month plus some charges for data retrieval. 
+>
+> Object Storage is much cheaper than file or block storage. Object Storage is very slow in comparison with file and block storage. You can often create rules which allow the automatic archiving of objects to cheaper tiers when they are in frequently accessed. 
+>
+> Object Storage is accessed using an API. Many Object Storage providers have an S3 compatible API which means developers can create code that will work against multiple vendor Object Storage solutions. 
+>
+> Object Storage in the Cloud offers an effective Backup and Disaster Recovery Solution.
 
 ## **CDN - Content Delivery Networks**
