@@ -855,9 +855,64 @@
 
 - Serverless is also well-suited for working with all sorts of data stream ingestions, including business data streams, IoT sensor data, log data, and financial market data.
 
-### <ins>Challenges:</ins>
+### <ins>Challenges</ins>
 - Serverless workloads are designed to scale up and down in response to workload, but for workloads characterized by long-running processes managing a traditional server environment might be simpler and more cost-effective.
 
 - The serverless application architecture can be vendor dependent, and so there is a potential for vendor lock-in, particularly involving platform capabilities such as authentication, scaling, monitoring, or configuration management.
 
 - Because serverless architectures scale up and down in response to workload, they also sometimes need to start up from zero to serve a new request. For certain applications, this delay isn’t much of an impact, but for something like a low-latency financial application, this delay wouldn’t be acceptable.
+
+# **Cloud native applications, DevOps and Application modernization**
+
+## **Cloud native applications**
+- Simply put, a cloud native application is an application developed from the outset to work only in the cloud environment, or an existing app that has been refactored and reconfigured with cloud native principles.
+
+- A cloud native application consists of microservices working together as a whole to comprise an application, yet each can be independently scaled and iterated through automation and orchestration processes.
+
+- These microservices are often packaged in containers, which are executable units of software in which the application code is packaged along with its libraries and dependencies so that it can be run anywhere. This independence enables frequent, iterative improvement of cloud native applications, without disrupting the experience of end-users.
+
+- Cloud native applications are unlike traditional, or monolithic applications, that are built out of one huge piece of software; applications that tightly couple the user interface, business-logic layer, and data-layer.
+
+### <ins>Example</ins>
+- Example of how a cloud native application might be used on a travel website.
+  - Each topic covered by the site—flights, hotels, cars, specials—is its own microservice. Each microservice may roll out new features independent of the other microservices.
+  
+  - Specials and discounts can also scale out independently.
+  
+  - While the travel site is presented to customers as a whole, each microservice remains independent and can be scaled or updated as needed without affecting other services.
+  
+  - Whether creating a new cloud native application or modernizing an existing application, developers adhere to a consistent set of development principles: Follow the microservices architectural approach by breaking applications down to single-function microservices. Rely on containers for maximum flexibility, scalability, and portability. Adopt Agile methods that speed the creation and improvement process through quick iterative updates based on user feedback.
+
+### <ins>Person explanation (copy and paste)</ins>
+- "We’ll take a closer look at the key concepts of cloud native, its benefits, and use cases. Today we're going to talk about cloud native apps. In the heritage world, we have our lumpy, monolithic apps. And in the new world, we have our microservices living on the cloud. If we take a look at this diagram here, we see we have cloud infrastructure. This is your private, your public, and your enterprise infrastructure. Cloud native apps apply to hybrid and multicloud situations. We also have our scheduling and orchestration layer. This layer is all about control planes, like our kubernetes. We also have our application and data services layer. This layer is all about backing services, and being able to integrate our application code with existing services that may be available on other clouds, or even on-premise. We have our application runtimes, these are what we're traditionally, or conventionally, known as middleware. And over here, well, that's where we have our cloud native apps. This is the sweet spot right up here. So our application code is actually designed, built, and delivered very differently for cloud native, than it would be for conventional, monolithic, lumpy apps over here. Let's talk a little bit about why cloud native apps can actually leverage benefits like: enabling innovation, business agility, and most importantly - from a commoditization of this solution stack over here. So as time has progressed and technologies have matured and emerged, a lot of the services are actually being refactored lower down in this stack. This means that core services are starting to have a lower center of gravity, freeing up innovation at this level over here. So, what are our use cases for when to build a cloud native app? *Everything* Everything that lives in the cloud should have a cloud native app design and approach. This means our application code needs to be instrumented with things like: standardized logging, standardized events, and being able to match those logging and events to a standard catalog, that multiple microservices and cloud native apps can use. The last thing we want to do is have our development squads have to figure out what their log and event messages should be. Let's standardize that, because we want to be able to commoditize that as well. We also need to have things like distributed tracing. When we get over into the microservices world over here, we have a lot of moving parts. This means we're going to need to leverage services core to the system, like: load balancing, service discovery, and routing. These are the kinds of things that are commoditized in this layer here, with things like Istio, and with the emergence of newer projects, like Knative. And so, if we were to recognize the benefits for cloud native apps and to sum it all up, we are all about enterprise and engineering at scale."
+
+## **DevOps on the Cloud**
+- Development teams need to design, develop, deliver and run software as reliably and efficiently as possible. Operations teams need to identify and resolve problems as soon as possible by monitoring, predicting failure, managing the environment, and fixing issues. Combining development and operations with the ability to monitor and analyze and optimize bottlenecks gives us DevOps, a collaborative approach where business owners and the development, operations, and quality assurance teams collaborate to continuously deliver software.
+
+- A DevOps approach applies agile and lean thinking principles to all stakeholders in an organization who develop, operate, or benefit from the business’s software systems, including customers, suppliers, partners. By extending lean principles across the software supply chain, DevOps capabilities improve productivity through accelerated customer feedback cycles, unified measurements and collaboration across an enterprise, and reduced overhead, duplication, and rework.
+
+- Using the DevOps approach, developers can produce software in short iterations on a continuous delivery schedule of new features and bug fixes in rapid cycles; and businesses can seize market opportunities and reduce time to include customer feedback in their products.
+
+- The DevOps process involves:
+  - Continuous Delivery, which is about delivering small, well-designed, high-quality, increments of software to customers.
+  - Continuous Integration; creating packaged builds of the code changes released as immutable images; where immutable implies that when modifications are needed, the entire component is replaced with an upgraded version.
+  - Continuous Deployment, which involves progressing each new packaged build through the deployment lifecycle as rapidly as possible.
+  - Continuous Monitoring; with tools that help developers understand the performance and availability of their applications, even before they are deployed to production.
+  - Delivery Pipeline; which is an automated sequence of steps that involves the stages of Ideation, Coding, Building, Deploying, Managing, and Continuous Improvement; which loops back to the Ideation phase in the delivery pipeline.
+
+- While DevOps can apply to applications anywhere, there is especially a compelling case for DevOps when it comes to cloud-ready, and cloud-native applications. DevOps and Cloud share a symbiotic relationship.
+
+- With its near limitless compute power and available data and application services, cloud computing platforms come with their own risks and challenges.
+
+- DevOps’ tools, practices, and processes are helping tackle some of the complexities and challenges posed by the cloud and allowing solutions to be delivered—quickly and reliably.
+
+- Capabilities that DevOps provides to help building and running applications in the cloud a lot more manageable:
+  - DevOps best practices make it possible to programmatically provision servers, build middleware, install application code, and fully automate the installation process in a way that is documented, repeatable, verifiable, and traceable.
+  - Application deployments often involve considerable complexity.
+  - The DevOps’ practices of continuous integration and continuous deployment help create a fully automated deployment pipeline, which is important all through the application development lifecycle.
+  - Cloud native applications form a complex distributed system with multiple moving parts, independent tech stacks, and rapid release cycles. DevOps principles are essential to define how people work together to build, deploy, and manage applications in a cloud native approach. With the DevOps best practices of automated provisioning and continuous deployment, developers, quality professionals, and other stakeholders can test in low-cost, production-like test environments that were previously not available—enhancing both productivity and quality.
+  - When systems are compromised or struggling to recover from natural disasters, DevOps best practices make it possible to rebuild these systems quickly and reliably.
+
+> DevOps provides a powerful set of principles, practices, and tools to realize the full potential of cloud-native computing, as well as for modernizing existing applications to leverage cloud benefits.
+
+## **Application modernization**
