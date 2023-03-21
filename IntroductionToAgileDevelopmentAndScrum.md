@@ -110,6 +110,86 @@ flowchart TB
 - Make process policies explicit
 - Continuously improve
 
+## **Working with Agile**
+### <ins>Working Agile</ins>
+- Working in small batches. Using lean manufacturing as an example, you do not want to make a batch of something and then find out that you did it wrong because that's a lot of wast having to go back and change it.
+
+- Use minimum viable product (MVP) to figure out what does the customer like, what doesn't the customer like.
+
+- Use practices like Behavior Driven Development and Test Driven Development to improve your testing of the system from the outside in and from the inside out.
+
+- Take advantage of pair programming. This came from extreme programming, but pair programming is critically important.
+
+### <ins>Working in small batches</ins>
+- You need to mail 1000 brochures:
+  - Step 1: fold brochures
+  - Step 2: insert brochures into evelopes
+  - Step 3: seal the envelopes
+  - Step 4: Stamp the envelopes with postage
+
+- Working in batches of 50 brochures
+  - Assume each step takes 6 seconds to complete (10/min)
+  ![Batch of 50 brochures in line](Assets/Batch%20of%20fifty%20brochures%20in%20line.png)
+
+  - What if the envelopes had no glue?
+  - What if there were a type in the brochure?
+
+### <ins>Single piece flow</ins>
+- Working in batches of 50 brochures:
+  - Assuming each step takes 6 seconds to complete
+  ![Batch of fifty brochures continuous steps](Assets/Batch%20of%20fifty%20brochures%20continuous%20steps.png)
+
+  - What if the envelopes had no glue? Could be easily found out
+  - What if there were a type in the brochure? Would be evident at the end of the first finish product in 24 seconds
+
+> It is very important that we don't work in two larger batches so that we can get fast feedback and that we can pivot and understand we need something different and then make the changes that we need to make.
+
+### <ins>Minimum Viable Product</ins>
+- Minimum Viable Product (MVP) is not the result of "Phase 1" of a project, the first beta or something like that.
+
+- **Minimum Viable Product (MVP) is the minimum thing that you can do to prove a hypothesis and gain learning and gain understanding**.
+
+- There difference between these two items is that the first one is all about delivery "What am I going to deliver?", but the second on is all about learning "What can I learn?" and "What can I learn from putting out this MVP and get feedback and then maybe make the next one even better?". So it is important that at the end of each MVP you decide whether to pivot or persevere.
+
+- Example: Here's a team that's developing a minimum viable product for a customer that wants a car. And so, in the first iteration, they deliver a wheel. The customer's like, "What am I going to do with a wheel? I can't do anything with this?" Like, well, we're working iterations, we're trying to be agile here, right? And so the next iteration, we'll give you some more. And they give them a chassis and it's like, okay, "I really can't do anything with this." And then finally, you know, they give them a car with no steering wheel and then eventually they get the car, right? And so they get this coupe. That team did not understand how to create a minimum viable product. They were just doing iterative development. The second team understands the value of creating an MVP. At first, they give them a skateboard and the customer's like, "I asked you for a car and you're giving me a skateboard." Whoa, whoa we're testing the color. How do you like that color red? Is that the color you want? "Oh yeah, red's kind of cool but you know it's really hard to steer." No, we'll fix that in the next MVP and then they add a way to steer it and the customer's like, "Well, okay, you did give me a way to steer it but I can't go very fast. I need a better form of locomotion." And then we'll deal with that in the next MVP. In the next iteration, they give them pedals. Somewhere along the way while the customer is riding on that motorcycle feeling the wind in their hair they decide, "I want a convertible." In the first instance, the customer got exactly what they asked for months before because they were just following a plan but in the second instance the customer got exactly what they desired because they were working interactively with the development team and in the end, you develop something that's a little bit different but it's closer to what the customer really, really wants.
+
+### <ins>Behavior Driven Development (BDD)</ins>
+- Behavior Driven Development is when we describe the system from the outside in. This is usually done at an integration testing level.
+
+- This is where we are taking the customer's view of the system. Usually when you are doing BDD testing, you are doing it against the user interface; you are doing it against the thing that the customer sees to see if the system behaves the way it is supposed to. So, if it is an e-commerce system, when I put something in my cart, does it behave the way I want? When I transfer a cart to an order, does it behave the way I want? It is really taking an outside-in approach. It is not too concerned with the things going on underneath.
+
+- It uses a single syntax that both the developers and the stakeholders can use to describe the system and agree on the behavior of the system, on what the system does.
+
+### <ins>BDD feature scenarios</ins>
+- "As a < role >. I need some < function >. So that < some business value >"
+
+- So, now you know who is it for. Is it for the customers? For the system administrator,? Who's getting the value out of this what do they need and why do they need it? And that's the beginning of your feature file. And then you start running through scenarios and here's where we use this common syntax known as Gherkin syntax, after the Gherkin pickle. And it goes something like this:
+  - Given a set of preconditions (sets up the scenario - given that this is true)
+  - When some event occurs (the thing that is under test)
+  - Then some outcome is observable
+
+> Using this <ins>given when-then</ins> syntax, developers can understand it, stakeholders can understand it, everybody can understand this common syntax that when I have something in my cart, for example, and then I clear my cart, I should see nothing in my cart. So very, very important to have the syntax in these BDD scenarios.
+
+### <ins>Test Driven Development (TDD)</ins>
+- Test driven development is testing a system from the inside out. Unlike Behavior Driven Development, TDD is concerned with the internals of the system, the single modules. Usually this is called unit testing and is something that is unit test case driven and we want to make sure that given these inputs I get these outputs at a small module level.
+
+- It is not known if when I put them all together I am going to get the behavior I want, that is BDD, but for TDD I am just testing the system way down at the unit level and so a test case is written first for the code you wish you had and then you write enough code to make that test case pass, and then you start all over again and refactor. This should be the workflow for TDD:
+  - I write a test case: it is done before the code. This keeps you featured on what the code is supposed to do, how you want to call it, what are the parameters and what does it do.
+  - So you write the test case first, then you write the code to make that test case pass and then, once it passes, then you can refactor the code because now you have test cases to keep it honest.
+
+- Because when the test case runs and it fails, it usually turns red and then when it works correctly it turns green. This is called Red, Green, Refactor -> whatch a test case, write a test case, watch it fail, make just write enough code to make it pass and then refactor.
+
+### <ins>Pair programming</ins>
+- Two programmers work together at on workstation
+  - One writes the code
+  - The other reviews each line of code as it is typed in.
+
+- Having two sets of eyes, they check each other and they go back and forth, making it possible to find bugs while writting the code. But this is not just one and then the other. The two programmers switch roles fequently (e.g. 20 minutes).
+
+- Code quality increases as defects are found earlier.
+
+- It is a good practice to pair a senior programmer with a junior programmer. This make it possible for a junior programmer to see how a senior programmer approaches the problem. So they learn, they get mentorship, and then the senior programmer can see how the junior person is making out. Or you get prople who are unfamiliar with the code working with someone who is and, with this, you get more people learning the code.
+
 # **Introduction to scrum methodology**
 
 # **Organizing for success**
