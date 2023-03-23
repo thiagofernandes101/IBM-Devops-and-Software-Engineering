@@ -192,4 +192,133 @@ flowchart TB
 
 # **Introduction to scrum methodology**
 
+## **Scrum overview**
+
+### <ins>Agile and Scrum</ins>
+- There is a difference between agile and scrum, but they are words that many people use interchangeably.
+
+- Agile is a phylosophy, not perscriptive. It is a philosophy for doing work.
+
+- Scrum is methodology, a perscriptive (adds process). It is a methodology for working in an agile fashion.
+
+### <ins>Scrum</ins>
+- **Scrum is a management framework for doing incremental product development emphasizing small, cross functional, self managing teams providing structure of roles, rules and atifacts. It uses these fixed length increments that are called sprints and has a goal of building an increment each time through a sprint, a potentially shippable increment each time through that interation.**
+
+### <ins>Sprint</ins>
+- A sprint is one iteration through the design, code, test and deploy cycle. It is kind of like the software delivery lifecycle in a mini inner iteration.
+
+- Every sprint should have a goal. In other words, everybody should understand what is it we are trying to build with this increment. What should this increment do at the end of the sprint?
+
+- Sprints are usually 2 weeks in duration
+
+### <ins>Steps in the Scrum process</ins>
+![Steps in the Scrum process](Assets/Steps%20in%20the%20scrum%20process.png)
+
+-  Product backlog: this is the list of all the stories of everything you ever want to do with your product, like a to-do list of everything you might want to do.
+
+- Backlog refinement: it is when we go through the product backlog and groom the stories to make sure that they are sprint ready because we want to start doing planning on those stories.
+
+- Panning meeting: where we produce a sprint backlog. An observation is that the sprint backlog is smaller than the product backlog. The sprint backlog is just those stories that we want to accomplish in the next sprint, in the next two weeks. 
+
+- So we take from that product backlog, pare it down into a sprint backlog of just the stories to execute in the next sprint and start the two weeks sprint. And every day we get together and do the daily Scrum or the daily stand-up where everybody gets to answer three questions.
+  - What did you do yesterday?
+  - What are you going to do today?
+  - Is there anything blocking you or impeding you from getting up further?
+
+- So you go through that every day for two weeks, build your sprint and then, hopefully, you've got a valuable shippable increment at the end of that process.
+
+### <ins>Agile developement is iterative</ins>
+![Iterations of an Agile method](Assets/Iterations%20of%20an%20Agile%20method.png)
+
+- You are going through the steps of design, code, test, deploy repeatetly and, with each iteration you get some king of feedback.
+
+- In every sprint you make a plan, you go through the software delivery lifecyle cycle and then you deploy that application and get some feedback from the customer that is input to the next plan to go through the next cycle.
+
+## **The 3 roles of Scrum**
+
+### <ins>Scrum roles</ins>
+- Product Owner: the person who has the vision and the one who calls the shorts. They are the ones who decides to pivot or persevere. But what is the difference between a product owner and a product manager? A product manager is a job title while a product owner is a Scrum role. Your product manager might be your product owner, or not. In essence, is a Scrum role.
+
+- Scrum master: they are the mentors, the ones who are the smartest about Scrum on the team to help the rest of the team implement Scrum. Is somebody that you want to be guiding the team. Highly recommended if the team is not an experienced team.
+
+- Scrum team (development team): are people who are developing whatever it is you are delivering. They could be software engineers, testers, operations folks, business analysts, whoever it is that is part of the team that is delivering the product increment.
+
+### <ins>Product Owner</ins>
+- Represents the stakeholder interests (if there is any doubt about what the stakeholder wants, the product owner should know)
+
+- It is the person with the checkbook, the person who is funding whatever it is that you are doing. They are the one at the end of the day that are paying you to do it.
+
+- Is a liaison between the Scrum team and the stakeholders and their interests
+
+- They also articulate the product vision and have to have a vision of where they are going. And when and they should articulate that vision to the team, so the whole team knows where they are going.
+
+- They are the final arbiter of requirements or questions and constantly reprioritize the product backlog, adjusting any expectations. So every time, through a sprint, we go through the product backlog and the product owner, maybe the Scrum master, will go through the product backlog, reprioritize and groom these stories and gitve them more details.
+
+- The job of the product owner is to make sure that the backlog is sprint ready and accept, or reject, each product increment. They decide whether to continue development or pivot.
+
+### <ins>Scrum master</ins>
+- Facilitates the scrum process. They should be the smartest person in the room about Scrum. It is very important to have an experienced Scrum master if you have an inexperienced team. if you have a very experienced team in Scrum, you might not need a very experienced Scrum master. Or you might have a Scrum master between a couple of teams that are experienced because they don't need a lot of his time.
+
+- They coach the team (the are Agile coaches). We want them to be mentors, we want them to help the team through the Scrum process. They create an environment that allows the team to be self organizing so the team decides what they do. They are the ones that are going to commit to a sprint increment and has to make sure that the team has the ability and the environment in which they can do that and be self-organizing. They also shield the team from external interferences like if the customers are grabbing team members or stakeholders, or calling team members. Basically, the Scrum master says "If you need something, you come to me. Let the team alone and work on what they need to work".
+
+- They also help resolve impediments. If there is any impediment to complete any work described on a daily stand up, it is the Scrum master's highest priority that day to get them inblocked, to remove the impediment. It is very different than traditional project management, where a project manager just asks what you will do about an impediment. Basically, the Scrum master will take over the impediment to fix it and you will move on to some more productive work.
+
+- They enforce the sprint time boxed, for example, if a there is only 15 minutes for a daily stand-up, it is their job to make sure it stays 15 minutes and the two week sprint is not longer than those two weeks.
+
+- They capture empirical data, maybe just forecasts. So they are the one who's making sure, loking at burndowns charts and making sure that the team is going to reach their goals. And they should have no management authority over the team, but be someone that the team can confide in.
+
+### <ins>Scrum team</ins>
+- This is a cross-functional team, consists of developers, testers, business analysts, domain experts, operations people, if you're doing DevOps.
+
+- The Scrum team is self-organizing, self-managing, and they self-assign themselves work. There's no externally assigned roles. Everybody is equal and has the same role. 
+
+- The Scrum team pulls the work off of the kanban board, assigns it to themselves and starts working on it. In short, they are self-managing. However they shouldn't be too large. A Scrum team is around seven people with 2, one more or less, collaborative members. 
+
+- They should be co-located, if at all possible. They are most successful when they're co-located. They just are more successful when together, hopefully in the same team room, but if they can't be and has to be geographically dispersed, put at least two members in a geography or time zone so that they can collaborate together. And then maybe I'll have other two people in another timezone. Don't just stick one person alone in a time zone, they kind of get forgotten about. You need people to collaborate with.
+
+- They're dedicated. Most successful teams have long-term, full-time members. They're not on multiple projects. They're not getting pulled off for other projects. You do not want to have people on multiple projects, you want them to be dedicated if you want to be a high performing, successful team.
+
+- They negotiate commitments with the product owner, one sprint at a time. They're not committing for what they're going to do down the road. They're not committing in January for what they're going to do in September, they're going to commit. "What am I gonna get done in the next two weeks?" And they've got a ton of autonomy on how to reach those commitments. So, they're not told how to do something. They're told what needs to get done, and then get out of their way. You hired good people, let them do their thing and let them figure out how to get that thing done.
+
+## **Artifacts, events and benefits**
+
+### <ins>Scrum artifacts</ins>
+- Product backlog: this is a list of all the stories you're ever going to do. It's all your requirements for the product that haven't been done yet so any stories that not in the current sprint are in the product backlog. Some teams have the product backlog, an icebox and a release backlog.
+
+- Sprint backlog: are the stories that you're going to do in the next two weeks in the sprint. So those are stories that are kind of on deck to be executed.
+
+- Done increment: is product increment that is completed by the end of a sprint.
+
+### <ins>Scrum events</ins>
+- Sprint planning meeting: where you get together to plan out the sprint. In that meeting, you'll have the product owner and the Scrum master and the entire team planning out what to do next; where the team commits to the stories that they are going to fulfill in the next sprint.
+
+- Daily scrum meeting (a.k.a. daily stand-up): it happens every day, usually in the same place, same time, where they meet to kind of syncrhonize on how things are going, what the team will work on that day and if there are any impediments that can be relieved by the Scrum master.
+
+- Sprint review: it is when you demonstrate what you have done to the stakeholders so they could see the advancements that you've gotten, the new features that you've put in the product.
+
+- Sprint retrospective: is where the team reflects on what went well, what did not and what can be changed for the future.
+
+### <ins>Scrum benefits</ins>
+- Higher productivity: when everybody is meeting ever day to understand what to do when we've got a Kanban board, with all our work in progress, everyone can see what everyone's working on. It lends itself to higher productivity, because people are kind of self-managing and being very productive. 
+
+- Better quality: better software quality because the team is engaged in what they are doing. They are running tests, they are using behavior driven development, they're using test driven development and getting higher quality out of their, out of their code that they are writing because they are constantly testing it.
+
+- Reduced time to market: because you are working with small increments and getting something done. In other words, you get a done increment sonner than you can then put out, have customers test enjoy.
+
+- Increase stakeholder satisfaction: because they are not waiting months to see if whatever you build is what they want, but get to see it much quicker.
+
+- Better teams dynamics: because it is transparent. Everyone knows what everyone is working on. Everybody chips in when somebody gets stuck. It is a better and productive environment for developer to work in.
+
+- Happier employees: they understand they are in control and are pulling things off the backlog. They are commiting to a sprint, one sprint plan at a time, and so they feel more in control and happier about their jobs.
+
+### <ins>Scrum vs. Kanban</ins>
+
+|                     	|                                     **Scrum**                                    	|                **Kanban**                	|
+|---------------------	|:--------------------------------------------------------------------------------:	|:----------------------------------------:	|
+| Cadence             	| Fixed length sprint                                                              	| Continuous flow                          	|
+| Release methodology 	| End of each sprint                                                               	| Continuous delivery                      	|
+| Roles               	| Product Owner, Scrum Master, Development Team                                    	| No existing roles (optional Agile coach) 	|
+| Key metrics         	| Velocity (how much work can be done in two weeks)                                	| Cycle time                               	|
+| Change philosophy   	| Teams should strive to not make changes to the sprint forecast during the sprint 	| Change can happen any time               	|
+
 # **Organizing for success**
