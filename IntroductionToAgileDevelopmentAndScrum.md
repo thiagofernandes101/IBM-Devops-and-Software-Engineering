@@ -322,3 +322,82 @@ flowchart TB
 | Change philosophy   	| Teams should strive to not make changes to the sprint forecast during the sprint 	| Change can happen any time               	|
 
 # **Organizing for success**
+
+## **Organization impact of Agile**
+
+### <ins>Organize for success</ins>
+- Proper organization is critical to sucess
+
+- Existing teams may need to be reorganized in order to take full advantage of becoming agile.
+
+### <ins>Conway's law</ins>
+- "Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure." (Melvin Conway, Datamation, 1968).
+
+- Example: If you ask an organization with four teams to write a compiler -> you will get a 4-pass compiler.
+
+### <ins>How teams should be aligned</ins>
+- Teams are loosely coupled, tightly aligned. You want them to be loosely coupled and you don't want a lot of dependency between teams, but you want the teams to be aligned, because they are building a single application. 
+
+- Then each team has its own mission, which should be aligned with the business (like a mini startup). If a e-commerce was developed with 50 developers, they should not be together in one big team like when working in a monolith pattern, but break them up into smaller teams with ownership of the business area (an order team, an accounts team, a shopkart team and a recommendation team for instances). 
+
+- Each team should have end-to-end responsability, since you want them to build the application, run it and debug it in production.
+
+- The team should have a long term mission. The long-term mission is usually around a single business domain.
+
+### <ins>Autonomy is important</ins>
+- It's motivating - and motivated people build better stuff.
+
+- It's fast - decisions happen locally in the team leavel rather than waiting for decisions to come down on high.
+
+- It minimizes handoffs and waiting, so teams don't get bogged down. The get to make their own decisions and get to run at their on speed.
+
+### <ins>The agile dilema</ins>
+
+![Wall of confusion](Assets/The%20agile%20dilema.png)
+
+- This graphic, the wall of confusion, was made famous by Andrew Clay Schafer, but it's all about the diametrically opposed metrics that we use with development and operations. Development wants change, they are measured on getting new changes out into production. Whereareas operations are measured on stability. 
+
+- These are diametrically opposed views.
+
+### <ins>The entire organization must be Agile</ins>
+![Part of the organization is Agile](Assets/Only%20part%20of%20the%20organization%20is%20Agile.png)
+
+- The organization doesn't become Agile. It doesn't metter that your development team is Agile, if the DevOps team is not.
+
+- In this case, the project was waiting for a ticket to be completed so the application could be deployed.
+
+### <ins>Agile + DevOps = Aligment</ins>
+|     **The goal of Agile**     	|                                 **The goals of DevOps**                                 	|
+|:-----------------------------:	|:---------------------------------------------------------------------------------------:	|
+| Develop software faster       	| Accelerate time to market                                                               	|
+| Be responsive to changes      	| Improve IT's value by more closely aligning development, IT operations and the business 	|
+| Obtain higher quality results 	| Increase IT productivity                                                                	|
+
+## **Mistaking iterative development for Agile**
+### <ins>Overview</ins>
+
+- Agile is more than just iterative development and describe what Agile is not.
+
+- Following is a pitfall that a lot of organizations fall into
+  - They claim that they are Agile and start a new project. So they've got this studying and approval going on this design and planning. This is the "fuzzy front end".
+
+    ![The fuzzy front end](Assets/The%20fuzzy%20front%20end.png)
+
+  - They are doing the waterfall process and just building requirements. In short, they are doing a lot of planning, upfront stuff that doesn't really seem Agile, then they get it doing the actual development.
+  
+  - They are also being iterative. They are iterating on the plan, but just that and nothing else. They are not stopping at the end of each iteration to get feedback from the customer because they haven't deployed anything. They are not stopping at the end of each iteration and asking "Should I pivot or persevere?". In short, they are just following a plan iterating.
+  
+  - There is also the last mile where they are trying to deploy it and it takes forever to deploy because nobody's ever deployed before. This is the first time everything's been intergrated together.
+
+    ![Water scrum fall](Assets/Water%20scrum%20fall.png)
+  
+  - They are just doing waterfall with they think they're doing a Scrum in the middle. They are not really doing Scrum, but they are just doing iterative development.
+
+  - This is a pitfall a lot of companies fall into, not being Agile. If a company is doing all this planning upfront, they're not being Agile, they're not going to be responsive to change, they're not going to be getting fast feedback unless they're deploying quickly.
+
+### <ins>Agile is not...</ins>
+- Agile is not a new version of a waterfall software development life cycle (SDLC) where you do legacy development in sprints.
+
+- Agile is not just the developers working in each sprint. It involves a cross-functional team.
+
+- The Agile manifesto does not include the term "Agile project management" (and so there are no "project managers" in Agile).
