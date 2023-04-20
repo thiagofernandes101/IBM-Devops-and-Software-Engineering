@@ -401,3 +401,55 @@ flowchart TB
 - Agile is not just the developers working in each sprint. It involves a cross-functional team.
 
 - The Agile manifesto does not include the term "Agile project management" (and so there are no "project managers" in Agile).
+
+# **Planning to be agile**
+
+## **Destination Unkown**
+### <ins>Deadlines</ins>
+- "I love deadlines... I like the whooshing sound they make as they fly by" (Douglas Adams)
+
+- How to avoid missing a deadline?
+
+### <ins>Plan iteratively</ins>
+- Don't decide everything at the point when you know the least. In other words, at the beginning of project, we know practically nothing, or very little about the project and this is the moment the planning stage happens. So, we should not decide everything in the beginning, when we know the least, but plan for what you know and then adjust the plan as you move along. In short, do iterative planning, what Agile is all about.
+
+- Your estimates will be more accurate, because the shorter time to plan, the more accurate the plan will be.
+
+> Don't try to be omnipotent an plan everything up front, but plan as you go and as you learn more, than you could add more to the plan and get greater estimates.
+
+## **Agile Roles and the Need for Training**
+### <ins>Formulas for failure</ins>
+- Product manager becomes product owner: placing prople in a new role without giving them training. (Product manager is a job title and product owner, a scrum role. They may, or may not, be the same person)
+
+- Project manager becomes the scrum master with no training on how to be the scrum master.
+
+- Developers (alone) become scrum team. Developers alone are just the software engineers, so there are no tester, or ops people, or business analyst on the team.
+
+### <ins>Product manager vs product owner:</ins>
+
+|                          **Product manager**                         	|                                        **Product owner**                                       	|
+|:--------------------------------------------------------------------:	|:----------------------------------------------------------------------------------------------:	|
+| Business person who manages the budget                               	| Visionary who leads the team in a series of experiments designed to achive the sprint goal     	|
+| Manager who is mostly focused on operational aspects of the business 	| Conduit between the stakeholders and the team, tranlating between business and technical goals 	|
+
+### <ins>Project manager vs scrum master:</ins>
+
+|                   **Project manager**                   	|                        **Scrum master**                        	|
+|:-------------------------------------------------------:	|:--------------------------------------------------------------:	|
+| Task master who keeps everyone marching to a fixed plan 	| Coach that keeps the team focused on the current sprint        	|
+| Documents impediments as project risks                  	| Eliminates impediments while buffering team from interruptions 	|
+
+### <ins>Development team vs scrum team:</ins>
+
+|       **Develop team**      	|                                               **Scrum team**                                              	|
+|:---------------------------:	|:---------------------------------------------------------------------------------------------------------:	|
+| Consists only of developers 	| Cross-functional team that includes developers, testers, security, business analysts, operations and more 	|
+
+> "Until and unless business leaders accept the idea that they are no longer managing projects with fixed functions, timeframes and costs, as they did with waterfall, they will struggle to use agile as it was designed to be used" (Bob Kantor, Founder Kantor Consulting Group, Inc.)
+
+### <ins>The roles have changed</ins>
+- You cannot put people in new roles without the proper training and mindset, otherwise, a project manager, for instance, will use his/her own knowledge to do something. An example would be turning a combine board into a Gantt chart.
+
+- This mindset must come down from upper management. They cannot ask to predict things way far into the future. Instead of asking what you are going to get done by the end of year, they should be saying what are you going to do in the next two weeks? How are you going to delight my customers at the end of the next sprint?
+
+## **Kanban and Agile Planning Tools**
