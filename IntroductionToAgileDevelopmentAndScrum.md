@@ -453,3 +453,44 @@ flowchart TB
 - This mindset must come down from upper management. They cannot ask to predict things way far into the future. Instead of asking what you are going to get done by the end of year, they should be saying what are you going to do in the next two weeks? How are you going to delight my customers at the end of the next sprint?
 
 ## **Kanban and Agile Planning Tools**
+
+### <ins>Agile planning tools</ins>
+- Tools will not make you Agile, you have to have the Agile mindset to become agile.
+
+- Tools can support your Agile process, but you have to have the process first. If you do not have enough training in the Agile process, a Kanban board can look like a Gantt chart and these two are two different things, two different ways of doing project management.
+
+- There are many Agile planning tools with a lot of diffent features for project management, but working with epics and stories is usually enough. One of the tools to work with Agile processes is ZenHub.
+
+### <ins>ZenHub</ins>
+- ZenHub is a plug-in to GitHub
+
+- It provides a kanban board and project management reporting
+
+- ZenHub is customizable and itegrated with GitHub.
+
+- Why to use ZenHub:
+  - Helps you manage where you are in a project based on GitHub Issues
+  - Provides a easy way to let management know how you are doing
+  - Allows developers to only use one tool and go to on place to get things done, and not have to update multiple tools
+
+### <ins>What is kanban board</ins>
+- Simply put, there is things that you need <ins>to do</ins>, things that you are <ins>doing</ins> and things that you have already gotten <ins>done</ins>. It doesn't have to be more complicated than that.
+
+- That story will move across the kanban board in order to show the progress you are making, so it's a very visual way of seeing exactly where you are at any pont in time.
+
+### <ins>Default ZenHub pipelines</ins>
+![Default ZenHub pipelines](Assets/Default%20ZenHub%20pipelines.png)
+
+- New issues: it is like an inbox for new issues. It defaults to going into the new issues column and don't stay there for too long. In other words, usually in each backlog refinement, the issue goes to another tree or is rejected. So new issues work like the inbox for emails.
+
+- Icebox: unique to ZenHub and works as a cold storage. It is where you put things that will be worked on long term.
+
+- Backlog: is everything you ever want to do forever in you product that you haven't done yet. It doesn't contain things you are doing, but things you haven't put in a sprint that you want to work out at some time in the future.
+
+- Sprint backlog: is what we are going to do in the next two weeks. The stories are taken from the product backlog and moved to the sprint backlog to make a spring plan. Now the developers don't have to worry about any of these other pipelines, they just concentrate on the sprint backlog because that is what will delivered in the next sprint. Then once they start working on it, it moves to the working in progress.
+
+- In progress: shows the stories that the developers are working to complete the sprint plan. This will also show who is working on what and what is being worked on as we speak. Once the work is complete, then a developer usually create a pull request to go pull their work back into the base branch. And so those go into review.
+
+- Review/QA: with this, the developers know when they see something in the review column, they need to go look at it and help another developer out and review their story and make sure that it meets the criteria needed to go merge it into the rest of the code.
+
+- Done: it meand the developer is done with that story, but doesn't mean that it's been accepted by the product owner. That is something that happens during the sprint review.
