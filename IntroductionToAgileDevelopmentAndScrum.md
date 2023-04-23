@@ -494,3 +494,80 @@ flowchart TB
 - Review/QA: with this, the developers know when they see something in the review column, they need to go look at it and help another developer out and review their story and make sure that it meets the criteria needed to go merge it into the rest of the code.
 
 - Done: it meand the developer is done with that story, but doesn't mean that it's been accepted by the product owner. That is something that happens during the sprint review.
+
+# **User stories**
+
+## **Creating a good user story**
+### <ins>What is a user story</ins>
+- A user story represents a small piece of business value that a team can deliver in an iteration. Different from a requirement, that says what is needed, a user story includes: "who is it for?", "what do they need?", "why do they need it?" and "what is the business value that they get out of getting this feature or function?
+
+### <ins>Story contents</ins>
+- Stories should contain:
+  - A brid description of the need and business value
+  - Any assumptions or details documented in the story. Sometimes you know there are assumptions, you are doing a story and it needs some kind of persistence and you know you are going to use a relational database. So this can be used as hint in the story so that the developer knows what the intentions are
+  - The definition of done, some acceptance criteria and know when a story is complete. You don't want to find out in the sprint review that the product owner says "Hey, that is not what I wanted", so you want a document with a definition of done that says "well, this is the definition we agreed on. This is what the story does and if it's not what you want, we can write another story, but we did what they said it should do"
+
+### <ins>Story description</ins>
+- User stories document a persona requesting a function to achieve a goal, that requesting some dunctionality to get some goal or achieve some goal, get some business value. To do this is with this problem syntax:
+  - As a '<some role>'
+  - I need '<some function>'
+  - So that '<some benefit>'
+
+> When we go back and we prioritize the backlog, we are going to look at the business value as one of the criteria to say "should this be high in the backlog or lower in the backlog?". So it is important, not only to have what it is, but what is the value that we get out of it.
+
+### <ins>Assumption and details</ins>
+- It is important to document what you know about the story:
+  - List any assumptions
+  - Document any details that may help the develper undertant what need to be done. Anything that wasn't obvious to get this story completed.
+
+### <ins>Acceptance criteria</ins>
+- It is critical to document the definition of "done". It is important to understand what makes this user story finished, complete or done.
+
+- Gherkin syntax is an example that can be used. This syntax makes it easy for stakeholders, customers and developers alike to describe the definition of done and the behaviour of the system. It goes like this:
+  - Given "<some precondition>"
+  - When "<some even happens>"
+  - Then "<some outcome>"
+
+> Given this is the base case, when this happens, thenI should have some measurable outcome. And if I measure that outcome, the story is done.
+
+### <ins>Sample story</ins>
+- Story:
+  - "As a marketing Manager
+  - I need a list of customer names and emails
+  - So that I can notify them of marketing promotions
+
+- Assumptions and details:
+  - We maintain customer emails
+  - Customers have opted-in to promotions
+
+- Acceptance criteria:
+  - Given there are 100 customers in the database and 90 have opted into email promotions
+  - When I request the customer email list
+  - Then I should see a list of 90 customer emails
+
+> This is something you could give to a stakeholder. The marketing manager could understand the behavior and say "That is the behavior I want", the developer can read this and say "That is the behavior I can deliver" and that at the end of the sprint, as long as when you ask for customers, you only get the ones who have opted in. And that is the <ins>definition of done</ins>. So there is no arguments about whether the story is done or not, if it has that behavior, it's done.
+
+### <ins>Bill Wake's INVEST</ins>
+- Independent: The acronyms INVEST says "Stories should be independet, I want to be able to rank them in the backlog, I want to be able to move them around, I want to be able to say that this one comes before that one". However, the stories can't always be independent, sometimes there are dependencies like an assumption that there are customer emails in the database and, if there weren't, then that wasn't an independent story, but was dependent on the story that put emails in the database. But for the most part, you want to write them so that they are independent.
+
+- Negotiable: the stories will move in the backlog, they will be ranked higher or lower, maybe one functionality will receive more or less value to negotiate how much really has to be done and shouldn't be too tightly coupled to exatly what's needed.
+
+- Valuable: I need to be able to say "How valuable is this story?", "What value does the customer get out of it to make sure that it really is a user story and not just a technical debt story that this is something I need to do that the customer never sees. It needs to be estimable, I need to be able to estimate it: "How big is it? Small? Medium? Large?". There has to be enough information in there that could say "this is a big story, given everything that is in here", not just one line that looks simple, but then really becomes hard. It also should be small enough that can be worked in a sprint.
+
+- Testable: I need to be able to test whether that story is done. I want to test the definition of done for that story.
+
+### <ins>EPIC</ins>
+- Big ideas are called Epics.
+
+- Epics are used anytime that a story is bigger than a single sprint, because the story must be smaller than a sprint by definition. So, when it is bigger, that becomes a big idea that we can not get done in a sprint, so we make it Epic. Then, smaller stories are made up to make up the Epic. In short, Epic in the hierarchy is higher than a story and stories are consumed by Epics.
+
+### <ins>When to use an epic</ins>
+- A story is considered an epic when it is too large in scope.
+
+- Backlog items tend to start as epics when they are lower priority and less defined.
+
+- For sprint planning, epics should be broken down into smaller stories.
+
+## **Effectively using story points**
+
+## **Building the product backlog**
