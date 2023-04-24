@@ -509,9 +509,9 @@ flowchart TB
 
 ### <ins>Story description</ins>
 - User stories document a persona requesting a function to achieve a goal, that requesting some dunctionality to get some goal or achieve some goal, get some business value. To do this is with this problem syntax:
-  - As a '<some role>'
-  - I need '<some function>'
-  - So that '<some benefit>'
+  - As a '< some role >'
+  - I need '< some function >'
+  - So that '< some benefit >'
 
 > When we go back and we prioritize the backlog, we are going to look at the business value as one of the criteria to say "should this be high in the backlog or lower in the backlog?". So it is important, not only to have what it is, but what is the value that we get out of it.
 
@@ -524,9 +524,9 @@ flowchart TB
 - It is critical to document the definition of "done". It is important to understand what makes this user story finished, complete or done.
 
 - Gherkin syntax is an example that can be used. This syntax makes it easy for stakeholders, customers and developers alike to describe the definition of done and the behaviour of the system. It goes like this:
-  - Given "<some precondition>"
-  - When "<some even happens>"
-  - Then "<some outcome>"
+  - Given "< some precondition >"
+  - When "< some even happens >"
+  - Then "< some outcome >"
 
 > Given this is the base case, when this happens, thenI should have some measurable outcome. And if I measure that outcome, the story is done.
 
@@ -614,3 +614,42 @@ flowchart TB
 - Don't do any of these two topics.
 
 ## **Building the product backlog**
+### <ins>Product backlog</ins>
+- A product backlog contains all the unimplemented stories not yet in a sprint.
+
+- Stories are ranked in order of importance and/or business value. In a long product backlog, the ones at the top will be ranked a little more accurate than the ones down at the bottom. This happens because we only have to rank maybe the next sprint or two and then the rest of them could be **relatively** unranked, but the top of the backlog should be ranked in order of business important ("what is the next important thing that we need to get into a sprint?")
+
+- Stories are more detailed at the top and less detailed at the bottom. Usually, the stories at the top are sprint ready.
+
+### <ins>Sample requirements</ins>
+- Requirements:
+  - What: a service for counting things
+  - Must allow multiple counters
+  - Counters must persist across restarts of service
+  - Counter can be reset
+
+### <ins>Creating new stories</ins>
+- Need a service for counting things.
+
+> - Using the story template:
+>   - As a '< some role >'
+>   - I need '< some function >'
+>   - So that '< some benefit >'
+
+- Example of a story in the backlog:
+
+|                   **Requirements**                   	|                                      **Stories in the backlog** (apply story template)                                     	|
+|:----------------------------------------------------:	|:--------------------------------------------------------------------------------------------------------------------------:	|
+| **what: a service for counting things**              	|        As a User, I need a service that has a counter, So that I can keep track of how many times something was done       	|
+| **must allow multiple counters**                     	|               As a User, I need to have multiple counters, So that I can keep track of several counts at once              	|
+| **counters must persist across restarts of service** 	| As a Service Provider, I need the service to persist the last known count, So that users don't loose track of their counts 	|
+| **counter can be reset**                             	|       As a System administrator, I need the ability to reset the counter, So that I can redo counting from the start       	|
+
+- Example of backlog priorization
+
+|                                      **Stories in the backlog** (apply story template)                                     	| **Prioritize**  	|
+|:--------------------------------------------------------------------------------------------------------------------------:	|-----------------	|
+| As a User, I need a service that has a counter, So that I can keep track of how many times something was done              	| Product backlog 	|
+| As a User, I need to have multiple counters, So that I can keep track of several counts at once                            	| Icebox          	|
+| As a Service Provider, I need the service to persist the last known count, So that users don't loose track of their counts 	| Product backlog 	|
+| As a System administrator, I need the ability to reset the counter, So that I can redo counting from the start             	| Product backlog 	|
