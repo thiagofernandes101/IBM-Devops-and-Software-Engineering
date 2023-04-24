@@ -570,4 +570,47 @@ flowchart TB
 
 ## **Effectively using story points**
 
+### <ins>What are story points?</ins>
+- Story points are a metric used to estimate the difficulty to delivery/implement a given user story.
+
+- It is an abstract measure of overall effort.
+
+### <ins>What does a story point measure?</ins>
+![What does a story point measure?](Assets/What%20a%20story%20point%20measure.png)
+
+- Effort: "how hard is it to do?"
+
+- Complexity: "is it too complex, or is it very easy?". You could have a lot of effort for something that is easy to do, but it is just boring and laborious
+
+- Uncertainty: "has it been done before?". The story points are rated a little higher, because there is more uncertainty since there is no knowledge on how complex something is. So it is a trade off between what you know and don't know.
+
+### <ins>Relative T-Shirt sizes</ins>
+- Story points acknowledge that humans are bad at estimating time-to-completion.
+
+- Instead, story points use relative T-Shirt sizes (S, M, L, XL). The goal is to give a relative value of how big this thing is, so that we can just compare it with other things that ae in the current sprint.
+
+- Since there is no easy way to relate those sizes to measure velocity, most tools use Fibonacci numbers (1, 2, 3, 5, 8, 13, 21). A good example to use this sequence is to attribute the number 3 to a small story, 5 to a medium, 8 to a large story and, maybe, 13 to an extra large story. One important thing to remeber is to not get too granular, since humans are not really good at doing this kind of estimation. So how to keep abstract?
+
+### <ins>Agree on what "medium" means</ins>
+- Since story points are relative, it's important to agree on what "medium" is. In other words, say we define a spefic story as a medium story and give it the number five, then we could take other stories and evaluate from there. "Is this one smaller than that story?", or "Is it larger than that story?", or "Is it the same size than that story?"
+
+- Example to ratinalize on how to attribute story points:
+  - Define a medium size building:
+  ![Medium size building](Assets/Define%20a%20medium%20size%20building.png)
+
+  - From there, define the relative size of the other buildings
+  ![Other buildings relative sizes](Assets/Other%20build%20relative%20sizes.png)
+
+### <ins>Story size</ins>
+- A story should be small enough to be coded and tested within a single sprint iteration - ideally, just a few days.
+
+- Large stories should be broken down into smaller ones. These smaller stories, some might be done this sprint and some on the next. Also, maybe an epic can be created to track the fact that it's gonna take multiple sprints.
+
+### <ins>Story point anti-pattern</ins>
+- Equating a story point to wall-clock time.
+
+- Humans are really bad at estimating estimating wall-clock time.
+
+- Don't do any of these two topics.
+
 ## **Building the product backlog**
