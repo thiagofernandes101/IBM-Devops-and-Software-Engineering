@@ -653,3 +653,140 @@ flowchart TB
 | As a User, I need to have multiple counters, So that I can keep track of several counts at once                            	| Icebox          	|
 | As a Service Provider, I need the service to persist the last known count, So that users don't loose track of their counts 	| Product backlog 	|
 | As a System administrator, I need the ability to reset the counter, So that I can redo counting from the start             	| Product backlog 	|
+
+# **Planning process**
+
+## **Backlog refinement: getting started**
+### <ins>Backlog refinement</ins>
+- Keep the product backlog ranked by priority so that the important stories are always on top of the backlog.
+
+- Break large stories down into smaller ones, always making sure that all the stories that are near the top are small enough to git in a sprint.
+
+- Make sure that stories near the top of the backlog have enough detail that a developer can just take them and start working on them once we put them in a sprint plan.
+
+### <ins>Backlog refinement meeting</ins>
+- Who should attend?
+  - Product owner: the product owner is the key person, because they are the ones who servers as a conduit between the stakeholders and the team, translating between business and technical goals.
+
+  - Scrum master: the scrum master will assist the product own in refining the backlog.
+
+  - Development team (optional):
+    - Lead developer/architect: to answer technical questions
+  
+- What is the goal?
+  - Grom the backlog by ranking the stories in order of importance. This helps to focus on the business goals and what is valuable to the business.
+  
+  - Make sure the story contains enough information for a developer to start working on it. You don't want to be adding detail during the sprint planning meeting that will be to just help the developers understand the story and what to do. So, the more the backlog is refined to make the story sprint ready, the better off you are goin g to be and the faster your planning is going to go.
+
+### <ins>New issue triage</ins>
+- We should begin by triaging new issues in order to keep the 'new issues' column empty. Since new issues often arise during the development of a project, it is important to address them promptly in order to maintain a clear overview of the project's progress.
+
+- Goal of a 'new issue triage': at the end of backlog refinement the 'new issues' column is empty.
+
+- During the 'new issue triage' process, we take stories from the 'new issues' column and move them to the 'product backlog' if they will be worked on soon. Otherwise, we move them to the 'icebox' column if they are a good idea to potentially work on in the future, or reject them if they are not relevant or feasible.
+
+### <ins>Backlog refinement workflow</ins>
+- Product owner sorts the product backlog in order of importance.
+
+- The team may provide estimates and other technical information. It is also nice to know how many story points are in the backlog, even if it is a gross estimation - a rough order of magnitude. With story points in the backlog, is also possible to see how many points there are and develop a plan from there.
+
+- Large bague items are split and clarified.
+
+- The goal is to make stories "sprint ready". They are ready o put in the sprint without having to spend a lot of time during the sprint planning meeting adding any details.
+
+### <ins>Complete the story template</ins>
+- The begining of a story template:
+  - As a < some role >
+  - I need < some function >
+  - So that < some benefit >
+
+- Assumptions and details:
+  - anything you already know
+
+- Acceptance criteria:
+  - Given < some precondition >
+  - When < some event >
+  - Then < some measurable outcome >
+
+- Given one of the stories previously mentioned, here is an example:
+
+> As a User
+> I need a service that has a counter
+> So that I can keep track of how may times something was done
+> 
+> Assumptions and Details:
+> - Need a way to increment a counter
+> - Need a way to get the current value
+> 
+> Acceptance Criteria:
+> - Given I have incremented the counter to 2
+> - When I make a call to get the current value
+> - Then it should return 2 as the counter value
+
+## **Backlog refinement: finishing up**
+### <ins>Labels</ins>
+
+- Help visualize the work
+![GitHub default labels](Assets/GitHub%20default%20labels.png)
+
+- One label that could e created to improve the work visualization is "technical debt"
+
+### <ins>Technical debt</ins>
+- Technical debt is anything you need to do that doesn't involve creating a new feature.
+
+- Technical debt builds up when you take shortcuts but may also occur naturally, like vulnerabilities in the code that are external libraries that have to be patched and that was not anyones' fault.
+
+- Examples of technical debt:
+  - Code refactoring
+  - Setup and mantenance of environments
+  - Changing technology like databases
+  - Updating vulnerable libraries
+
+### <ins>Baklog refinement tips</ins>
+- The backlog should be refined every sprint to ensure the priorities are correct.
+
+- Have at least two sprints' worth of stories groomed.
+
+- The more time you spend refining the backlog, the easier sprint planning will be.
+
+## **Sprint planning**
+- The purpose of sprint planning is to define what can be delivered in the sprint and how that work will be achieved.
+- This is accomplished by producing a sprint backlog.
+
+### <ins>Sprint palnning meeting</ins>
+- Who should attend?
+  - Product owner
+  - Scrum master
+  - Development team (Software engineers, testers, operation (in case working with DevOps concepts), business analysts - whoever is on the team that is building the product to be delivered)
+
+- The sprint planning meeting consists with only the core team.
+
+### <ins>Sprint planning goals</ins>
+- Each sprint should have a clearly defined business goal. It is important that the product owner articulate the goal to build the stories. With this everyone knows why the are doing the stories and how that story is going to help achieve whatever goal defined, whatever capability, whatever you want to add to the product that we are building.
+
+- The product owner describes the goal and product backlog items supporting it.
+
+- It is important for the whole team to understand why they are building the increment.
+
+### <ins>Mechanics of sprint planning</ins>
+- The development team:
+  - Takes stories from the top of the product backlog and assigns them to the sprint backlog.
+  - Assign story points and labels.
+  - Ensures each story contains enough information for a developer to start working on it.
+  - Stop adding stories when the team's velocity is reached.
+
+### <ins>Team velocity</ins>
+- The number of story points a team can complete in a single sprint.
+
+- This will change over time as the team gets better at estimating and better at executing.
+
+- The velocity is unique to the team because the story point assignment is unique to the team.
+
+### <ins>Create a sprint milestone</ins>
+- Create a sprint milestone to start the sprint.
+
+- The milestone title should be short.
+
+- The description should document the milestone goal.
+
+- The duration should be 2 weeks.
