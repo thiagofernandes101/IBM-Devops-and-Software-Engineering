@@ -2,7 +2,7 @@
 
 ## **Agile principles**
 ### <ins>What is Agile?</ins>
-- Agile is an iterative approach to project management that allows teams to be responsive and deliver value to their customers faster.
+- Agile Development is a software development methodology that emphasizes flexibility, collaboration, and customer satisfaction. It involves iterative development, where requirements and solutions evolve through the collaborative effort of self-organizing and cross-functional teams.
 
 - Unlike other planning approaches where we plan out an entire year's worth of work, with Agile we plan out small increments and they get feedback from the customer to see if they like what we're doing then making possible to adjust as we go along.
 
@@ -790,3 +790,57 @@ flowchart TB
 - The description should document the milestone goal.
 
 - The duration should be 2 weeks.
+
+# **Execution plan**
+
+## **Workflow for daily plan execution**
+### <ins>The sprint</ins>
+- A sprint is one iteration through the design, code, test, deploy cycle.
+
+- It is usually 2 weeks in duration.
+
+- Every sprint should have a goal
+
+### <ins>Daily execution</ins>
+- At the start of each sprint, team members will select the next item from the sprint backlog based on their individual technical skills, with priority given to the items that are most important to the business.
+
+- Assign the task to yourself and move it to the "in progress" section to make it clear to everyone who is working on it.
+
+- To prevent overload, each developer should only be assigned one story unless they are facing an impediment. In that case, another story can be assigned while the Scrum Master addresses the issue, after which the developer can return to the original story.
+
+- The story is moved to the Review/QA column and a pull request is opened once the developer finishes it.
+
+- Once the pull request is merged, then the story will be moved to the done column.
+
+## **The daily stand up**
+
+### <ins>Daily stand-up</ins>
+- Occurs every day at the same time and place.
+
+- Sometimes the daily stand-up the also called the "daily Scrum".
+
+- Each team member briefly reports on their work.
+
+- The reason why it is called a "stand-up" is that all participants must stand during the meeting to keep it brief, as it is time-limited to 15 minutes.
+
+- The daily stand-up is not a status meeting, but a meeting for everyone in the development team to understanding who is working on what,  what will be done on that day and if anyone needs some help.
+
+### <ins>Daily stand-up meeting</ins>
+- Who should attend?
+  - Scrum master: since he/she is the one helping the team be Agile. Is also the one that, in case anyone is blocked, the scrum master is the one that will take care of the problem.
+  - Development team: everybody in the scrum team attends the stand-up.
+  - Product owner (optional): in case the product owner attends the daily stand-up, they should refrain from speaking unless invited to do so, as the meeting is not intended for their status update.
+
+### <ins>Daily stand-up questions</ins>
+- Each team member answers three questions:
+  - What did I accomplish the previous day?
+  - What will I work on today?
+  - What blockers or impediments are in my way?
+
+### <ins>Impediments and blockers</ins>
+- Impements identified by the team should be unlocked by the scrum master so that the team can keep moving forward.
+
+- Developers who encounter a blocker should work on the next story until the blocker is resolved, ensuring that progress is not hindered.
+
+### <ins>Tabled topics</ins>
+- If a topic comes up during the daily stand-up that is not related to the three standard questions, it should be tabled for discussion after the meeting to prevent any delay in progress.
