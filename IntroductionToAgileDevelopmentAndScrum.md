@@ -4,18 +4,18 @@
 ### <ins>What is Agile?</ins>
 - Agile Development is a software development methodology that emphasizes flexibility, collaboration, and customer satisfaction. It involves iterative development, where requirements and solutions evolve through the collaborative effort of self-organizing and cross-functional teams.
 
-- Unlike other planning approaches where we plan out an entire year's worth of work, with Agile we plan out small increments and they get feedback from the customer to see if they like what we're doing then making possible to adjust as we go along.
+- Unlike other planning approaches where an entire year's worth of work is planned out, with Agile, small increments are planned and feedback from the customer is received to see if they are satisfied with the work done. This allows adjustments to be made along the way.
 
 ### <ins>Agile defining characteristics</ins>
 - Agile emphasizes:
     
-    - Adaptive planning which we don't plan out an entire year, but a small iteration to see if we can deliver something of value to the customer, get feedback and see what they like, allowing us to do evolutionary development.
+    - Adaptive planning where a small iteration is planned to see if something of value can be delivered to the customer. This allows for evolutionary development.
 
-    - Evolutionary development that will evolve over time. We are building... instead of building the whole thing up at once, we are building it in small increments and then evolving and responding as we go. This gives the opportunity to do early delivery.
+    - Evolutionary development that evolves over time, building the product in small increments and responding to feedback. This allows for early delivery.
 
-    - Early delivery is a key component of being agile, in other words, if you are developing iterations and not delivering to the customer, you are not being agile. Putting something in the customers' hands, getting feedback from them to understand and see what they liked, should we pivot, should we persevere? This is a critical defining characteristic of being agile, over just doing iterative development.
+    - Early delivery is a key component of being agile. If iterations are being developed but not delivered to the customer, then it is not agile. Putting something in the customers' hands and getting feedback from them is critical for understanding what they like and need, and whether to pivot or persevere.
 
-    - Countinuous improvement is done as team. We continuously improve the product that we are delivering because we have the opportunity to get feedback from our customer, because we delivered it. This allow us to be responsive to change. So as changes happen (they always do), customers always have changing requirements. We can respond to those changes, because we haven't planned too far in advance, the customer sees the progress we have made and then we can quickly re-plan and be responsive to what a customer needs.
+    - Continuous improvement is done as a team. The product is continuously improved based on feedback from the customer, allowing for responsiveness to change. As changes happen and customer requirements evolve, the team can quickly re-plan and be responsive to what the customer needs.
 
 ### <ins>Agile manifesto</ins>
 - We have come to value:
@@ -23,27 +23,27 @@
     - **Individuals and interactions** over processes and tools
     - **Working software** over comprehensive documentation
     - **Customer collaboration** over contract negotiation
-    - **Responding to change** over folowing a plan
+    - **Responding to change** over following a plan
 
-> While there is value in the items on the right, we value the items on the left more. 
-> 
-> It does not mean we do not have processing tools, it just means that we value interacting amongst ourselves and with our customers more than the process and tools.
+> "While there is value in the items on the right, we value the items on the left more.
 >
-> It does not mean we do not document (it is important so that people understand how to use the product), but we can not ship documentation.
+> This does not mean we do not use process tools, but we prioritize interacting with ourselves and our customers more than the tools and processes.
 >
-> Working software is what we are here to deliver. It does not mean that we don't negotiate contracts, we still have contracts, but we want to collaborate with the customer.
+> It does not mean we do not document, as documentation is important for people to understand how to use the product, but we do not prioritize shipping documentation over working software.
 >
-> As things change, we want to be responsive, which does not mean that we do not have plans, but we value responding to change over simply following the plan.
+> Working software is the primary goal of Agile development. We still negotiate contracts, but we prioritize collaborating with the customer to ensure satisfaction.
+>
+> While we still have plans, we prioritize being responsive to changes over simply following the plan. This allows us to adapt quickly to changing customer requirements and deliver a better product."
 
 ### <ins>Agile software development</ins>
-- Is an interative approach to software development consistent with the Agile Manifesto.
+- Agile software development is an iterative and interactive approach to software development that emphasizes flexibility, collaboration, and customer satisfaction. It is consistent with the Agile Manifesto.
 
-- Emphasizes flexibility, interactivity (with peers and customer) and a high level of transparency, so that everybody knows what everyone else is working on and feels responsible for delivering value to the customers.
+- Agile development involves frequent feedback from the customer to ensure that the software being developed is aligned with their needs. This approach emphasizes interactivity with peers and customers, as well as a high level of transparency, so that everyone involved in the project knows what is being worked on and feels responsible for delivering value to the customer.
 
-- Uses small, co-located, cross-functional, self-organizing teams.
+- Agile development uses small, co-located, cross-functional, self-organizing teams. These teams are empowered to make decisions and manage their own work, and they work closely with the customer to ensure that the software being developed meets their needs. Agile development also emphasizes continuous improvement, with the team regularly reflecting on their processes and making changes to improve their efficiency and effectiveness.
 
-### <ins>Key takeway</ins>
-- Build what is needed, not what is planned. If you build what was planned and the customer does not like it, why bother? It is important to make sure that as they need change, you want to build what is needed from the customer regardless of what was planned. We can always replan and be responsive to change.
+### <ins>Key takeaway</ins>
+- Agile development emphasizes building what is needed, not what is planned. By delivering small increments of working software and gathering feedback from the customer, the development team can ensure that they are building software that meets the customer's needs. This approach allows for flexibility and responsiveness to change, so the team can adjust their plans and priorities as necessary to deliver value to the customer. Ultimately, the goal is to build software that provides the most value to the customer, rather than adhering strictly to a pre-defined plan.
 
 ## **Methodologies overview**
 
@@ -65,27 +65,29 @@ flowchart TB
 
 - Deploy: Goes to production and is available to the customer.
 
-> In a waterfall development, there is a exit and entrance criteria to move from on phase to the other and once you are in the coding phase, for example, and find out that the design is bad, it is real hard to go back up and redesign thing. In fact, because the software development is treated the same way as a civil engineer project, sometimes some of those designers have moved on to the next project, and you have got to find them. So it is very dificult to go back a phase in a waterfall development.
+> In a waterfall development, there is a exit and entrance criteria to move from on phase to the other and once you are in the coding phase, for example, and find out that the design is bad, it is real hard to go back up and redesign thing. In fact, because the software development is treated the same way as a civil engineer project, sometimes some of those designers have moved on to the next project, and you have got to find them. So it is very difficult to go back a phase in a waterfall development.
 
 ### <ins>Problems with the waterfall approach</ins>
-- No provision for changing requirements. Every phase has entrance and exit criteria and when one ends, the next on begins. Also there is no provision for going back and changin the design or changing the requirements.
+- No provision for changing requirements. Every phase has entrance and exit criteria and when one ends, the next on begins. Also there is no provision for going back and changing the design or changing the requirements.
 
-- No ideia if it works until the end, there is no intermediate delivery. Nothing is delivered until the last step, where we give to the operations team and say "go deliver this to prodution".
+- No idea if it works until the end, there is no intermediate delivery. Nothing is delivered until the last step, where we give to the operations team and say "go deliver this to production".
 
 - Each step ends when next begins and each and every phase is an opportunity to lose information, have a mishap happen or to have people get blocked, because they can not accept the work from the previous phase and you are waiting to get the next phase going.
 
 - Mistakes that are found later on are very costly. To find something that is designed wrong and testing and go back and redesign it.
 
-- There is the long lead time, right between getting that sofware delivered. From the time you first want the software and you design, code, test it and, by the time it is delivered, there is a long lead time.
+- There is the long lead time, right between getting that software delivered. From the time you first want the software and you design, code, test it and, by the time it is delivered, there is a long lead time.
 
-- Teams work separetely, unaware of their impact on each other. The designers, for example, are unaware of the impact of the code, the coders are unaware of their impact to integrating all the code together. In this approach, everybody is working in their little silos for their little phase. With this, people who are furthest away from a code, the operation team, have to run and manage the software in production (they know the lease about the code and are expected to run it).
+- Teams work separately, unaware of their impact on each other. The designers, for example, are unaware of the impact of the code, the coders are unaware of their impact to integrating all the code together. In this approach, everybody is working in their little silos for their little phase. With this, people who are furthest away from a code, the operation team, have to run and manage the software in production (they know the lease about the code and are expected to run it).
 
 ### <ins>Extreme programming (XP)</ins>
 - Kent Beck introduced Extreme Programming in 1996
+
 ![Extreme Programming](Assets/ExtremeProgrammingPlanningFeedbackLoops.png)
+
 > The graphic is very iterative and talking about loops. You've got these major release plan on the outer loop, then an iteration plan and so the release maybe months, the iterations maybe weeks, acceptance has maybe days, stand up meetings once a day, pair negotiation in hours, unit test in minutes, pair programming in seconds. It is tighter loops of doing work and getting feedback.
 
-- It is based on iterative approach to software development and the intent is to improve sofware quality, be responsive to change, be responsive to customer requirements, do things in small increments.
+- It is based on iterative approach to software development and the intent is to improve software quality, be responsive to change, be responsive to customer requirements, do things in small increments.
 
 - Extreme Programming can also be considered one of the first Agile methods.
 
@@ -123,7 +125,7 @@ flowchart TB
 ### <ins>Working in small batches</ins>
 - You need to mail 1000 brochures:
   - Step 1: fold brochures
-  - Step 2: insert brochures into evelopes
+  - Step 2: insert brochures into envelopes
   - Step 3: seal the envelopes
   - Step 4: Stamp the envelopes with postage
 
@@ -177,18 +179,18 @@ flowchart TB
   - I write a test case: it is done before the code. This keeps you featured on what the code is supposed to do, how you want to call it, what are the parameters and what does it do.
   - So you write the test case first, then you write the code to make that test case pass and then, once it passes, then you can refactor the code because now you have test cases to keep it honest.
 
-- Because when the test case runs and it fails, it usually turns red and then when it works correctly it turns green. This is called Red, Green, Refactor -> whatch a test case, write a test case, watch it fail, make just write enough code to make it pass and then refactor.
+- Because when the test case runs and it fails, it usually turns red and then when it works correctly it turns green. This is called Red, Green, Refactor -> watch a test case, write a test case, watch it fail, make just write enough code to make it pass and then refactor.
 
 ### <ins>Pair programming</ins>
 - Two programmers work together at on workstation
   - One writes the code
   - The other reviews each line of code as it is typed in.
 
-- Having two sets of eyes, they check each other and they go back and forth, making it possible to find bugs while writting the code. But this is not just one and then the other. The two programmers switch roles fequently (e.g. 20 minutes).
+- Having two sets of eyes, they check each other and they go back and forth, making it possible to find bugs while writing the code. But this is not just one and then the other. The two programmers switch roles frequently (e.g. 20 minutes).
 
 - Code quality increases as defects are found earlier.
 
-- It is a good practice to pair a senior programmer with a junior programmer. This make it possible for a junior programmer to see how a senior programmer approaches the problem. So they learn, they get mentorship, and then the senior programmer can see how the junior person is making out. Or you get prople who are unfamiliar with the code working with someone who is and, with this, you get more people learning the code.
+- It is a good practice to pair a senior programmer with a junior programmer. This make it possible for a junior programmer to see how a senior programmer approaches the problem. So they learn, they get mentorship, and then the senior programmer can see how the junior person is making out. Or you get people who are unfamiliar with the code working with someone who is and, with this, you get more people learning the code.
 
 # **Introduction to scrum methodology**
 
@@ -197,12 +199,12 @@ flowchart TB
 ### <ins>Agile and Scrum</ins>
 - There is a difference between agile and scrum, but they are words that many people use interchangeably.
 
-- Agile is a phylosophy, not perscriptive. It is a philosophy for doing work.
+- Agile is a philosophy, not prescriptive. It is a philosophy for doing work.
 
-- Scrum is methodology, a perscriptive (adds process). It is a methodology for working in an agile fashion.
+- Scrum is methodology, a prescriptive (adds process). It is a methodology for working in an agile fashion.
 
 ### <ins>Scrum</ins>
-- **Scrum is a management framework for doing incremental product development emphasizing small, cross functional, self managing teams providing structure of roles, rules and atifacts. It uses these fixed length increments that are called sprints and has a goal of building an increment each time through a sprint, a potentially shippable increment each time through that interation.**
+- **Scrum is a management framework for doing incremental product development emphasizing small, cross functional, self managing teams providing structure of roles, rules and artifacts. It uses these fixed length increments that are called sprints and has a goal of building an increment each time through a sprint, a potentially shippable increment each time through that iteration.**
 
 ### <ins>Sprint</ins>
 - A sprint is one iteration through the design, code, test and deploy cycle. It is kind of like the software delivery lifecycle in a mini inner iteration.
@@ -227,12 +229,12 @@ flowchart TB
 
 - So you go through that every day for two weeks, build your sprint and then, hopefully, you've got a valuable shippable increment at the end of that process.
 
-### <ins>Agile developement is iterative</ins>
+### <ins>Agile development is iterative</ins>
 ![Iterations of an Agile method](Assets/Iterations%20of%20an%20Agile%20method.png)
 
-- You are going through the steps of design, code, test, deploy repeatetly and, with each iteration you get some king of feedback.
+- You are going through the steps of design, code, test, deploy repeatedly and, with each iteration you get some king of feedback.
 
-- In every sprint you make a plan, you go through the software delivery lifecyle cycle and then you deploy that application and get some feedback from the customer that is input to the next plan to go through the next cycle.
+- In every sprint you make a plan, you go through the software delivery lifecycle cycle and then you deploy that application and get some feedback from the customer that is input to the next plan to go through the next cycle.
 
 ## **The 3 roles of Scrum**
 
@@ -252,7 +254,7 @@ flowchart TB
 
 - They also articulate the product vision and have to have a vision of where they are going. And when and they should articulate that vision to the team, so the whole team knows where they are going.
 
-- They are the final arbiter of requirements or questions and constantly reprioritize the product backlog, adjusting any expectations. So every time, through a sprint, we go through the product backlog and the product owner, maybe the Scrum master, will go through the product backlog, reprioritize and groom these stories and gitve them more details.
+- They are the final arbiter of requirements or questions and constantly reprioritize the product backlog, adjusting expectations as needed. So every time we go through a sprint, the product backlog is reviewed by the product owner and possibly the Scrum master. They reprioritize and groom the stories, providing more details as necessary.
 
 - The job of the product owner is to make sure that the backlog is sprint ready and accept, or reject, each product increment. They decide whether to continue development or pivot.
 
@@ -261,24 +263,24 @@ flowchart TB
 
 - They coach the team (the are Agile coaches). We want them to be mentors, we want them to help the team through the Scrum process. They create an environment that allows the team to be self organizing so the team decides what they do. They are the ones that are going to commit to a sprint increment and has to make sure that the team has the ability and the environment in which they can do that and be self-organizing. They also shield the team from external interferences like if the customers are grabbing team members or stakeholders, or calling team members. Basically, the Scrum master says "If you need something, you come to me. Let the team alone and work on what they need to work".
 
-- They also help resolve impediments. If there is any impediment to complete any work described on a daily stand up, it is the Scrum master's highest priority that day to get them inblocked, to remove the impediment. It is very different than traditional project management, where a project manager just asks what you will do about an impediment. Basically, the Scrum master will take over the impediment to fix it and you will move on to some more productive work.
+- The Scrum master also helps to resolve impediments. If there is any impediment preventing the team from completing their work as described during the daily stand-up, it is the Scrum master's highest priority to unblock the team and remove the impediment. This is different from traditional project management, where a project manager may simply ask what you will do about an impediment. In Scrum, the Scrum master takes ownership of the impediment and works to resolve it so the team can move on to more productive work.
 
 - They enforce the sprint time boxed, for example, if a there is only 15 minutes for a daily stand-up, it is their job to make sure it stays 15 minutes and the two week sprint is not longer than those two weeks.
 
-- They capture empirical data, maybe just forecasts. So they are the one who's making sure, loking at burndowns charts and making sure that the team is going to reach their goals. And they should have no management authority over the team, but be someone that the team can confide in.
+- They capture empirical data, which may include forecasts. Their role is to ensure that the team is on track to reach their goals by reviewing burn-down charts and other metrics. Although they have no management authority over the team, they should be someone that the team can confide in.
 
 ### <ins>Scrum team</ins>
-- This is a cross-functional team, consists of developers, testers, business analysts, domain experts, operations people, if you're doing DevOps.
+- This is a cross-functional team consisting of developers, testers, business analysts, domain experts, and operations personnel (if doing DevOps).
 
-- The Scrum team is self-organizing, self-managing, and they self-assign themselves work. There's no externally assigned roles. Everybody is equal and has the same role. 
+- The Scrum team is self-organizing, self-managing, and self-assigns work. There are no externally assigned roles, and everyone is equal with the same role.
 
-- The Scrum team pulls the work off of the kanban board, assigns it to themselves and starts working on it. In short, they are self-managing. However they shouldn't be too large. A Scrum team is around seven people with 2, one more or less, collaborative members. 
+- The Scrum team pulls work from the Kanban board, assigns it to themselves, and begins working on it. They are self-managing, but the team should not be too large. A Scrum team should be around seven people, with two collaborative members.
 
-- They should be co-located, if at all possible. They are most successful when they're co-located. They just are more successful when together, hopefully in the same team room, but if they can't be and has to be geographically dispersed, put at least two members in a geography or time zone so that they can collaborate together. And then maybe I'll have other two people in another timezone. Don't just stick one person alone in a time zone, they kind of get forgotten about. You need people to collaborate with.
+- The team should be co-located, if possible, and is most successful when working together in the same room. If the team is geographically dispersed, at least two members should be in the same geography or time zone so they can collaborate effectively.
 
-- They're dedicated. Most successful teams have long-term, full-time members. They're not on multiple projects. They're not getting pulled off for other projects. You do not want to have people on multiple projects, you want them to be dedicated if you want to be a high performing, successful team.
+- The team should be dedicated, with long-term, full-time members who are not working on multiple projects.
 
-- They negotiate commitments with the product owner, one sprint at a time. They're not committing for what they're going to do down the road. They're not committing in January for what they're going to do in September, they're going to commit. "What am I gonna get done in the next two weeks?" And they've got a ton of autonomy on how to reach those commitments. So, they're not told how to do something. They're told what needs to get done, and then get out of their way. You hired good people, let them do their thing and let them figure out how to get that thing done.
+- The team negotiates commitments with the product owner one sprint at a time, rather than making commitments for work too far in the future. They have autonomy in how they reach these commitments and should be told what needs to be done, rather than how to do it. Allow the team to figure out how to get the work done, as they are capable and skilled professionals.
 
 ## **Artifacts, events and benefits**
 
@@ -292,7 +294,7 @@ flowchart TB
 ### <ins>Scrum events</ins>
 - Sprint planning meeting: where you get together to plan out the sprint. In that meeting, you'll have the product owner and the Scrum master and the entire team planning out what to do next; where the team commits to the stories that they are going to fulfill in the next sprint.
 
-- Daily scrum meeting (a.k.a. daily stand-up): it happens every day, usually in the same place, same time, where they meet to kind of syncrhonize on how things are going, what the team will work on that day and if there are any impediments that can be relieved by the Scrum master.
+- Daily scrum meeting (a.k.a. daily stand-up): it happens every day, usually in the same place, same time, where they meet to kind of synchronize on how things are going, what the team will work on that day and if there are any impediments that can be relieved by the Scrum master.
 
 - Sprint review: it is when you demonstrate what you have done to the stakeholders so they could see the advancements that you've gotten, the new features that you've put in the product.
 
@@ -303,13 +305,13 @@ flowchart TB
 
 - Better quality: better software quality because the team is engaged in what they are doing. They are running tests, they are using behavior driven development, they're using test driven development and getting higher quality out of their, out of their code that they are writing because they are constantly testing it.
 
-- Reduced time to market: because you are working with small increments and getting something done. In other words, you get a done increment sonner than you can then put out, have customers test enjoy.
+- Reduced time to market: because you are working with small increments and getting something done. In other words, you get a done increment sooner than you can then put out, have customers test enjoy.
 
 - Increase stakeholder satisfaction: because they are not waiting months to see if whatever you build is what they want, but get to see it much quicker.
 
 - Better teams dynamics: because it is transparent. Everyone knows what everyone is working on. Everybody chips in when somebody gets stuck. It is a better and productive environment for developer to work in.
 
-- Happier employees: they understand they are in control and are pulling things off the backlog. They are commiting to a sprint, one sprint plan at a time, and so they feel more in control and happier about their jobs.
+- Happier employees: they understand they are in control and are pulling things off the backlog. They are committing to a sprint, one sprint plan at a time, and so they feel more in control and happier about their jobs.
 
 ### <ins>Scrum vs. Kanban</ins>
 
@@ -326,7 +328,7 @@ flowchart TB
 ## **Organization impact of Agile**
 
 ### <ins>Organize for success</ins>
-- Proper organization is critical to sucess
+- Proper organization is critical to success
 
 - Existing teams may need to be reorganized in order to take full advantage of becoming agile.
 
@@ -338,35 +340,35 @@ flowchart TB
 ### <ins>How teams should be aligned</ins>
 - Teams are loosely coupled, tightly aligned. You want them to be loosely coupled and you don't want a lot of dependency between teams, but you want the teams to be aligned, because they are building a single application. 
 
-- Then each team has its own mission, which should be aligned with the business (like a mini startup). If a e-commerce was developed with 50 developers, they should not be together in one big team like when working in a monolith pattern, but break them up into smaller teams with ownership of the business area (an order team, an accounts team, a shopkart team and a recommendation team for instances). 
+- The teams in an organization should have their own missions and objectives that align with the overall business goals, similar to a mini startup. For example, if an e-commerce platform is being developed with 50 developers, it is advisable to divide them into smaller teams based on the ownership of business areas, rather than having them work as a large team in a monolithic pattern. These teams could include an order team, an accounts team, a shopkart team, and a recommendation team, among others, each with a specific focus on their respective area of the business.
 
-- Each team should have end-to-end responsability, since you want them to build the application, run it and debug it in production.
+- Each team should have end-to-end responsibility, since you want them to build the application, run it and debug it in production.
 
 - The team should have a long term mission. The long-term mission is usually around a single business domain.
 
 ### <ins>Autonomy is important</ins>
 - It's motivating - and motivated people build better stuff.
 
-- It's fast - decisions happen locally in the team leavel rather than waiting for decisions to come down on high.
+- It's fast - decisions happen locally in the team level rather than waiting for decisions to come down on high.
 
 - It minimizes handoffs and waiting, so teams don't get bogged down. The get to make their own decisions and get to run at their on speed.
 
-### <ins>The agile dilema</ins>
+### <ins>The agile dilemma</ins>
 
 ![Wall of confusion](Assets/The%20agile%20dilema.png)
 
-- This graphic, the wall of confusion, was made famous by Andrew Clay Schafer, but it's all about the diametrically opposed metrics that we use with development and operations. Development wants change, they are measured on getting new changes out into production. Whereareas operations are measured on stability. 
+- This graphic, the wall of confusion, was made famous by Andrew Clay Schafer, but it's all about the diametrically opposed metrics that we use with development and operations. Development wants change, they are measured on getting new changes out into production. Whereas operations are measured on stability. 
 
 - These are diametrically opposed views.
 
 ### <ins>The entire organization must be Agile</ins>
 ![Part of the organization is Agile](Assets/Only%20part%20of%20the%20organization%20is%20Agile.png)
 
-- The organization doesn't become Agile. It doesn't metter that your development team is Agile, if the DevOps team is not.
+- The organization doesn't become Agile. It doesn't matter that your development team is Agile, if the DevOps team is not.
 
 - In this case, the project was waiting for a ticket to be completed so the application could be deployed.
 
-### <ins>Agile + DevOps = Aligment</ins>
+### <ins>Agile + DevOps = Alignment</ins>
 |     **The goal of Agile**     	|                                 **The goals of DevOps**                                 	|
 |:-----------------------------:	|:---------------------------------------------------------------------------------------:	|
 | Develop software faster       	| Accelerate time to market                                                               	|
@@ -387,7 +389,7 @@ flowchart TB
   
   - They are also being iterative. They are iterating on the plan, but just that and nothing else. They are not stopping at the end of each iteration to get feedback from the customer because they haven't deployed anything. They are not stopping at the end of each iteration and asking "Should I pivot or persevere?". In short, they are just following a plan iterating.
   
-  - There is also the last mile where they are trying to deploy it and it takes forever to deploy because nobody's ever deployed before. This is the first time everything's been intergrated together.
+  - There is also the last mile where they are trying to deploy it and it takes forever to deploy because nobody's ever deployed before. This is the first time everything's been integrated together.
 
     ![Water scrum fall](Assets/Water%20scrum%20fall.png)
   
@@ -404,7 +406,7 @@ flowchart TB
 
 # **Planning to be agile**
 
-## **Destination Unkown**
+## **Destination Unknown**
 ### <ins>Deadlines</ins>
 - "I love deadlines... I like the whooshing sound they make as they fly by" (Douglas Adams)
 
@@ -419,7 +421,7 @@ flowchart TB
 
 ## **Agile Roles and the Need for Training**
 ### <ins>Formulas for failure</ins>
-- Product manager becomes product owner: placing prople in a new role without giving them training. (Product manager is a job title and product owner, a scrum role. They may, or may not, be the same person)
+- Product manager becomes product owner: placing people in a new role without giving them training. (Product manager is a job title and product owner, a scrum role. They may, or may not, be the same person)
 
 - Project manager becomes the scrum master with no training on how to be the scrum master.
 
@@ -429,8 +431,8 @@ flowchart TB
 
 |                          **Product manager**                         	|                                        **Product owner**                                       	|
 |:--------------------------------------------------------------------:	|:----------------------------------------------------------------------------------------------:	|
-| Business person who manages the budget                               	| Visionary who leads the team in a series of experiments designed to achive the sprint goal     	|
-| Manager who is mostly focused on operational aspects of the business 	| Conduit between the stakeholders and the team, tranlating between business and technical goals 	|
+| Business person who manages the budget                               	| Visionary who leads the team in a series of experiments designed to archive the sprint goal     	|
+| Manager who is mostly focused on operational aspects of the business 	| Conduit between the stakeholders and the team, translating between business and technical goals 	|
 
 ### <ins>Project manager vs scrum master:</ins>
 
@@ -445,7 +447,7 @@ flowchart TB
 |:---------------------------:	|:---------------------------------------------------------------------------------------------------------:	|
 | Consists only of developers 	| Cross-functional team that includes developers, testers, security, business analysts, operations and more 	|
 
-> "Until and unless business leaders accept the idea that they are no longer managing projects with fixed functions, timeframes and costs, as they did with waterfall, they will struggle to use agile as it was designed to be used" (Bob Kantor, Founder Kantor Consulting Group, Inc.)
+> "Until and unless business leaders accept the idea that they are no longer managing projects with fixed functions, time frames and costs, as they did with waterfall, they will struggle to use agile as it was designed to be used" (Bob Kantor, Founder Kantor Consulting Group, Inc.)
 
 ### <ins>The roles have changed</ins>
 - You cannot put people in new roles without the proper training and mindset, otherwise, a project manager, for instance, will use his/her own knowledge to do something. An example would be turning a combine board into a Gantt chart.
@@ -459,14 +461,14 @@ flowchart TB
 
 - Tools can support your Agile process, but you have to have the process first. If you do not have enough training in the Agile process, a Kanban board can look like a Gantt chart and these two are two different things, two different ways of doing project management.
 
-- There are many Agile planning tools with a lot of diffent features for project management, but working with epics and stories is usually enough. One of the tools to work with Agile processes is ZenHub.
+- There are many Agile planning tools with a lot of different features for project management, but working with epics and stories is usually enough. One of the tools to work with Agile processes is ZenHub.
 
 ### <ins>ZenHub</ins>
 - ZenHub is a plug-in to GitHub
 
 - It provides a kanban board and project management reporting
 
-- ZenHub is customizable and itegrated with GitHub.
+- ZenHub is customizable and integrated with GitHub.
 
 - Why to use ZenHub:
   - Helps you manage where you are in a project based on GitHub Issues
@@ -493,7 +495,7 @@ flowchart TB
 
 - Review/QA: with this, the developers know when they see something in the review column, they need to go look at it and help another developer out and review their story and make sure that it meets the criteria needed to go merge it into the rest of the code.
 
-- Done: it meand the developer is done with that story, but doesn't mean that it's been accepted by the product owner. That is something that happens during the sprint review.
+- Done: it means the developer is done with that story, but doesn't mean that it's been accepted by the product owner. That is something that happens during the sprint review.
 
 # **User stories**
 
@@ -503,12 +505,12 @@ flowchart TB
 
 ### <ins>Story contents</ins>
 - Stories should contain:
-  - A brid description of the need and business value
+  - A brief description of the need and business value
   - Any assumptions or details documented in the story. Sometimes you know there are assumptions, you are doing a story and it needs some kind of persistence and you know you are going to use a relational database. So this can be used as hint in the story so that the developer knows what the intentions are
   - The definition of done, some acceptance criteria and know when a story is complete. You don't want to find out in the sprint review that the product owner says "Hey, that is not what I wanted", so you want a document with a definition of done that says "well, this is the definition we agreed on. This is what the story does and if it's not what you want, we can write another story, but we did what they said it should do"
 
 ### <ins>Story description</ins>
-- User stories document a persona requesting a function to achieve a goal, that requesting some dunctionality to get some goal or achieve some goal, get some business value. To do this is with this problem syntax:
+- User stories document a persona requesting a function to achieve a goal, that requesting some functionality to get some goal or achieve some goal, get some business value. To do this is with this problem syntax:
   - As a '< some role >'
   - I need '< some function >'
   - So that '< some benefit >'
@@ -518,12 +520,12 @@ flowchart TB
 ### <ins>Assumption and details</ins>
 - It is important to document what you know about the story:
   - List any assumptions
-  - Document any details that may help the develper undertant what need to be done. Anything that wasn't obvious to get this story completed.
+  - Document any details that may help the developer undertake what needs to be done. Anything that wasn't obvious to get this story completed.
 
 ### <ins>Acceptance criteria</ins>
 - It is critical to document the definition of "done". It is important to understand what makes this user story finished, complete or done.
 
-- Gherkin syntax is an example that can be used. This syntax makes it easy for stakeholders, customers and developers alike to describe the definition of done and the behaviour of the system. It goes like this:
+- Gherkin syntax is an example that can be used. This syntax makes it easy for stakeholders, customers and developers alike to describe the definition of done and the behavior of the system. It goes like this:
   - Given "< some precondition >"
   - When "< some even happens >"
   - Then "< some outcome >"
@@ -548,9 +550,9 @@ flowchart TB
 > This is something you could give to a stakeholder. The marketing manager could understand the behavior and say "That is the behavior I want", the developer can read this and say "That is the behavior I can deliver" and that at the end of the sprint, as long as when you ask for customers, you only get the ones who have opted in. And that is the <ins>definition of done</ins>. So there is no arguments about whether the story is done or not, if it has that behavior, it's done.
 
 ### <ins>Bill Wake's INVEST</ins>
-- Independent: The acronyms INVEST says "Stories should be independet, I want to be able to rank them in the backlog, I want to be able to move them around, I want to be able to say that this one comes before that one". However, the stories can't always be independent, sometimes there are dependencies like an assumption that there are customer emails in the database and, if there weren't, then that wasn't an independent story, but was dependent on the story that put emails in the database. But for the most part, you want to write them so that they are independent.
+- Independent: The acronyms INVEST says "Stories should be independent, I want to be able to rank them in the backlog, I want to be able to move them around, I want to be able to say that this one comes before that one". However, the stories can't always be independent, sometimes there are dependencies like an assumption that there are customer emails in the database and, if there weren't, then that wasn't an independent story, but was dependent on the story that put emails in the database. But for the most part, you want to write them so that they are independent.
 
-- Negotiable: the stories will move in the backlog, they will be ranked higher or lower, maybe one functionality will receive more or less value to negotiate how much really has to be done and shouldn't be too tightly coupled to exatly what's needed.
+- Negotiable: the stories will move in the backlog, they will be ranked higher or lower, maybe one functionality will receive more or less value to negotiate how much really has to be done and shouldn't be too tightly coupled to exactly what's needed.
 
 - Valuable: I need to be able to say "How valuable is this story?", "What value does the customer get out of it to make sure that it really is a user story and not just a technical debt story that this is something I need to do that the customer never sees. It needs to be estimable, I need to be able to estimate it: "How big is it? Small? Medium? Large?". There has to be enough information in there that could say "this is a big story, given everything that is in here", not just one line that looks simple, but then really becomes hard. It also should be small enough that can be worked in a sprint.
 
@@ -589,16 +591,18 @@ flowchart TB
 
 - Instead, story points use relative T-Shirt sizes (S, M, L, XL). The goal is to give a relative value of how big this thing is, so that we can just compare it with other things that ae in the current sprint.
 
-- Since there is no easy way to relate those sizes to measure velocity, most tools use Fibonacci numbers (1, 2, 3, 5, 8, 13, 21). A good example to use this sequence is to attribute the number 3 to a small story, 5 to a medium, 8 to a large story and, maybe, 13 to an extra large story. One important thing to remeber is to not get too granular, since humans are not really good at doing this kind of estimation. So how to keep abstract?
+- Since there is no easy way to relate those sizes to measure velocity, most tools use Fibonacci numbers (1, 2, 3, 5, 8, 13, 21). A good example to use this sequence is to attribute the number 3 to a small story, 5 to a medium, 8 to a large story and, maybe, 13 to an extra large story. One important thing to remember is to not get too granular, since humans are not really good at doing this kind of estimation. So how to keep abstract?
 
 ### <ins>Agree on what "medium" means</ins>
-- Since story points are relative, it's important to agree on what "medium" is. In other words, say we define a spefic story as a medium story and give it the number five, then we could take other stories and evaluate from there. "Is this one smaller than that story?", or "Is it larger than that story?", or "Is it the same size than that story?"
+- Since story points are relative, it's important to agree on what "medium" is. In other words, say we define a specific story as a medium story and give it the number five, then we could take other stories and evaluate from there. "Is this one smaller than that story?", or "Is it larger than that story?", or "Is it the same size than that story?"
 
-- Example to ratinalize on how to attribute story points:
+- Example to rationalize on how to attribute story points:
   - Define a medium size building:
+  
   ![Medium size building](Assets/Define%20a%20medium%20size%20building.png)
 
   - From there, define the relative size of the other buildings
+
   ![Other buildings relative sizes](Assets/Other%20build%20relative%20sizes.png)
 
 ### <ins>Story size</ins>
@@ -617,7 +621,7 @@ flowchart TB
 ### <ins>Product backlog</ins>
 - A product backlog contains all the unimplemented stories not yet in a sprint.
 
-- Stories are ranked in order of importance and/or business value. In a long product backlog, the ones at the top will be ranked a little more accurate than the ones down at the bottom. This happens because we only have to rank maybe the next sprint or two and then the rest of them could be **relatively** unranked, but the top of the backlog should be ranked in order of business important ("what is the next important thing that we need to get into a sprint?")
+- The product backlog typically contains a large number of stories, and it is important to prioritize them based on their importance and business value. While it may not be necessary to rank all stories in the backlog, the ones at the top should be ranked more accurately to ensure that the team is working on the most important tasks first. This ranking process is typically based on business priorities, with the highest-priority stories being those that are most critical to the success of the project or the business. The goal is to always ensure that the team is working on the most important tasks, regardless of where they are in the backlog.
 
 - Stories are more detailed at the top and less detailed at the bottom. Usually, the stories at the top are sprint ready.
 
@@ -645,7 +649,7 @@ flowchart TB
 | **counters must persist across restarts of service** 	| As a Service Provider, I need the service to persist the last known count, So that users don't loose track of their counts 	|
 | **counter can be reset**                             	|       As a System administrator, I need the ability to reset the counter, So that I can redo counting from the start       	|
 
-- Example of backlog priorization
+- Example of backlog prioritization
 
 |                                      **Stories in the backlog** (apply story template)                                     	| **Prioritize**  	|
 |:--------------------------------------------------------------------------------------------------------------------------:	|-----------------	|
@@ -674,12 +678,12 @@ flowchart TB
     - Lead developer/architect: to answer technical questions
   
 - What is the goal?
-  - Grom the backlog by ranking the stories in order of importance. This helps to focus on the business goals and what is valuable to the business.
+  - Groom the backlog by ranking the stories in order of importance. This helps to focus on the business goals and what is valuable to the business.
   
-  - Make sure the story contains enough information for a developer to start working on it. You don't want to be adding detail during the sprint planning meeting that will be to just help the developers understand the story and what to do. So, the more the backlog is refined to make the story sprint ready, the better off you are goin g to be and the faster your planning is going to go.
+  - Make sure the story contains enough information for a developer to start working on it. You don't want to be adding detail during the sprint planning meeting that will be to just help the developers understand the story and what to do. So, the more the backlog is refined to make the story sprint ready, the better off you are going to be and the faster your planning is going to go.
 
 ### <ins>New issue triage</ins>
-- We should begin by triaging new issues in order to keep the 'new issues' column empty. Since new issues often arise during the development of a project, it is important to address them promptly in order to maintain a clear overview of the project's progress.
+- When new issues arise during a project's development, it is important to promptly address them to ensure they don't accumulate and cause delays. One way to stay on top of this is to regularly triage new issues and assign them to the appropriate team member for resolution. Keeping the 'new issues' column empty helps maintain a clear overview of the project's progress and ensures that the team can focus on completing tasks rather than getting bogged down by unaddressed issues.
 
 - Goal of a 'new issue triage': at the end of backlog refinement the 'new issues' column is empty.
 
@@ -690,12 +694,12 @@ flowchart TB
 
 - The team may provide estimates and other technical information. It is also nice to know how many story points are in the backlog, even if it is a gross estimation - a rough order of magnitude. With story points in the backlog, is also possible to see how many points there are and develop a plan from there.
 
-- Large bague items are split and clarified.
+- Large vague items are split and clarified.
 
 - The goal is to make stories "sprint ready". They are ready o put in the sprint without having to spend a lot of time during the sprint planning meeting adding any details.
 
 ### <ins>Complete the story template</ins>
-- The begining of a story template:
+- The beginning of a story template:
   - As a < some role >
   - I need < some function >
   - So that < some benefit >
@@ -727,6 +731,7 @@ flowchart TB
 ### <ins>Labels</ins>
 
 - Help visualize the work
+
 ![GitHub default labels](Assets/GitHub%20default%20labels.png)
 
 - One label that could e created to improve the work visualization is "technical debt"
@@ -734,15 +739,15 @@ flowchart TB
 ### <ins>Technical debt</ins>
 - Technical debt is anything you need to do that doesn't involve creating a new feature.
 
-- Technical debt builds up when you take shortcuts but may also occur naturally, like vulnerabilities in the code that are external libraries that have to be patched and that was not anyones' fault.
+- Technical debt builds up when you take shortcuts but may also occur naturally, like vulnerabilities in the code that are external libraries that have to be patched and that was not anyone's fault.
 
 - Examples of technical debt:
   - Code refactoring
-  - Setup and mantenance of environments
+  - Setup and maintenance of environments
   - Changing technology like databases
   - Updating vulnerable libraries
 
-### <ins>Baklog refinement tips</ins>
+### <ins>Backlog refinement tips</ins>
 - The backlog should be refined every sprint to ensure the priorities are correct.
 
 - Have at least two sprints' worth of stories groomed.
@@ -753,7 +758,7 @@ flowchart TB
 - The purpose of sprint planning is to define what can be delivered in the sprint and how that work will be achieved.
 - This is accomplished by producing a sprint backlog.
 
-### <ins>Sprint palnning meeting</ins>
+### <ins>Sprint planning meeting</ins>
 - Who should attend?
   - Product owner
   - Scrum master
@@ -838,9 +843,30 @@ flowchart TB
   - What blockers or impediments are in my way?
 
 ### <ins>Impediments and blockers</ins>
-- Impements identified by the team should be unlocked by the scrum master so that the team can keep moving forward.
+- Implements identified by the team should be unlocked by the scrum master so that the team can keep moving forward.
 
 - Developers who encounter a blocker should work on the next story until the blocker is resolved, ensuring that progress is not hindered.
 
 ### <ins>Tabled topics</ins>
 - If a topic comes up during the daily stand-up that is not related to the three standard questions, it should be tabled for discussion after the meeting to prevent any delay in progress.
+
+# **Completing the sprint**
+
+## **Using burndown charts
+### <ins>Milestones and burndowns</ins>
+- By creating milestones for different phases of the project, such as sprints, beta, demos, or releases, teams can use burndown charts to track progress against those milestones.
+
+### <ins>Burndown chart</ins>
+- A burndown chart measures the number of completed story points versus the number of story points remaining for a given sprint or project phase.
+
+- The term "burndown" comes from the idea that, over time, the number of remaining story points should decrease as the team completes more work.
+
+### <ins>Burndown chart example</ins>
+
+![Burndown chart example](Assets/Burndown%20chart%20example.png)
+
+- The burndown chart is a visual representation of the progress of the team during a sprint. It shows the number of story points remaining versus the time elapsed. 
+
+- The vertical line represents the total story points in the sprint, while the vertical bars indicate weekends. The traced line represents the optimal path through the burndown, assuming the team is burning down on an equal basis. The blue line represents the actual progress of the team, with each dot representing a completed story. If the team is making good progress, the blue line will be below the traced line and, if the team is behind schedule, the blue line will be above the traced line.
+
+- The burndown chart helps the team to stay on track and adjust their efforts accordingly.
