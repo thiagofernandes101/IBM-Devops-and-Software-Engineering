@@ -892,3 +892,25 @@ flowchart TB
   - A label should be added to let the team know that this story is not done because of some inaccuracy, or some other motive and close this specific story. Afterwards, another story is opened in its place with whatever the client wants
 
   - To avoid affecting team velocity, we have decided to close the story. Additionally, this procedure justifies the work that was completed but did not address the client's needs for some reason. Essentially, if the story was initially estimated at eight points, closing it will prevent the team from losing those points and ensure that the velocity accurately reflects their progress. By closing the story, we acknowledge the effort put into it and take responsibility for any failure to meet the client's requirements due to unforeseen circumstances.
+
+## **The sprint retrospective**
+- This meeting aims to reflect on the sprint and continuously improve. The team will review their progress, identify areas for improvement, learn from successes and challenges, and optimize processes for better results in the future.
+
+- The sprint retrospective also serves as a measure of process and team health. During this meeting, the development team must feel comfortable discussing and reflecting on their performance in a safe and open environment. By providing a space for free and open discussion, the team can identify potential areas of improvement and work collaboratively to make the necessary changes for even better performance in the future.
+
+- Who should attend the sprint retrospective meeting?
+  - The Scrum master
+  - The development team
+
+> **NOTE!**: The product owner usually do not participate in the sprint retrospective meeting so the team can feel comfortable to talk about anything.
+
+### <ins>A time for reflection</ins>
+- In this time for reflection, three questions are answered:
+  1. What went well? (to keep doing it)
+  2. What did not go well? (should stop doing)
+  3. What should the team change for the next sprint?
+
+- The sprint retrospective meeting often results in a range of potential changes for the team. As such, it is the responsibility of the Scrum Master to record all points of discussion and ensure that at least some of the identified improvements are implemented in the next sprint. This process ensures that the team's discussions are not merely griping sessions, but are instead productive opportunities to identify specific areas for improvement and take action to address them.
+
+### <ins>The goal is improvement</ins>
+- The goal of the sprint retrospective meeting is to maintain a healthy team environment where members can freely discuss what went well, what went wrong, and what could be done differently to improve. The Scrum Master plays a crucial role in ensuring that feedback is recorded and addressed in the next sprint. It's essential that team members feel that these meetings are productive and result in positive changes. The focus is always on improving for the next sprint, with a willingness to change and make necessary adjustments.
