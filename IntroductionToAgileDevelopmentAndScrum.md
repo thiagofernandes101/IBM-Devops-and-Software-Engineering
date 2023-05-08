@@ -852,7 +852,7 @@ flowchart TB
 
 # **Completing the sprint**
 
-## **Using burndown charts
+## **Using burndown charts**
 ### <ins>Milestones and burndowns</ins>
 - By creating milestones for different phases of the project, such as sprints, beta, demos, or releases, teams can use burndown charts to track progress against those milestones.
 
@@ -870,3 +870,25 @@ flowchart TB
 - The vertical line represents the total story points in the sprint, while the vertical bars indicate weekends. The traced line represents the optimal path through the burndown, assuming the team is burning down on an equal basis. The blue line represents the actual progress of the team, with each dot representing a completed story. If the team is making good progress, the blue line will be below the traced line and, if the team is behind schedule, the blue line will be above the traced line.
 
 - The burndown chart helps the team to stay on track and adjust their efforts accordingly.
+
+## **The sprint review**
+
+### <ins>Sprint review meeting</ins>
+- During a sprint review meeting, the development team presents a live demonstration of the implemented stories. This allows the team to showcase the new features added and demonstrate their functionality while receiving feedback from the client. The product owner may use this feedback to create new stories or move existing stories to the done column based on the outcome of the meeting.
+
+- Who should attend the meeting:
+  - The product owner
+  - The scrum master
+  - The development team
+  - The stakeholders
+  - The customers (optional)
+
+> Everyone who wants to see the project demo should attend the meeting.
+
+- This is where iterative development allows the creation of products that couldn't have been specified up-front in a plan-driven approach.
+
+### <ins>Rejected stories</ins>
+- What about stories that are not considered done (the stories that the client reject for not attending their expectations)?
+  - A label should be added to let the team know that this story is not done because of some inaccuracy, or some other motive and close this specific story. Afterwards, another story is opened in its place with whatever the client wants
+
+  - To avoid affecting team velocity, we have decided to close the story. Additionally, this procedure justifies the work that was completed but did not address the client's needs for some reason. Essentially, if the story was initially estimated at eight points, closing it will prevent the team from losing those points and ensure that the velocity accurately reflects their progress. By closing the story, we acknowledge the effort put into it and take responsibility for any failure to meet the client's requirements due to unforeseen circumstances.
