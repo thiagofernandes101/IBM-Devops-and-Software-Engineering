@@ -902,7 +902,7 @@ flowchart TB
   - The Scrum master
   - The development team
 
-> **NOTE!**: The product owner usually do not participate in the sprint retrospective meeting so the team can feel comfortable to talk about anything.
+> The product owner usually do not participate in the sprint retrospective meeting so the team can feel comfortable to talk about anything.
 
 ### <ins>A time for reflection</ins>
 - In this time for reflection, three questions are answered:
@@ -914,3 +914,37 @@ flowchart TB
 
 ### <ins>The goal is improvement</ins>
 - The goal of the sprint retrospective meeting is to maintain a healthy team environment where members can freely discuss what went well, what went wrong, and what could be done differently to improve. The Scrum Master plays a crucial role in ensuring that feedback is recorded and addressed in the next sprint. It's essential that team members feel that these meetings are productive and result in positive changes. The focus is always on improving for the next sprint, with a willingness to change and make necessary adjustments.
+
+# **Measuring success**
+
+## **Using measurements effectively**
+### <ins>Measurements and metrics</ins>
+- Measuring a team's performance is crucial to achieving success, and it's impossible to improve without clear metrics. While intuition and gut feelings are valuable, they can be unreliable when it comes to assessing progress. Teams need objective measures to accurately track their performance and identify areas that need improvement. By using metrics and tracking progress over time, high-performing teams can continually optimize their processes and achieve better results. They establish baselines, set goals, and consistently measure their progress against these benchmarks to ensure they're moving in the right direction.
+
+### <ins>Beware of vanity metrics</ins>
+- Vanity metrics can be misleading, such as proudly announcing that a website received ten thousand hits. However, the team should ask themselves: what do these numbers really mean? Do they have a clear understanding of the actions that drove visitors to the website, and what steps can be taken to continue to attract more visitors? It's important for teams to focus on meaningful metrics that are tied to their goals, and not just metrics that make them feel good. By focusing on metrics that truly matter, teams can make informed decisions that lead to real progress.
+
+### <ins>Actionable metrics</ins>
+- Actionable metrics are essential to make informed decisions, such as through A/B split-testing. This involves creating two versions of a feature and directing equal traffic to each version to measure customer reactions. If the customers respond positively, the team can prioritize that feature and continue to encourage that behavior. Conversely, if the customers don't react as desired, the team can pivot and focus on other areas for improvement. By using actionable metrics, teams can optimize their processes and achieve better results.
+
+### <ins>Baseline and goals</ins>
+- Baseline: 
+  - In order to track progress and identify areas for improvement, the team will establish a baseline. This involves choosing a specific metric that they want to improve upon, such as the time or cost required to deploy a new release of the product. By setting a baseline, the team can track their progress over time and measure the effectiveness of any changes or optimizations they make. This allows them to make data-driven decisions and continuously improve their processes and outcomes.
+
+- Goal:
+  - Once the team has established a baseline, they set a specific goal that they want to achieve based on the metric they have chosen to improve. For example, if the baseline is the time required to deploy a new release of the product, the goal could be to reduce the deployment time from 10 hours to 2 hours. Similarly, if the baseline is the percentage of defects detected in testing, the goal could be to increase the percentage from 25% to 50%. By setting a clear goal, the team has a target to aim for and can focus their efforts on achieving it. The goal should be measurable and achievable within a reasonable timeframe, and progress towards it should be tracked and reviewed regularly.
+
+### <ins>Top 4 actionable metrics</ins>
+- The top 4 actionable metrics that is usually used are:
+  1. Mean Lead Time: how long does it take from an idea go to production?
+  2. Release Frequency: how often can the changes be delivered?
+  3. Change Failure Rate: how often do changes fall?
+  4. Mean Time to Recovery (MTTR): how quickly can you recover from failure?
+
+### <ins>Example metrics</ins>
+- Some example metrics are:
+  - Reduce time-to-market for new features
+  - Increase overall availability of the product
+  - Reducing the time it takes to deploy a software release
+  - Increase the percentage of defects detected in testing before production release.
+  - Provide performance and user feedback tp the team in a more timely manner.
