@@ -948,3 +948,23 @@ flowchart TB
   - Reducing the time it takes to deploy a software release
   - Increase the percentage of defects detected in testing before production release.
   - Provide performance and user feedback tp the team in a more timely manner.
+
+## **Getting ready for the next sprint**
+
+### <ins>End of sprint activities</ins>
+- To ensure that the team is effectively managing their progress and workloads, it's important to have a clear process for wrapping up sprint activities. At the end of each sprint, the team should aim to complete the following tasks:
+  - Move every story in the "done" column to the "closed" column: This ensures that all completed work is accounted for and documented.
+
+  - Close the current milestone and create a new one for the next sprint: This provides a clear demarcation between completed and ongoing work, and helps the team to stay organized and focused.
+
+  - Adjust any unfinished work in the sprint backlog: This involves reviewing any stories that were not completed during the sprint and determining how to handle them going forward. This might involve carrying them over to the next sprint or reprioritizing them within the backlog.
+
+### <ins>Handling untouched stories</ins>
+- It's important to ensure that all stories that were not worked on during the sprint are properly handled. These stories should be evaluated to determine their current priority and whether they are still relevant to the product backlog. If they are still important, they can be moved to the top of the backlog to be considered in future sprints.It's crucial to resist the urge to automatically carry over unfinished stories to the next sprint without proper evaluation. Additionally, the team should remember to unassign these stories from the sprint milestone to avoid any confusion in the future.
+
+- To ensure the team's velocity remains accurate, unfinished stories should not be carried over to the next sprint. Instead, the team should evaluate the size of the story based on the work completed so far. For instance, if a story was initially estimated to be eight points but only half of it was completed, the size should be adjusted to four points. A new story can then be created for the remaining work and added to the product backlog. It's important to note that developers should receive credit for the work they have completed so far. By following this approach, the team can accurately measure their velocity and make data-driven decisions to improve their performance.
+
+- If a story has not been fully completed by the end of the sprint, it should be labeled as unfinished and moved to the done column. The description and story points should be adjusted to reflect the amount of work completed. A new story should then be written for the remaining work and assigned the appropriate story points. This new story should be added to the product backlog and prioritized accordingly for the next sprint.
+
+### <ins>Ready for the next sprint</ins>
+- At the end of the current sprint, all stories that have been completed should be closed, and any unfinished stories should be evaluated and adjusted accordingly. A new sprint milestone should be created either at the end of the current sprint or at the beginning of the next sprint, and all unfinished stories should be reassigned to the new milestone based on their priority. This ensures that the team starts each sprint with a clear and updated backlog, and can continue to work towards their goals with an organized plan.
