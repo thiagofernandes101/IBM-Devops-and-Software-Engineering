@@ -431,7 +431,7 @@ flowchart TB
 
 |                          **Product manager**                         	|                                        **Product owner**                                       	|
 |:--------------------------------------------------------------------:	|:----------------------------------------------------------------------------------------------:	|
-| Business person who manages the budget                               	| Visionary who leads the team in a series of experiments designed to archive the sprint goal     	|
+| Business person who manages the budget                               	| Visionary who leads the team in a series of experiments designed to achieve the sprint goal     	|
 | Manager who is mostly focused on operational aspects of the business 	| Conduit between the stakeholders and the team, translating between business and technical goals 	|
 
 ### <ins>Project manager vs scrum master:</ins>
@@ -968,3 +968,40 @@ flowchart TB
 
 ### <ins>Ready for the next sprint</ins>
 - At the end of the current sprint, all stories that have been completed should be closed, and any unfinished stories should be evaluated and adjusted accordingly. A new sprint milestone should be created either at the end of the current sprint or at the beginning of the next sprint, and all unfinished stories should be reassigned to the new milestone based on their priority. This ensures that the team starts each sprint with a clear and updated backlog, and can continue to work towards their goals with an organized plan.
+
+## **Agile anti-patterns and health check**
+
+### <ins>Agile anti-patterns</ins>
+- No real product owner: ambiguous or multiple product owners hindering clear vision and alignment. In one scenario, the lack of a designated product owner creates uncertainty regarding their role. Multiple individuals may assume leadership, but without a clear vision, the team lacks guidance to conduct purposeful experiments and achieve the sprint goal. Another scenario involves multiple product owners who may have conflicting opinions on what should be built, leading to a lack of consensus and potential misalignment within the team.
+
+- Teams are too large: overly large teams leading to communication challenges and decreased dedication. When a team becomes too large, effective communication becomes difficult to manage. Ideally, teams should be kept small, typically consisting of fewer than 10 people. A recommended approach is to aim for a team size of five plus or minus two, or alternatively, a team size of seven plus or minus two.
+
+- Teams are not dedicated:  lack of team dedication due to multitasking across multiple projects. In this scenario, the team is frequently pulled off from their primary project to work on other projects, leading to a lack of focus and commitment. Ideally, a team should be dedicated to a single project, enabling them to prioritize tasks, maintain focus, and deliver value efficiently. Multitasking across multiple projects can result in decreased productivity and hinder the team's ability to meet project goals.
+
+- Teams are too geographically distributed: Excessive geographical distribution of teams causing collaboration challenges. When teams are spread across different time zones, it can present significant communication and collaboration difficulties. Ideally, whenever possible, it is beneficial to have at least two developers working within the same time zone. This arrangement allows for more synchronous collaboration and minimizes delays in communication. Ideally, the entire team should be located within the same geographic time zone to facilitate seamless coordination, effective communication, and enhanced teamwork.
+
+- Teams are siloed: in this scenario, teams are divided into separate silos, resulting in a lack of collaboration and dependency on other teams to accomplish tasks. Ideally, teams should function as one cohesive and cross-functional unit. They should possess all the necessary skills and resources within the team to independently develop and deliver a product. The goal is to eliminate the need to open tickets or rely heavily on external teams to complete work. By fostering cross-functionality and empowering teams to be self-sufficient, the development process becomes more streamlined, efficient, and responsive to customer needs.
+
+- Teams are not self-managing:  in this scenario, teams are not provided with clear tasks or stories to work on, resulting in a lack of direction and initiative. Ideally, teams should be self-managing, empowered to make decisions and take ownership of their work. They should have access to a prioritized backlog of user stories and be able to autonomously select the highest priority story to work on. By being self-managing, teams can proactively drive their progress, make decisions, and effectively deliver value without constant external direction.
+
+### <ins>Scrum health check</ins>
+- Some health check items to make sure the team is health.
+  - The accountabilities of the Product Owner, Development Team(s), and the Scrum Master are clearly defined, understood, and actively fulfilled.
+
+  - Work is consistently organized into consecutive sprints of 2-4 weeks or shorter durations, ensuring a regular cadence and focus on delivering increments of value.
+
+  - A well-ordered product backlog is maintained, reflecting the prioritization of user stories based on stakeholder needs and business value.
+
+  - A sprint backlog is created, providing a clear visualization of the remaining work for the current sprint, enabling transparency and progress tracking.
+
+  - During sprint planning, a forecast is made, a sprint backlog is defined, and a sprint goal is established, providing the team with a shared understanding of the work to be accomplished.
+
+  - The Daily Scrum results in adjustments and re-planning of work for the following day, fostering adaptability and maintaining focus on achieving the sprint goal.
+
+  - By the end of each sprint, a "done" increment is produced, meeting the agreed-upon definition of "done" and potentially releasable to stakeholders.
+
+  - Stakeholders actively participate in the sprint review, offering valuable feedback and insights as a result of inspecting the delivered increment.
+
+  - The product backlog is updated based on feedback and outcomes from the sprint review, ensuring it accurately reflects the evolving needs and priorities of the stakeholders.
+
+  - The Product Owner, Development Team(s), and Scrum Master collaborate and align on process improvements and adjustments during the sprint retrospective, promoting continuous learning and enhancing future sprints.
