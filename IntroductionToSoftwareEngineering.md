@@ -309,3 +309,166 @@
 - By providing comprehensive and well-structured documentation, software developers enable both technical and non-technical users to understand and utilize the software effectively. Documentation serves as a valuable resource for onboarding new users, troubleshooting issues, and maximizing the software's capabilities.
 
 ## **Requirements**
+
+### <ins>Steps to gathering requirements</ins>
+- Requirement gathering is a crucial phase in software development, involving the process of defining a problem and documenting the necessary steps to solve it. This process typically consists of the following six steps:
+
+    - Identifying Stakeholders: The first step is to identify all the relevant stakeholders who will be affected by or have an interest in the software solution. Stakeholders can include end-users, clients, customers, managers, subject matter experts, and other individuals or groups with a vested interest in the project.
+
+    - Establishing Goals and Objectives: Once the stakeholders are identified, the next step is to establish the goals and objectives of the software project. This involves clearly defining what the software should achieve, the problems it should solve, and the expected outcomes.
+
+    - Eliciting Requirements from Stakeholders: In this step, the requirements are gathered from the stakeholders through various techniques such as interviews, workshops, surveys, and observations. The goal is to understand the stakeholders' needs, expectations, and desired functionalities of the software system.
+
+    - Documenting the Requirements: Once the requirements are elicited, they need to be documented in a structured and organized manner. This involves creating a requirements document or specification that captures the functional and non-functional requirements of the software. The document serves as a reference for all stakeholders involved in the development process.
+
+    - Analyzing and Confirming the Requirements: After documenting the requirements, they need to be analyzed to ensure they are complete, consistent, and feasible. This step involves reviewing the requirements, resolving any conflicts or ambiguities, and validating them with the stakeholders to ensure accuracy and understanding.
+
+    - Prioritizing the Requirements: In this final step, the requirements are prioritized based on their importance and criticality. This helps in managing resources effectively and ensures that the most essential features and functionalities are addressed first. Prioritization can be based on factors such as business value, stakeholder needs, technical feasibility, and project constraints.
+
+- By following these steps, software development teams can gather comprehensive and well-defined requirements that serve as a foundation for designing and developing the software solution. Effective requirement gathering sets the stage for successful project execution and ensures alignment with stakeholder expectations.
+
+### <ins>Identifying the stakeholders</ins>
+- Identifying stakeholders is a crucial step in the requirement gathering process as it ensures that all relevant individuals or groups are involved in shaping the software product. The stakeholders typically represent various roles and departments within the organization that requests the development of the software. Here are some key stakeholders commonly involved:
+
+    - Decision-makers: These individuals hold decision-making authority and have the power to approve the software project, allocate resources, and set project objectives. They provide strategic direction and have a vested interest in the successful outcome of the software.
+
+    - End-users: End-users are the individuals who will directly interact with the software once it is developed and deployed. Understanding their needs, preferences, and workflows is crucial to designing a user-friendly and effective solution.
+
+    - System Administrators: System administrators are responsible for managing the software infrastructure, including installation, configuration, security, and maintenance. Involving system administrators ensures that their technical requirements and constraints are considered during the development process.
+
+    - Engineering: Engineers play a vital role in software development. They possess technical expertise and contribute to the design, development, and implementation of the software. Involving engineering stakeholders helps ensure that the software meets technical standards and aligns with the organization's technological capabilities.
+
+    - Marketing: Marketing stakeholders can provide valuable insights into the target market, customer expectations, and competitive landscape. They may have requirements related to branding, positioning, or integration with marketing tools and platforms.
+
+    - Sales: Sales stakeholders can contribute their knowledge of customer needs, pain points, and sales processes. They may have requirements related to CRM integration, lead management, or reporting features to support the sales team's activities.
+
+    - Customer Support: Customer support stakeholders can provide insights into common customer issues, feature requests, and user feedback. Their involvement helps ensure that the software addresses customer needs and provides effective support mechanisms.
+
+- In addition to these roles, stakeholders can vary depending on the specific organization and the nature of the software product. It is important to identify and involve representatives from all relevant departments and groups that will be impacted by or have an interest in the software. This ensures that the requirements gathered are comprehensive, well-rounded, and reflect the diverse needs of the organization and its stakeholders.
+
+### <ins>Establishing goals and objectives</ins>
+- When gathering requirements for a software project, it is essential to establish clear goals and objectives that align with the organization's overall vision and strategy. Here's how goals and objectives can be defined:
+
+    - Goals: Goals are broad, long-term outcomes that the software product aims to achieve. They provide a clear direction for the development process and help ensure that the software aligns with the organization's overarching vision. Some examples of goals in software development include:
+        - Improving customer satisfaction and user experience
+        - Increasing operational efficiency and productivity
+        - Enhancing data security and privacy
+        - Expanding market reach and customer base
+        - Streamlining business processes and workflows
+
+    - Objectives: Objectives are specific, measurable, and actionable steps that contribute to achieving the established goals. They provide clarity and focus, guiding the development team in defining the functionalities and features of the software. Objectives should be SMART (Specific, Measurable, Achievable, Relevant, Time-bound). Examples of objectives related to the goals mentioned above could be:
+
+        - Goal: Improving customer satisfaction and user experience
+            - Objective: Reduce average response time of customer support inquiries by 20% within six months.
+            - Objective: Increase user engagement by implementing intuitive and user-friendly interface design principles.
+
+        - Goal: Increasing operational efficiency and productivity
+            - Objective: Automate manual data entry processes, reducing data entry errors by 50% within three months.
+            - Objective: Implement workflow automation to reduce processing time for routine tasks by 30%.
+
+        - Goal: Enhancing data security and privacy
+
+            - Objective: Implement multi-factor authentication for user logins to enhance account security by the end of the quarter.
+            - Objective: Conduct a comprehensive security audit and address all identified vulnerabilities within six months.
+
+- By establishing clear goals and defining specific objectives, the software development team can focus their efforts and ensure that the software solution addresses the desired outcomes. Goals and objectives provide a framework for decision-making, prioritization, and evaluation throughout the development process, helping to drive the project towards successful completion.
+
+### <ins>Eliciting, documenting, confirming</ins>
+- The process of gathering requirements involves eliciting, documenting, and confirming the requirements to ensure that they align with the project's goals and objectives. These steps are typically performed iteratively throughout the requirement gathering process. Here's a breakdown of each step:
+
+    - Eliciting Requirements: Eliciting requirements involves gathering information from stakeholders to identify their needs, preferences, and expectations. This can be achieved through various techniques, such as surveys, questionnaires, interviews, and workshops. The goal is to extract relevant information and capture the requirements in a comprehensive manner.
+
+    -  Documenting Requirements: Once the requirements are elicited, it is important to document them in a clear and understandable manner. The requirements documentation should provide a detailed description of the functionality, features, and constraints of the software. It should be organized, structured, and accessible to stakeholders and the project team. Various documentation formats can be used, such as textual requirements, use cases, user stories, diagrams, and prototypes, depending on the project's needs.
+
+    - Confirming Requirements: Confirming the requirements involves analyzing and evaluating them to ensure consistency, clarity, and completeness. This step helps identify any gaps, conflicts, or ambiguities in the requirements. Requirements should be reviewed and validated by stakeholders and subject matter experts to verify their accuracy and relevance. This confirmation process helps minimize misunderstandings and ensures that the documented requirements accurately represent the stakeholders' needs and expectations.
+
+    - Sharing with Approved Stakeholders: Once the requirements have been confirmed, they should be shared with the approved stakeholders for their review and approval. This step ensures that all relevant parties have visibility into the requirements and can provide feedback or make necessary revisions. Effective communication and collaboration with stakeholders are key to ensuring that the requirements are well-understood and aligned with the project's goals.
+
+- It is important to note that the requirement gathering process is iterative, meaning that these steps may be repeated multiple times throughout the project lifecycle. As the project progresses and stakeholders gain a deeper understanding of the requirements, new insights may emerge, requiring adjustments to the elicited, documented, and confirmed requirements.
+
+### <ins>Prioritizing</ins>
+- Once the requirements have been confirmed, it is important to prioritize them to ensure that the most critical and valuable features are addressed first. Prioritization helps in resource allocation, decision-making, and determining the order in which the requirements should be implemented. Here are some key steps in prioritizing requirements:
+
+    - Categorize the Requirements: Start by categorizing the requirements into different groups based on their importance and urgency. Common labels used for categorization include "must-have," "high-priority," "medium-priority," and "nice-to-have." These labels provide a clear understanding of the relative importance of each requirement.
+
+    - Consider Business Value: Assess the business value of each requirement by considering its impact on achieving the project's goals and objectives. Identify requirements that directly contribute to the project's success, such as those that address critical user needs, improve efficiency, or provide a competitive advantage.
+
+    - Evaluate Dependencies: Consider dependencies between requirements and determine whether certain requirements need to be addressed before others. Some requirements may rely on the completion of specific prerequisites or the availability of certain resources. Prioritizing requirements with dependencies in mind helps ensure a logical and efficient development process.
+
+    -  Engage Stakeholders: Involve stakeholders in the prioritization process to gather their input and perspectives. This can be done through meetings, workshops, or surveys. Seek feedback from stakeholders to understand their priorities, expectations, and any potential trade-offs that need to be considered.
+
+    - Apply Agile Principles: If following an Agile development approach, consider using techniques such as MoSCoW (Must-have, Should-have, Could-have, Won't-have) or relative prioritization methods like the Weighted Shortest Job First (WSJF) technique. These methods assign a priority value or weight to each requirement, enabling a more precise prioritization process.
+
+    -  Regularly Review and Adjust: Prioritization is not a one-time activity. It should be an ongoing process throughout the project lifecycle. As the project progresses and new information becomes available, regularly review and adjust the prioritization of requirements to ensure alignment with changing project needs and stakeholder expectations.
+
+### <ins>Requirements documentation</ins>
+- During the requirements gathering process, it is common to create multiple documents to capture and communicate the gathered requirements. These documents help provide a clear understanding of the software requirements and serve as a reference for the development team. While the specific document names and formats may vary, three commonly used types of requirements documents are:
+
+    1. Software Requirements Specification (SRS): The SRS is a comprehensive document that describes the functional and non-functional requirements of the software. It provides an overview of the software system, its features, and the interactions with users and external systems. The SRS serves as a contract between the development team and stakeholders, ensuring a shared understanding of what the software should accomplish.
+
+    2. User Requirements Specification (URS): The URS focuses on capturing the needs and expectations of the end-users. It describes the software requirements from the perspective of the users, highlighting their goals, tasks, and desired functionalities. The URS helps ensure that the software addresses the user's requirements and provides a satisfying user experience.
+
+    3. System Requirements Specification (SysRS): The SysRS, also known as the System Specification or Technical Requirements Document, provides detailed technical specifications and requirements for the software system. It includes information about the system architecture, hardware and software components, performance requirements, security considerations, and integration requirements. The SysRS is primarily targeted at the development team and technical stakeholders involved in the implementation of the software.
+
+- While the System Requirements Specification (SysRS) is commonly used and focuses on technical aspects, it's important to note that the specific naming and categorization of these documents can vary between organizations and projects. Some projects may combine elements from the SRS and URS into a single document or use different terminology.
+
+- The purpose of these documents is to document and communicate the requirements effectively, ensuring that all stakeholders have a shared understanding of what needs to be developed. They provide a basis for design, development, and testing activities throughout the software development lifecycle. Regular updates and revisions to these documents may be necessary as requirements evolve or change over time.
+
+### <ins>Software Requirements Specification</ins>
+- The Software Requirements Specification (SRS) is a crucial document that defines the functionalities and performance expectations of the software being developed. It serves as a reference for all stakeholders involved in the project, including the development team, clients, and other relevant parties. The SRS outlines various aspects of the software, ensuring a common understanding of its purpose and requirements. Here are the key components typically included in an SRS:
+
+    - Purpose Statement: This section describes the intended use of the SRS document, including its audience and how it should be utilized throughout the software development process.
+
+    - Scope: The scope outlines the boundaries of the software, specifying its objectives, functionalities, and any constraints that may impact the design or implementation.
+
+    - Assumptions: Assumptions document any underlying assumptions made during the requirements gathering process. This may include assumptions about the user's hardware, operating system, or other software components required for the software to function as intended.
+
+    - Constraints: Constraints define the limitations or conditions under which the software must operate. These can include factors such as compatibility requirements, adherence to industry standards, hardware or software dependencies, or any specific environmental considerations.
+
+    - Dependencies: If the software relies on other software components, systems, or external interfaces, these dependencies are documented in this section. It ensures that the development team is aware of any external dependencies that need to be considered during implementation.
+
+    - Dependencies: defines if there are dependencies on other software products.
+
+    - Requirements: The requirements section forms the core of the SRS and can be categorized into different types:
+
+        - Functional Requirements: These define the specific functionalities and operations that the software should perform. They describe how the software should behave and the tasks it should be able to accomplish.
+
+        - External Interface Requirements: These requirements cover the interactions between the software and external entities, such as users, other hardware systems, or third-party software. They detail the input and output formats, communication protocols, and any data exchange requirements.
+
+        - System Features: System features are a subset of functional requirements and highlight the essential features or capabilities that the software must possess for it to function effectively.
+
+        - Non-functional Requirements: Non-functional requirements encompass qualities of the software that are not directly related to its functionality. They include aspects such as performance, reliability, security, usability, scalability, and other quality standards that the software should meet.
+
+- The Software Requirements Specification serves as a contract between the stakeholders and the development team, ensuring a shared understanding of the software's requirements and objectives. It provides a foundation for subsequent phases of the software development lifecycle, including design, coding, and testing. Regular updates and revisions may be required as the project progresses and new requirements emerge or existing ones change.
+
+### <ins>User Requirements Specification (URS)</ins>
+- The User Requirements Specification (URS) is a document that focuses on capturing the business needs and expectations of the end-users from the software system. It aims to define the functional requirements from the perspective of the users and describes the desired behavior and functionalities of the software. While the URS is sometimes created as a separate document, it is common for user requirements to be included within the Software Requirements Specification (SRS) document.
+
+- Key points about the User Requirements Specification are as follows:
+
+    - Business Needs and Expectations: The URS identifies the specific business needs that the software should address and the expectations of the end-users. It provides a clear understanding of why the software is being developed and the value it is expected to deliver.
+
+    - User Stories or Use Cases: User requirements are often written in the form of user stories or use cases. These narratives or scenarios describe the interactions between the users and the software system, answering questions such as who the user is, what function they need to perform, and why they require that particular functionality. User stories or use cases help capture the user's perspective and define the desired behavior of the software.
+
+    - User Acceptance Testing: User acceptance testing is a critical step in determining whether the software meets the user requirements. It involves testing the software with real end-users to ensure that it satisfies their needs, performs the expected functions, and meets their acceptance criteria. User acceptance testing validates that the software aligns with the user's expectations and is suitable for its intended purpose.
+
+    - Integration with Software Requirements: In some cases, the user requirements and the software requirements are combined into a single Software Requirements Specification (SRS) document. This integrated approach ensures that both the business needs and the technical aspects of the software are captured and addressed in a comprehensive manner. The SRS provides a consolidated view of the expectations from both the users and the development team.
+
+-  The URS helps establish a common understanding between the users, stakeholders, and the development team. It serves as a guide for the software development process, ensuring that the final product meets the needs and expectations of the end-users.
+
+### <ins>System Requirements Specification (SysRS)</ins>
+- The System Requirements Specification (SysRS) is a document that outlines the broader set of requirements for a software system. It provides a detailed description of the system's capabilities, interfaces, user characteristics, and other key aspects that are essential for its successful implementation and operation. While the Software Requirements Specification (SRS) focuses primarily on the functional requirements of the software, the SysRS encompasses a wider range of requirements, including hardware, performance, security, regulations, and policies.
+
+- Key points about the System Requirements Specification are as follows:
+
+    - System Capabilities: The SysRS defines the capabilities and functionalities of the entire system, including both the software and hardware components. It describes the expected behavior and features of the system as a whole, addressing the interactions between various subsystems and components.
+
+    - Interfaces: The SysRS specifies the interfaces that the software system must have with external entities, such as users, other systems, databases, and hardware devices. It outlines the protocols, formats, and communication mechanisms required for seamless integration with these external interfaces.
+
+    - User Characteristics: The SysRS identifies the characteristics and expectations of the system's users. It takes into account factors such as user roles, skill levels, accessibility requirements, and preferences to ensure that the system is designed and developed to meet their specific needs.
+
+    - Non-functional Requirements: The SysRS includes non-functional requirements that define the quality attributes and constraints of the system. This can encompass performance requirements, security requirements, scalability, reliability, maintainability, and usability aspects. It also addresses any regulatory or policy requirements that the system must comply with.
+
+    - Hardware Requirements: Unlike the SRS, the SysRS includes hardware requirements in addition to software requirements. It outlines the specifications and configurations of the hardware components needed to support the software system effectively. This may include details such as processing power, memory, storage, network connectivity, and other hardware dependencies.
+
+- While the SRS focuses on the specific functionalities of the software, the SysRS provides a broader perspective, considering the system as a whole. Depending on the nature of the project, some software projects may develop an SRS instead of a separate SysRS. However, in cases where hardware components, performance, security, and other system-level factors are crucial, a dedicated SysRS helps ensure a comprehensive understanding of the system requirements.
