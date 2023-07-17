@@ -472,3 +472,116 @@
     - Hardware Requirements: Unlike the SRS, the SysRS includes hardware requirements in addition to software requirements. It outlines the specifications and configurations of the hardware components needed to support the software system effectively. This may include details such as processing power, memory, storage, network connectivity, and other hardware dependencies.
 
 - While the SRS focuses on the specific functionalities of the software, the SysRS provides a broader perspective, considering the system as a whole. Depending on the nature of the project, some software projects may develop an SRS instead of a separate SysRS. However, in cases where hardware components, performance, security, and other system-level factors are crucial, a dedicated SysRS helps ensure a comprehensive understanding of the system requirements.
+
+# **Software building process and associated roles**
+
+## **Software development methodologies**
+
+### <ins>Common development methodologies</ins>
+- A process is needed to clarify communication and facilitate information sharing among team members and a few of them are:
+
+    - Waterfall: A linear, sequential approach to software development. It follows a structured progression of phases, where each phase is completed before moving on to the next one. The phases typically include requirements gathering, design, implementation, testing, deployment, and maintenance. This methodology emphasizes thorough planning and documentation, with little room for changes once a phase is completed.
+
+    - V-shape model: An extension of the Waterfall methodology that emphasizes the testing phase. It follows a similar sequential structure, but with testing activities mirrored at each phase. The V-Shape model places significant emphasis on verification and validation, aiming to catch defects and issues early in the development process. It emphasizes a strong focus on testing and quality assurance.
+
+    - Agile: An iterative and incremental approach to software development. It promotes flexibility, collaboration, and adaptive planning. Agile methodologies, such as Scrum or Kanban, involve breaking the development process into small increments called sprints or iterations. Each iteration typically includes requirements gathering, design, development, testing, and review. Agile methodologies prioritize frequent communication, customer collaboration, and the ability to adapt to changing requirements throughout the development process.
+
+### <ins>Waterfall methodology</ins>
+- The Waterfall method is a sequential software development approach that follows a linear progression from one phase to another. Here are some key characteristics of the Waterfall method:
+
+    - Sequential Phases: The development process is divided into distinct phases, such as requirements gathering, design, implementation, testing, deployment, and maintenance. Each phase is completed before moving on to the next.
+
+    - Rigid and Linear: The Waterfall method follows a rigid and linear flow, where one phase must be completed entirely before the next phase begins. There is little to no overlap or iteration between phases.
+
+    - Early Planning: The emphasis is placed on extensive upfront planning, where all requirements are defined and documented at the beginning of the project. Changes to requirements are not easily accommodated once a phase is completed.
+
+    - Minimal Customer Involvement: The customer's involvement is typically limited to the initial requirements gathering phase and the final acceptance testing phase. The customer may not see the product until it is fully developed, leading to potential risks if the customer's expectations are not met.
+
+    - Long Development Cycles: Due to its sequential nature and emphasis on completing one phase before starting the next, the Waterfall method often results in long development cycles. This can lead to delays in delivering a working product to the customer.
+
+    - Limited Flexibility: The Waterfall method offers limited flexibility to accommodate changes or adjustments during the development process. Changes in requirements or design typically require revisiting previous phases, which can be time-consuming and costly.
+
+### <ins>V-shape methodology</ins>
+- The V-Shape methodology is a variation of the Waterfall method that emphasizes the relationship between verification and validation activities. Here are the key characteristics of the V-Shape methodology:
+
+    - Sequential Phases: Similar to the Waterfall method, the V-Shape methodology follows a sequential approach with distinct phases. The phases on the left side of the "V" focus on verification activities, while the phases on the right side focus on validation activities.
+
+    - Corresponding Verification and Validation: Each phase of verification (going down the left side of the "V") corresponds to a phase of validation (going up the right side of the "V"). For example, the planning phase on the left side is followed by the unit testing phase on the right side.
+
+    - Planning and Design Phases: The initial phases of the V-Shape methodology involve planning, system design, architecture design, and module design. These phases focus on defining the requirements and creating the design specifications.
+
+    - Testing Phases: The testing phases are integral to the V-Shape methodology. Testing activities, such as unit testing, integration testing, system testing, and acceptance testing, are defined during the verification phases and executed during the corresponding validation phases.
+
+    - Coding Phase: The coding phase is located at the bottom of the "V" and is typically preceded by the design phases. Once the design is completed, the coding phase begins, where the software is implemented based on the design specifications.
+
+    - Emphasis on Testing and Validation: The V-Shape methodology places significant emphasis on testing and validation activities. Testing is performed at each level of the software development process to ensure that the software meets the specified requirements and functions as intended.
+
+        ![V-Shape model](Assets/vshape%20model.png)
+
+- The V-Shape methodology aims to address some of the limitations of the traditional Waterfall method by integrating testing and validation activities into the development process. By emphasizing verification and validation in a sequential manner, it helps ensure that the software is thoroughly tested and validated before final release. However, like the Waterfall method, it still follows a relatively rigid and sequential approach, which may make it less adaptable to changes during the development process.
+
+### <ins>Agile methodology</ins>
+- The Agile methodology is an iterative and collaborative approach to software development that emphasizes flexibility, adaptability, and continuous feedback. Here are the key characteristics of the Agile methodology:
+
+    - Iterative Development: Agile follows an iterative development approach, where the development process is divided into short cycles called sprints. Each sprint typically lasts two to four weeks and involves the completion of a set of prioritized tasks or user stories.
+
+    - Collaborative Approach: Agile emphasizes collaboration and frequent communication among team members, stakeholders, and customers. Cross-functional teams work closely together throughout the development process, promoting effective collaboration and knowledge sharing.
+
+    - Continuous Feedback: Feedback is a crucial aspect of Agile. At the end of each sprint, there is a sprint review or demo where stakeholders and customers can provide feedback on the working software. This feedback is used to make adjustments, refine requirements, and plan the next sprint.
+
+    - Customer Involvement: Agile encourages active customer involvement throughout the development process. Customers or product owners collaborate with the development team to prioritize requirements, provide clarifications, and validate the software at regular intervals.
+
+    - Adaptive Planning: Agile embraces change and recognizes that requirements can evolve over time. The development team is flexible and can respond to changing customer needs or market conditions. Planning is done incrementally, with detailed plans created for the upcoming sprint while leaving room for adjustments in subsequent sprints.
+
+    - Agile Manifesto: The Agile methodology is guided by the principles outlined in the Agile Manifesto, which emphasizes values such as individuals and interactions, working software, customer collaboration, and responding to change. These values prioritize people and effective communication over rigid processes and documentation.
+
+    - Emphasis on Working Software: Agile places a strong emphasis on delivering working software in each sprint. Rather than focusing on extensive documentation, Agile values functional and tested software that meets the customer's needs.
+
+- The Agile methodology provides a more flexible and adaptive approach compared to traditional sequential models like the Waterfall or V-Shape. By working in iterative cycles, Agile enables teams to respond to feedback, accommodate changes, and deliver value to customers more frequently. It promotes collaboration, transparency, and continuous improvement throughout the software development lifecycle.
+
+- It still aligns with the SDLC, but each phase is short since teams work in cycles/sprints which are usually two to four weeks long. Unit testing happens in each sprint to minimize the risk of failure and, rather than the "maintenance" stage of the SDLC, the final stage of the sprint is a feedback stage.
+
+### <ins>Sequential vs iterative</ins>
+- One fundamental distinction between traditional SDLC methods like waterfall and the V-shape model, and Agile methodology lies in their approach. Traditional methods such as waterfall and V-shape follow a sequential process, whereas Agile methodology takes an iterative approach.
+
+- Traditional SDLC methods, such as waterfall and V-shape, follow a sequential process where the entire product is developed before seeking customer feedback. In contrast, Agile methodology emphasizes rapid, incremental development cycles.
+
+- Each approach has its advantages and disadvantages, but Agile has gained widespread popularity as the preferred method in modern software development.
+
+### <ins>Waterfall pros and cons</ins>
+- Pros:
+    - Clear and well-defined stages: The waterfall methodology is easy to understand and follow as each stage is discrete and well-defined. This clarity allows team members to understand their roles and responsibilities clearly throughout the development process.
+
+    - Budget and resource allocation: Since planning is done upfront in the waterfall approach, it is generally easier to estimate the budget and allocate resources. This can be beneficial for organizations that require detailed planning and budgeting before initiating a project.
+
+- Cons:
+    - Lack of flexibility: One of the main drawbacks of the waterfall methodology is its lack of flexibility. Once the planning stage is completed, it can be challenging to incorporate changes or new requirements at a later stage. This inflexibility can lead to complications if unforeseen issues arise or if the agreed-upon functionality shifts from the initial vision.
+
+    - Difficulty in accommodating change: Due to the sequential nature of the waterfall approach, accommodating changes can be time-consuming and costly. Any changes or modifications typically require going back to previous stages, which can disrupt the entire project timeline.
+
+> Overall, while the waterfall methodology has its strengths in terms of clear stages and upfront planning, its rigidity and limited adaptability to change can pose challenges in dynamic and evolving projects.
+
+### <ins>V-shape model pros and cons</ins>
+- Pros:
+    - Simplicity and ease of use: The V-shape model shares the simplicity and ease of use of the waterfall methodology. Its sequential nature allows for a clear understanding of project stages and facilitates effective team coordination.
+
+    - Efficient test planning: One advantage of the V-shape model is that test planning is done during the verification phase. This approach saves significant time during coding and validation phases since the test plans are designed in parallel. It promotes early detection of defects and reduces the likelihood of issues surfacing later in the development process.
+
+- Cons:
+    - Limited flexibility with changing requirements: Similar to the waterfall methodology, the V-shape model faces challenges in accommodating changing requirements. Once the application enters the testing phase, it becomes difficult to introduce changes or modify functionality. This rigidity can be a disadvantage in projects that require frequent adjustments or have evolving requirements.
+
+    - Difficulty in adapting to unforeseen issues: The sequential nature of the V-shape model can make it challenging to address unforeseen issues effectively. If unexpected problems arise during the development process, going back to previous stages for modifications or refinements can disrupt the overall timeline and project progress.
+
+### <ins>Agile pros and cons</ins>
+- Pros:
+    - Iterative and adaptive approach: Agile development incorporates ongoing research, planning, and testing throughout the product development cycle. It allows for the addition of new features while still following the key phases of traditional SDLC. Agile methodology enables quick and easy handling of changing requirements since planning is initiated at the beginning of each sprint cycle.
+
+    - Focus on building: In Agile, a significant portion of resources is allocated to the building phase. This ensures that development efforts are primarily concentrated on creating and refining the product, maximizing productivity and delivering value to customers.
+
+    - Continuous feedback and testing: At the end of each iteration or sprint, Agile encourages collaboration among the QA team, stakeholders, and the customer. They have the opportunity to test the working code against requirements and provide feedback. This iterative feedback loop enables continuous improvement and ensures that the product aligns with stakeholder expectations.
+
+    - Modular coding and MVP releases: Agile promotes the use of modular coding, which allows small chunks of functionality to be integrated into a larger product. This modular approach enables the creation of Minimum Viable Products (MVPs) that can be released to users early, providing tangible value and gathering valuable feedback
+- Cons:
+    - Challenges in upfront planning: One of the challenges of Agile methodology is that upfront planning, such as budgeting and scheduling, can be more complex. The overall scope of the product may not be clearly defined at the beginning, making it difficult to estimate project timelines and allocate resources accurately.
+
+> While Agile methodology offers advantages such as adaptability, continuous feedback, and modular development, the need for flexible planning and the potential ambiguity in scope should be considered when implementing Agile in projects.
