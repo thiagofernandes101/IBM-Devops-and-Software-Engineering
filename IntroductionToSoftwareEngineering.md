@@ -585,3 +585,54 @@
     - Challenges in upfront planning: One of the challenges of Agile methodology is that upfront planning, such as budgeting and scheduling, can be more complex. The overall scope of the product may not be clearly defined at the beginning, making it difficult to estimate project timelines and allocate resources accurately.
 
 > While Agile methodology offers advantages such as adaptability, continuous feedback, and modular development, the need for flexible planning and the potential ambiguity in scope should be considered when implementing Agile in projects.
+
+## **Software versions**
+
+### <ins>Software versions</ins>
+- Software versions provide valuable information about programs and applications, benefiting both users and developers.
+
+- For users, software versions help determine the specific version they are using, while developers can convey important details through version numbers.
+
+- Software version numbers can vary in length and meaning, but they generally follow a similar format and convey similar information.
+
+- Version numbers typically indicate:
+    - Release date: The software version reveals when it was initially released to the public.
+    - Updates: The version number may reflect subsequent updates or enhancements made to the software after the initial release.
+    - Patches or minor changes: Version numbers can indicate if any patches or minor modifications have been applied to address issues or introduce small improvements.
+
+- Software versioning is the system employed by developers to keep track of new software releases, updates, and patches for programs and applications.
+
+### <ins>Version numbers</ins>
+- Version numbers can be represented in various formats and lengths, depending on the software and developer's preference. They typically consist of two, three, or four number sets separated by periods.
+
+- The initial release of an application or program often starts with a version number of 1.0. This number indicates that there have been no previous updates, patches, or fixes for the software.
+
+- For programs with numerous releases and updates, version numbers can become longer, incorporating multiple number sets. These extended version numbers provide a more detailed indication of the software's evolution and history.
+
+- Some software developers may adopt a versioning system based on dates. For example, Ubuntu version 18.04.2 was released in April 2018. In this case, the third number set (point-2) represents an additional change or update within the overall release.
+
+> <strong>It's worth mentioning that software versions still in the beta or testing phase may have a version number lower than 1, such as 0.9. This indicates that the software is still undergoing development and refinement before reaching a stable release.</strong>
+
+### <ins>What do version numbers mean?</ins>
+- Version numbers can vary depending on the numbering system adopted by software developers. While not all numbering systems follow the same format, many use a semantic numbering approach with multiple parts separated by periods. Here is a general explanation of version number components in the semantic numbering system:
+
+    - First Number: The first number represents major changes in the software. It typically indicates a significant release or a major update that introduces substantial new features, functionality, or architectural changes. Incrementing this number signifies a substantial change that may have compatibility implications.
+
+    - Second Number: The second number in the version indicates minor changes. It usually represents smaller updates, improvements, or additions that are not as significant as a major release but still bring meaningful enhancements or modifications to the software. These changes often preserve backward compatibility.
+
+    - Third Number: The third number represents patches or minor bug fixes. It indicates updates or corrections made to address software issues, bugs, or vulnerabilities. These patches are typically aimed at improving the stability, performance, or security of the software without introducing significant new features.
+
+    - Fourth Number: The fourth number, if present, can indicate a build number or a build date. It represents less significant changes, such as additional builds or revisions within a specific version. This number is often optional and not present in all version numbers.
+
+### <ins>Version compatibility</ins>
+- Compatibility issues between different versions of software are a common challenge that users may encounter. It is important to be aware of the software version you are using, as it can help troubleshoot compatibility problems. Here are some key points to consider:
+
+    - Identifying outdated versions: Checking the software version can help determine if you are using an older or outdated version. Outdated versions may lack compatibility with newer software, systems, or file formats, potentially causing issues or errors.
+
+    - Updating to newer versions: Updating the software to a more recent version can often resolve compatibility problems. Software developers frequently release updates to improve compatibility, address bugs, and introduce new features. By upgrading to the latest version, you can ensure that your software is compatible with current technologies and systems.
+
+    - Backward compatibility: Some software is designed to be backward compatible, which means that newer versions of the software can work with files, programs, and systems from older versions. This allows for a smooth transition and ensures that older components remain functional even with the introduction of newer software versions.
+
+- However, it's important to note that backward compatibility is not guaranteed for all software. Some updates may introduce changes or features that are not compatible with previous versions. In such cases, it is recommended to refer to the software documentation or consult with the software developer for specific compatibility information.
+
+- Being mindful of version compatibility and keeping software up to date can help minimize compatibility issues and ensure smooth operation between different software components and systems.
