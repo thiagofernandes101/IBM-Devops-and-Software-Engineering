@@ -636,3 +636,98 @@
 - However, it's important to note that backward compatibility is not guaranteed for all software. Some updates may introduce changes or features that are not compatible with previous versions. In such cases, it is recommended to refer to the software documentation or consult with the software developer for specific compatibility information.
 
 - Being mindful of version compatibility and keeping software up to date can help minimize compatibility issues and ensure smooth operation between different software components and systems.
+
+## **Software testing**
+
+### <ins>What is software testing</ins>
+- Software testing is an essential practice that involves the integration of quality checks at various stages of the software development cycle.
+
+- The primary objective of testing is to evaluate the software against predetermined requirements and ensure the delivery of error-free software. This is achieved by meticulously designing and executing "test cases" that verify the software's functionality, performance, and reliability.
+
+### <ins>Test cases</ins>
+- Test cases play a crucial role in verifying the functionality of a software application and ensuring that all requirements are met. They can be written at different stages of the Software Development Life Cycle (SDLC) and may vary based on the chosen development approach, such as Agile or waterfall.
+
+- Typically, a test case comprises the following elements:
+    - Steps: Clear and concise instructions outlining the actions to be performed during the test.
+    - Inputs: The specific inputs or data that need to be provided to the software.
+    - Data: Any additional data or context required for the test case execution.
+    - Expected corresponding outputs: The anticipated outcomes or results that the software should produce.
+
+- It is important to note that regardless of the test type or development method, test cases should always be written after the requirements have been finalized. This ensures that the test cases align accurately with the intended functionality and serve as a reliable means of validating the software's performance.
+
+### <ins>Three types of testing</ins>
+- Software testing plays a vital role in assessing software products to determine if they meet the specified requirements and are free from errors.
+
+- Testing can be broadly classified into three categories:
+
+    - Functional testing: This type of testing focuses on validating the functional aspects of the software. It aims to ensure that the software performs its intended tasks correctly and meets the defined functional requirements. Functional testing involves testing individual functions, features, and their interactions to verify if they produce the expected outputs.
+
+    - Non-functional testing: Non-functional testing evaluates the non-functional aspects of the software, such as performance, reliability, scalability, usability, and security. It aims to assess the software's behavior under various conditions and to identify any performance bottlenecks or usability issues that may impact its overall quality.
+
+    - Regression testing: Regression testing is performed to verify that recent changes or enhancements in the software have not introduced new defects or caused any regression in existing functionality. It involves retesting previously tested components to ensure that they still function correctly after modifications have been made to the software.
+
+### <ins>Functional testing</ins>
+- Functional testing is a critical aspect of software testing that primarily focuses on verifying the functionality of an application. It typically involves black box testing, which means testing without examining the source code or internal structure of the system under test. Instead, the focus is on inputs and corresponding outputs, ensuring that the application behaves as expected.
+
+- Key points about functional testing:
+
+    - Functional testing is based on testing the function requirements of the application, ensuring that it operates correctly and meets the specified functional criteria.
+
+    - It can be performed manually or using automated testing tools.
+
+    - The primary goal of functional testing is to validate the usability and accessibility of the application.
+
+    - By conducting functional tests, software teams ensure that the application can handle user errors or input edge cases effectively, displaying appropriate error messages when necessary.
+
+- Functional testing plays a crucial role in ensuring that the application's functionality aligns with the intended requirements, providing a seamless and error-free user experience.
+
+### <ins>Non-functional testing</ins>
+- Non-functional testing focuses on evaluating the attributes and characteristics of an application beyond its functional aspects. It involves testing the application's behavior in terms of performance, security, scalability, availability, and other non-functional requirements. This type of testing aims to ensure that the software meets the desired quality standards and performs optimally under different conditions.
+
+- Key points about non-functional testing:
+
+    - Non-functional testing examines the non-functional behavior of the system under test, including its performance, security, scalability, and availability.
+
+    - It addresses questions such as:
+
+        - How does the application perform under stress or high load conditions?
+        
+        - What is the application's behavior when multiple users log in simultaneously?
+        
+        - Are the instructions in the documentation and user manuals consistent with the application's actual behavior?
+        
+        - Does the application behave consistently across different operating systems?
+        
+        - How does the application handle disaster recovery scenarios?
+        
+        - What are the security measures in place to protect the application from vulnerabilities?
+
+### <ins>Regression testing</ins>
+- Regression testing, also known as maintenance testing, is performed to ensure that recent changes made to the application, such as bug fixes or updates, do not negatively impact the existing functionality.
+
+- Key points about regression testing:
+
+    - Regression testing is necessary when there are changes in requirements or when defects have been fixed.
+    
+    - The purpose of regression testing is to verify that previously tested functionalities are still working as intended after modifications.
+    
+    - To conduct regression testing, a selection of test cases is chosen to be executed against the application. However, the process of test case selection and prioritization can be challenging and depends on various factors.
+    
+    - Common reasons for selecting regression test cases include:
+        - Test cases that have previously identified defects.
+        - Test cases that cover frequently used functionality.
+        - Test cases that cover features with recent changes or complex scenarios.
+        - Test cases that cover edge cases or have shown random success or failure in the past.
+
+### <ins>Testing levels</ins>
+- Software testing is typically divided into different levels, which are carried out at various stages of the Software Development Life Cycle (SDLC). These testing levels help ensure effective testing while minimizing overlap and optimizing time spent on testing activities.
+
+- The four commonly recognized testing levels are:
+
+    1. Unit testing: This level focuses on testing individual components or units of the software in isolation. It aims to verify that each unit functions correctly according to its design and meets the specified requirements. Unit testing is typically performed by developers using techniques like white box testing.
+
+    2. Integration testing: Integration testing involves testing the interaction between different units or modules of the software. It ensures that the integrated components work together seamlessly and perform as expected. Integration testing can be conducted in various ways, such as top-down, bottom-up, or sandwich testing approaches.
+
+    3. System testing: System testing evaluates the entire system as a whole. It involves testing the integrated software system against the specified requirements to ensure that it functions as intended. This level of testing focuses on validating system behavior, performance, security, and other system-level characteristics.
+
+    4. Acceptance testing: Acceptance testing is the final level of testing and is conducted to determine if the software meets the user's expectations and requirements. It involves testing the software in a realistic environment to validate its readiness for deployment. Acceptance testing is usually performed by end-users, business stakeholders, or a designated testing team.
