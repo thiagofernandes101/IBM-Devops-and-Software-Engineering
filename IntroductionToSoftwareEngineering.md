@@ -731,3 +731,34 @@
     3. System testing: System testing evaluates the entire system as a whole. It involves testing the integrated software system against the specified requirements to ensure that it functions as intended. This level of testing focuses on validating system behavior, performance, security, and other system-level characteristics.
 
     4. Acceptance testing: Acceptance testing is the final level of testing and is conducted to determine if the software meets the user's expectations and requirements. It involves testing the software in a realistic environment to validate its readiness for deployment. Acceptance testing is usually performed by end-users, business stakeholders, or a designated testing team.
+
+## **Software Documentation**
+
+### <ins>Documentation</ins>
+- Software documentation encompasses all the information related to the software, covering its development, usage, and various aspects of its implementation. This documentation can take the form of written material, videos, or graphical assets, catering to different audiences, including end users, software developers, QA engineers, system administrators, and other stakeholders.
+
+### <ins>Product vs Process documentation</ins>
+- Documentation can be categorized into two main types:
+    - Product Documentation: This type focuses on describing how to complete specific tasks related to the software.
+    - Process Documentation: Here, the emphasis is on providing requirements for the quality implementation of various business processes.
+
+### <ins>Types of product documentation</ins>
+- There are several types of product documentation, each serving a unique purpose:
+
+    - Requirements Documentation: Created during the planning phase of the Software Development Life Cycle (SDLC), this documentation outlines the expected features and functionalities of the software. It caters to the development team, comprising developers, architects, and QA personnel.
+    
+    - Design Documentation: Prepared by software architects and the development team, this document includes both conceptual and technical design aspects. It explains how the software will be built to fulfill the specified requirements
+    
+    - Technical Documentation: This includes comments written in the code to aid other developers in understanding its behavior. Additionally, it may consist of working papers that elucidate how the code operates, as well as documents recording engineers' ideas and thoughts during project implementation.
+    
+    - Quality Assurance (QA) Documentation: QA documentation encompasses all materials related to a testing team's strategy, progress, and metrics. It includes test plans, test data, test scenarios, test cases, test strategies, and traceability matrices, which map test cases to their corresponding requirements.
+    
+    - User Documentation: Targeted at end users, this documentation explains how to operate the software and provides assistance with installation and troubleshooting. It comprises frequently asked questions, installation guides, help manuals, tutorials, and user guides.
+
+### <ins>Standard Operating Procedure (SOP)</ins>
+- The Standard Operating Procedure provides a more detailed description of a process compared to process documentation. It offers step-by-step instructions for accomplishing common yet complex tasks that are organization-specific. For example, it may outline specific steps to gain access to a source code merged in the main branch of the organization's code repository.
+
+- SOPs can be presented in various formats, such as flowcharts, hierarchical outlines, or detailed step-by-step instructions.
+
+### <ins>Updating documentation</ins>
+- Documentation, in any form, must be kept up to date and reviewed periodically to ensure its accuracy. Regular updates help maintain relevance and reliability, aligning the documentation with the latest software changes and improvements.
