@@ -762,3 +762,40 @@
 
 ### <ins>Updating documentation</ins>
 - Documentation, in any form, must be kept up to date and reviewed periodically to ensure its accuracy. Regular updates help maintain relevance and reliability, aligning the documentation with the latest software changes and improvements.
+
+## **Roles in Software Engineering Projects**
+- In software engineering projects, various roles play crucial parts in the development process. These roles may vary depending on the project's methodology, such as Agile or Waterfall. While some roles have different names in different companies, not all projects will require every role listed below.
+
+### <ins>Software development project roles</ins>
+- The key roles in a software development project include:
+
+### <ins>Project manager / scrum master</ins>
+- In traditional SDLC methods, the role of the Project Manager is prominent, while in Agile methodologies, the equivalent role is called a Scrum Master.
+
+- Project manager: This role ensures the smooth functioning of the project and facilitates communication within the team. They handle planning, scheduling, budgeting, resource allocation, and team coordination, as well as oversee the execution of the software plan.
+
+- Scrum master: As an Agile role, the Scrum Master focuses on ensuring the success of both the team and individuals. They prioritize people and effective communication over rigid processes.
+
+### <ins>Stakeholder</ins>
+- Stakeholders are individuals for whom the product is being designed. They include customers, end-users, decision-makers, system administrators, and other key personnel. Stakeholders define project requirements and provide feedback to clarify requirements or assess proposed solutions during beta testing and acceptance testing.
+
+### <ins>System or software architect</ins>
+- The System or Software Architect designs and communicates the project's architecture to team members. They are responsible for designing the fundamental structure and technical aspects of the software, providing technical support throughout the SDLC.
+
+### <ins>UX Designer</ins>
+- The UX Designer aims to create software that is intuitive yet robust enough to meet requirements. They define how the software behaves from the user's perspective, ensuring effective communication of functionality to end-users.
+
+### <ins>Software developer</ins>
+- Software Developers write the code that powers the software. They implement the architecture outlined in the design document, incorporate requirements from the software requirements specification, and adhere to the UX requirements set by the UX Designers.
+
+### <ins>Tester or QA engineer</ins>
+- Testers or QA Engineers are responsible for ensuring product quality and that the software meets customer requirements. They write and execute test cases, identifying bugs or deficiencies and providing feedback to the development teams.
+
+### <ins>Site reliability or Ops engineer</ins>
+- A Site Reliability Engineer (SRE) or Ops Engineer bridges development and operations, combining software engineering expertise with IT systems management. They handle incident tracking, automate systems and processes, troubleshoot, and ensure reliability for customers.
+
+### <ins>Product manager or owner</ins>
+- The Product Manager or Product Owner envisions the product's direction. They intimately understand client requirements and end-users' needs, leading development efforts to create valuable software.
+
+### <ins>Technical writer or information developer</ins>
+- The Technical Writer or Information Developer produces documentation for end-users, presenting technical information in a non-technical manner. This documentation aids users in understanding and using the software effectively and allows customers to provide timely feedback to development teams.
