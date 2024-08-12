@@ -65,10 +65,10 @@ flowchart TB
 
 - Deploy: Goes to production and is available to the customer.
 
-> In a waterfall development, there is a exit and entrance criteria to move from on phase to the other and once you are in the coding phase, for example, and find out that the design is bad, it is real hard to go back up and redesign thing. In fact, because the software development is treated the same way as a civil engineer project, sometimes some of those designers have moved on to the next project, and you have got to find them. So it is very difficult to go back a phase in a waterfall development.
+> In a waterfall development, there is a exit and entrance criteria to move from one phase to the other and once you are in the coding phase, for example, and find out that the design is bad, it is real hard to go back up and redesign everything. In fact, because the software development is treated the same way as a civil engineer project, sometimes some of those designers have moved on to the next project, and you have got to find them. So it is very difficult to go back a phase in a waterfall development.
 
 ### <ins>Problems with the waterfall approach</ins>
-- No provision for changing requirements. Every phase has entrance and exit criteria and when one ends, the next on begins. Also there is no provision for going back and changing the design or changing the requirements.
+- No provision for changing requirements. Every phase has entrance and exit criteria and when one ends, the next begins. Also there is no provision for going back and changing the design or changing the requirements.
 
 - No idea if it works until the end, there is no intermediate delivery. Nothing is delivered until the last step, where we give to the operations team and say "go deliver this to production".
 
