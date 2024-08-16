@@ -66,7 +66,9 @@ The Importance of Measuring and Improving DevOps Practices:
 
 ## **Rewarding for A while hoping for B**
 
-- **`<ins>`On the folly of rewarding for A, while hoping for B `</ins>`: "Whether dealing with monkeys, rats, or human beings, it is hardly controversial to state that most organisms seek information concerning what activities are rewarded and then seek to do (or at least pretend to do) those things, often to the virtual exclusion of activities not rewarded. The extent to which this occurs of course will depend on the perceived attractiveness of the rewards offered, but neither operant nor expectancy theorists would quarrel with the essence of this notion"**(Steven Kerr, The Ohio State University). In DevOps, it is crucial to align your measurements with your goals. You cannot measure for one thing while hoping for another; measure what truly matters.
+- **On the folly of rewarding for A, while hoping for B:** "Whether dealing with monkeys, rats, or human beings, it is hardly controversial to state that most organisms seek information concerning what activities are rewarded and then seek to do (or at least pretend to do) those things, often to the virtual exclusion of activities not rewarded. The extent to which this occurs of course will depend on the perceived attractiveness of the rewards offered, but neither operant nor expectancy theorists would quarrel with the essence of this notion" (Steven Kerr, The Ohio State University). 
+
+  In DevOps, it is crucial to align your measurements with your goals. You cannot measure for one thing while hoping for another; measure what truly matters.
 
 ## Measure what matters
 

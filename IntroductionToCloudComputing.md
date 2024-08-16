@@ -1,135 +1,134 @@
 # **Introduction to Cloud Computing**
 
 ## **Definition and Essential Characteristics of Cloud Computing**
-### <ins>What is cloud computing?</ins>
-- The delivery of on-demand computing resources.
 
-- Everything from application, to datacenters over the internet on a pay-for-use basis.
+### <ins>What is Cloud Computing?</ins>
 
-- NIST defines cloud computing as a model for enabling convenient, on-demand network access to a shared pool of configurable computing resources, that can be rapidly provisioned and released with minimal management effort or service provider interaction.
+- The delivery of on-demand computing resources, ranging from applications to data centers, over the internet on a pay-for-use basis.
+
+- The National Institute of Standards and Technology (NIST) defines cloud computing as a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources that can be rapidly provisioned and released with minimal management effort or service provider interaction.
 
 - Examples of computing resources include networks, servers, storage, applications, and services.
 
-- This cloud model is composed of five essential characteristics, three deployment models, and three service models
+- This cloud model comprises five essential characteristics, three deployment models, and three service models.
 
-### <ins>Five essential characteristics</ins>
-- Includes:
+### <ins>Five Essential Characteristics</ins>
 
-1. On-demand self-service: you get access to cloud resources such as the processing power, storage, and netwrok you need, using simple interface, without requiring human interaction with each service provider.
+1. **On-Demand Self-Service**: Access the cloud resources you need, such as processing power, storage, and networking, through a simple interface without requiring human interaction with each service provider.
 
-1. Broad network access: cloud computing resources can be accessed via the network through standard mechanisms and platforms such as mobile phones, tablets, laptops and workstations.
+2. **Broad Network Access**: Cloud computing resources can be accessed over the network using standard mechanisms and platforms, including mobile phones, tablets, laptops, and workstations.
 
-1. Resource pooling: what gives cloud provides economies of scale, which they pass on to their customers, making cloud cost-efficient. Resources dynamically assigned based on deman.
+3. **Resource Pooling**: Cloud providers achieve economies of scale by dynamically assigning resources based on demand, making cloud services cost-efficient for customers.
 
-1. Rapid elasticity: you can access more resources when you need them, and scale back when you don't.
+4. **Rapid Elasticity**: Scale resources up or down as needed, allowing you to access more resources when necessary and reduce them when not required.
 
-1. Measured Service: you only pay for what you use or reserve as you go. Resource usage is monitored, measured, and reported transparently base on utilization.
+5. **Measured Service**: Pay only for what you use, with resource usage monitored, measured, and transparently reported based on utilization.
 
-- ### <ins>Cloud Computing as a Service (CaaS):</ins>
-- Leverage remote systems on-demand over the open internet, scaling up and scaling back, and paying for what you use making them more cost-efficient while also making organizations more agile in responding to changes in their markets.
-![Cloud Computing as a Service](Assets/Cloud%20Computing%20as%20a%20Service.png)
+### <ins>Cloud Computing as a Service (CaaS)</ins>
 
-### <ins>Three deployment models</ins>
-- There three types of cloud deployment models
+- Leverage remote systems on-demand over the open internet, scaling up and down as needed, and paying only for what you use. This approach is more cost-efficient and allows organizations to be more agile in responding to market changes.
 
-1. Public: when you leverage cloud services over the open internet on hardware owned by the cloud provider, but its usage is shared by other companies.
+  ![Cloud Computing as a Service](Assets/Cloud%20Computing%20as%20a%20Service.png)
 
-1. Private: the cloud infrastructure is provisioned for exclusive use by a single organization. It could run on-premises or it could be owned, managed, and operated by a service provider.
+### <ins>Three Deployment Models</ins>
 
-1. Hybrid: usage a mix of both public and private clouds, working together seamlessly.
+- There are three types of cloud deployment models:
 
-### <ins>Three service models</ins>
-- The three service models are based on the three layers in a computing stack
+1. **Public Cloud**: Cloud services are delivered over the open internet on hardware owned by the cloud provider, but usage is shared among multiple organizations.
 
-- These cloud computing models are aptly reffered to as Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS).
+2. **Private Cloud**: The cloud infrastructure is provisioned for exclusive use by a single organization. It may be managed on-premises or operated by a third-party service provider.
 
-1. Infrastructure (Infrastructure as a Service - IaaS): you get access to infrastructure and physical computing resources such as servers, networking, storage and data center space - without the need to manage or operate them.
+3. **Hybrid Cloud**: A combination of public and private clouds, working together seamlessly.
 
-1. Platform (Platform as a Service - PaaS): you get access to the platform, that is the hardware and software tools, usually those needed to develop and deploy applications to users over the internet.
+### <ins>Three Service Models</ins>
 
-1. Applications (Software as a Service - SaaS): is a software licensing and delivery model in which software and applications are centrally hosted and licensed on a subscription basis, and sometimes also referred to as "on-demand software".
+- The three service models correspond to the three layers in a computing stack:
+
+1. **Infrastructure as a Service (IaaS)**: Access to infrastructure and physical computing resources, such as servers, networking, storage, and data center space, without the need to manage or operate them.
+
+2. **Platform as a Service (PaaS)**: Access to platforms, including hardware and software tools, typically needed to develop and deploy applications over the internet.
+
+3. **Software as a Service (SaaS)**: A software licensing and delivery model where software and applications are centrally hosted and provided on a subscription basis, often referred to as "on-demand software."
 
 ## **History and Evolution of Cloud Computing**
-### <ins>Cloud computing evolution</ins>
-- Dates to the 1950s when large-scale mainframes with high volume processing power bacame available.
 
-- The practice of time sharing, or resource pooling, evolved.
+### <ins>Cloud Computing Evolution</ins>
 
-- Multiple users were able to access the same data storage layer and CPU power.
+- The evolution of cloud computing dates back to the 1950s when large-scale mainframes with high processing power became available.
 
-- In the 1970s, with the release of an operating system called Virtual Machine (VM), it bacame possible for mainframes to have multiple virtual systems, or virtual machines, on a single pysical node evolving the 1059s application of shared access of a mainframe by allowing multiple distinct compute environments to exist n the same physical hardware.
-![Virtual machine](Assets/Virtual%20machine.png)
+- The practice of time-sharing or resource pooling emerged, allowing multiple users to access the same data storage layer and CPU power.
 
-- Virtualization thus acame a technology driver and a huge catalyst for some of the biggest evolutions in communications and computing.
+- In the 1970s, the release of an operating system called Virtual Machine (VM) made it possible for mainframes to have multiple virtual systems on a single physical node. This advanced the 1950s application of shared access by enabling multiple distinct computing environments to exist on the same physical hardware.
+  
+  ![Virtual machine](Assets/Virtual%20machine.png)
 
-- With the internet becomeing more accessible, and the need to make hardware costs more viable, srver were virtualized into shared hosting environments, virtual private servers, and virtual dedicated servers, using the same types of functionality provided by the virtual machine operating system. This is enabled by hypervisors.
+- Virtualization became a key technology driver and a significant catalyst for major advancements in communications and computing.
 
-- <ins>Hypervisor:</ins> is a small software layer that enables multiple operating systems to run alongside each other, sharing the same physical computing resources. A hypervisor also separates the Virtual Machines logically, assigning each its own slice of the underlying computing power, memory, and storage, preventing the cirtual machines from interfering with each other. So, if one operating system suffers a crash or a security compromise, the others keep working.
+- As the internet became more accessible and hardware costs needed to be managed, servers were virtualized into shared hosting environments, virtual private servers, and virtual dedicated servers, utilizing functionality provided by virtual machine operating systems, enabled by hypervisors.
 
-- As technologies and hypervisors improved and were able to share and deliver resources reliably, some companies decided to make the cloud’s benefits accessible to users who didn’t have an abundance of physical servers to create their own cloud computing infrastructure. Since the servers were already online, the process of spinning up a new instance was instantaneous. Users could now order cloud resources they needed from a larger pool of available resources and they could pay for them on a per-use basis, also known as Pay-As-You-Go.
+- **Hypervisor**: A small software layer that enables multiple operating systems to run alongside each other, sharing the same physical computing resources. A hypervisor logically separates the virtual machines, assigning each its own slice of underlying computing power, memory, and storage, preventing interference between virtual machines. If one operating system crashes or faces a security issue, the others remain unaffected.
 
-- <ins>Pay-As-You-Go</ins>
-![Pay-As-You-Go](Assets/Pay%20as%20you%20go.png)
+- As technologies and hypervisors improved, making cloud resources more accessible to users without physical servers, cloud computing became widely available. The process of spinning up a new instance became instantaneous, and users could order the cloud resources they needed from a larger pool, paying on a per-use basis, also known as Pay-As-You-Go.
 
-- <ins>Cloud: Switch from CapEx to OpEx</ins>
-![Cloud: Switch from CapEx to OpEx](Assets/Cloud%20switch%20from%20capex%20to%20opex.png)
+  ![Pay-As-You-Go](Assets/Pay%20as%20you%20go.png)
+
+- **Cloud: Switch from CapEx to OpEx**: The cloud allows organizations to shift from capital expenditure (CapEx) to operational expenditure (OpEx), reducing upfront costs and enabling more flexible budgeting.
+  
+  ![Cloud: Switch from CapEx to OpEx](Assets/Cloud%20switch%20from%20capex%20to%20opex.png)
 
 ## **Key Considerations for Cloud Computing**
-### <ins>Key drivers for moving to cloud</ins>
-- Agility, flexibility and competitiveness are key drivers for moving to the cloud, provided it is done without creating business disruption or issues related to security, compliance and performance.
 
-- Considerations that organizations ca use as a guide while working through their cloud strategy:
+### <ins>Key Drivers for Moving to Cloud</ins>
 
-  - <ins>1. Infrastructure and workloads:</ins> The cost of building and operating data centers can become astronomical. On the other hand, low initial costs and pay-as-you-go attributes of cloud computing can add up to significant cost savings. Another point to consider is that not all workloads may be ready for the cloud, as is.
+- Agility, flexibility, and competitiveness are key drivers for moving to the cloud, provided the transition is made without causing business disruption or issues related to security, compliance, and performance.
 
-  - <ins>2. SaaS and development platforms:</ins> Organizations need to consider if paying for application access is a more viable option than purchasing off-the-shelf software and subsenquently investing in upgrades. Organizations also need to consider speed and productivity, what it means for them to get a new application up and running in 'x' hours on the cloud versus a couple of weeks, even months on traditional platforms. And the person-hour cost efficiencies they gain from using cloud dashboards, real-time statistics, and active analytics. Lastly, organizations need to consider the impact of making a wrong decision, their risk exposure. For example, is it riskier for them to invest in the hardware and software or rent by the hour? Is it safer for them to work on a 12-month plan to build, write, test and release the code if they're uncertain about adoption? And is it better fr them to "try" something new paying-as-you-go rather than making long-term decisions based on little or no trial or adoption?
+- Key considerations for organizations as they develop their cloud strategy include:
 
-### <ins>Benefits of cloud adoption</ins>
+  1. **Infrastructure and Workloads**: The cost of building and operating data centers can be prohibitive. In contrast, the low initial costs and pay-as-you-go attributes of cloud computing can result in significant cost savings. However, not all workloads may be ready for the cloud as is.
 
-- <ins>Flexibility:</ins> users can scale back or scale up services to fit their needs, customize applications, and access cloud services from anywhere with an internet connection. Cloud infrastructure scales on demand to support fluctuating workloads. Organizations can determine their level of control with as-a-service options. Users can select from a menu of pre-built tools and features to build a solution that fits their specific needs. And Virtual Private Cloudsm encryption, and API keys help keep data secure.
+  2. **SaaS and Development Platforms**: Organizations must evaluate whether paying for application access is more viable than purchasing off-the-shelf software and investing in subsequent upgrades. Considerations include the speed and productivity gains from cloud platforms, the cost-efficiency of using cloud dashboards and real-time analytics, and the risks associated with long-term investments versus the flexibility of trying new solutions on a pay-as-you-go basis.
 
-- <ins>Efficiency:</ins> enterprise users can get applications to market quickly without worring about underlying infrastructure costs or its maintenance. Cloud-based applications and data are accessible from virtually any internet-connected devide. Hardware failures do not result in data loss because of networked backups. Cloud computing uses remote resources, saving organiztions the cost of servers and other equipment, and paying on use-basis.
+### <ins>Benefits of Cloud Adoption</ins>
 
-- <ins>Strategic Value:</ins> Cloud services give enterprises a competitive advantage by providing the most innovative technologies available while managing the underlying infrasctructure, thus enabling organizations to focus on their priorities. While cloud brings great opportunity, it also introduces challenges for business leaders and IT departments. Some of these perceived risks include:
-  
-  - Data security, associated with loss or unavailability of data causing business disruption;
+- **Flexibility**: Users can scale services up or down based on their needs, customize applications, and access cloud services from anywhere with an internet connection. Cloud infrastructure scales on demand to support fluctuating workloads, allowing organizations to choose the level of control they require. Features like Virtual Private Clouds, encryption, and API keys help ensure data security.
 
-  - Governance and sovereignty issues;
+- **Efficiency**: Enterprise users can quickly bring applications to market without worrying about underlying infrastructure costs or maintenance. Cloud-based applications and data are accessible from virtually any internet-connected device. Hardware failures do not result in data loss due to networked backups. By using remote resources, organizations save on the cost of servers and other equipment, paying only for what they use.
 
-  - Legal, regulatory and compliance issues;
-  
-  - Lack of standardization in how the contantly evolving technologies integrate and interoperate;
+- **Strategic Value**: Cloud services provide enterprises with a competitive advantage by offering access to the latest technologies while managing the underlying infrastructure. However, cloud adoption also presents challenges, such as:
 
-  - Choosing the right deployment and service models to serve specific needs;
+  - Data security concerns related to potential loss or unavailability of data.
+  - Governance and sovereignty issues.
+  - Legal, regulatory, and compliance challenges.
+  - Lack of standardization in the integration and interoperability of evolving technologies.
+  - Selecting the appropriate deployment and service models to meet specific needs.
+  - Partnering with the right cloud service providers.
+  - Ensuring business continuity and disaster recovery.
 
-  - Partnering with the right cloud service providers;
-
-  - Concerns related to business continuity and disaster recovery.
-
-> Organizations can no longer think of cloud adoption as something that is to be looked at in the future. With the right cloud adoption strategies, technologies, services and service providers, these risks can be mitigated.
+> Organizations can no longer consider cloud adoption as a future endeavor. With the right strategies, technologies, services, and providers, the associated risks can be effectively mitigated.
 
 ## **Key Cloud Service Providers**
-### <ins>Future of cloud computing</ins>
+
+### <ins>Future of Cloud Computing</ins>
 ![Future of cloud computing](Assets/Future%20of%20cloud%20computing.png)
 
-### <ins>Cloud service providers</ins>
+### <ins>Cloud Service Providers</ins>
 ![Cloud service providers](Assets/Cloud%20service%20providers.png)
 
-- <ins>Alibaba Cloud (Aliyun):</ins> while relatively new, is the largest Chinese cloud computing service provider. Aliyun provides a comprehensive suite of global cloud computing services to power not just their customer's online business but also the Alibaba Group's own e-commerce ecosystem. It offers a host of products and service such as compute, network, storage, security, monitoring and managing, communication, analytics, IoT, application development, data migration and web hosting.
+- **Alibaba Cloud (Aliyun)**: The largest Chinese cloud computing service provider, Alibaba Cloud offers a comprehensive suite of global cloud computing services. These services power not only their customers' online businesses but also the Alibaba Group's own e-commerce ecosystem. Products and services include compute, networking, storage, security, monitoring and management, communication, analytics, IoT, application development, data migration, and web hosting.
 
-- <ins>Amazon Web Services (AWS):</ins> was one of the first to enter the cloud computing space and offers an extensive range of Infrastructure and Platform services to individuals, companies, and governments on a metered pay-as-you-go basis. AWS provides a wide range of products, services and solutions raging from Compute, DevOps, Data, Analytics, IoT, Machine Learning, Networking, Content Delivery, Robotics and Serverless Computing.
+- **Amazon Web Services (AWS)**: As one of the first entrants into the cloud computing space, AWS offers a wide range of Infrastructure and Platform services to individuals, companies, and governments on a metered pay-as-you-go basis. AWS's extensive offerings include Compute, DevOps, Data, Analytics, IoT, Machine Learning, Networking, Content Delivery, Robotics, and Serverless Computing.
 
-- <ins>Google Cloud Platform (GCP):</ins> is a suite of cloud computing services, providing Infrastructure, Platform, and Serverless Computing environments. Google also uses GCP internally for their end-user products such as Google Search and YouTube. Google Cloud includes G Suite with products for communication, productivity, collaboration, storage, and more. The Google App Engine is a platform for developing and hosting web applications in Google-managed data centers, automatically allocating and de-allocating resources to handle demand.
+- **Google Cloud Platform (GCP)**: GCP is a suite of cloud computing services that provide Infrastructure, Platform, and Serverless Computing environments. Google also uses GCP internally for its end-user products such as Google Search and YouTube. Google Cloud includes G Suite, offering communication, productivity, collaboration, storage, and more. The Google App Engine is a platform for developing and hosting web applications in Google-managed data centers, automatically scaling resources to meet demand.
 
-- <ins>IBM Cloud:</ins>  is a full stack cloud platform that spans public, private, and hybrid environments with products and services covering compute, network, storage, management, security, DevOps, and databases. Some of their prominent offerings include their Bare Metal Servers, VMWare, Cloud Paks for Application Modernization, Virtual Private Cloud, and the suite of emerging technologies such as AI, IoT, Blockchain, Data and Analytics. With the acquisition of Red Hat, IBM is also positioning itself as the leading hybrid cloud provider.
+- **IBM Cloud**: A full-stack cloud platform that spans public, private, and hybrid environments. IBM Cloud offers products and services covering compute, networking, storage, management, security, DevOps, and databases. Prominent offerings include Bare Metal Servers, VMware, Cloud Paks for Application Modernization
 
-- <ins>Microsoft Azure:</ins> is a flexible cloud platform for building, testing, deploying, and managing applications and services through Microsoft managed data centers. With its data centers spread out in many regions, Azure provides a global reach with a local presence. It provides Software, Platform, and Infrastructure services supporting Microsoft-specific and third-party languages, tools, and frameworks.
+- **Microsoft Azure:** Azure is a versatile cloud platform designed for building, testing, deploying, and managing applications and services within Microsoft-managed data centers. Its global network of data centers provides extensive reach and localized presence, offering Software, Platform, and Infrastructure services. Azure supports both Microsoft-specific and third-party languages, tools, and frameworks, making it a comprehensive solution for various development needs.
 
-- <ins>Oracle Cloud:</ins>  is primarily known for Software as a Service and Database as a Service (also known as the Oracle Data Cloud). Oracle’s SaaS offering includes wide-ranging applications such as ERP, SCM, HCM, Marketing, Sales, and CX running in the cloud. And the Oracle Data Cloud provides one of the largest cloud-based data management platforms helping customers personalize their online, offline, and mobile marketing campaigns, for targeted audiences. Oracle Cloud also provides some cloud Infrastructure and Platform services.
+- **Oracle Cloud:** Oracle Cloud is recognized for its Software as a Service (SaaS) and Database as a Service (DBaaS) offerings, including the Oracle Data Cloud. Oracle’s SaaS suite spans applications such as ERP, SCM, HCM, Marketing, Sales, and CX, all running in the cloud. The Oracle Data Cloud is one of the largest cloud-based data management platforms, enabling customers to personalize marketing campaigns across online, offline, and mobile channels. Additionally, Oracle Cloud provides a range of Infrastructure and Platform services, making it a robust environment for diverse cloud needs.
 
-- <ins>Salesforce:</ins> specializes in their Software as a Service offering that focuses on customer relationship management, supporting businesses to better connect with their customers, partners, and potential customers. Salesforce offers multiple cloud services such as Sales Cloud, Service Cloud, and Marketing Cloud, helping customers track analytics in real-time, customer success and support, customer complaints, even listening in to customers across social platforms to automatically route them to appropriate agents for resolution.
+- **Salesforce:** Salesforce is a leader in Software as a Service (SaaS), focusing on customer relationship management (CRM). Its cloud services, including Sales Cloud, Service Cloud, and Marketing Cloud, help businesses connect more effectively with customers, partners, and prospects. Salesforce enables real-time analytics, customer support, complaint tracking, and social media listening, automatically routing interactions to the appropriate agents for resolution, enhancing customer engagement and satisfaction.
 
->  SAP is known for Enterprise software and applications such as ERP, CRM, HR, and Finance, running in the cloud. There is also an SAP Cloud Platform for building and extending business applications with rapid innovation cycles in a secure cloud computing environment managed by SAP.
+> **SAP:** SAP is renowned for its enterprise software solutions, including ERP, CRM, HR, and Finance, all of which are available in the cloud. The SAP Cloud Platform allows businesses to build and extend applications with rapid innovation cycles within a secure cloud computing environment managed by SAP.
 
 # Business case for Cloud Computing
 
